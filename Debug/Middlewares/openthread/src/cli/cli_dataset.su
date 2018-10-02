@@ -1,0 +1,22 @@
+cli_dataset.cpp:80:6:static void ot::Cli::Dataset::OutputBytes(const uint8_t*, uint8_t)	24	static
+cli_dataset.cpp:88:9:static otError ot::Cli::Dataset::Print(otOperationalDataset&)	48	static
+cli_dataset.cpp:191:9:static otError ot::Cli::Dataset::Process(otInstance*, int, char**, ot::Cli::Server&)	32	static
+cli_dataset.cpp:215:9:static otError ot::Cli::Dataset::ProcessHelp(otInstance*, int, char**)	32	static
+cli_dataset.cpp:228:9:static otError ot::Cli::Dataset::ProcessActive(otInstance*, int, char**)	136	static
+cli_dataset.cpp:242:9:static otError ot::Cli::Dataset::ProcessPending(otInstance*, int, char**)	136	static
+cli_dataset.cpp:257:9:static otError ot::Cli::Dataset::ProcessActiveTimestamp(otInstance*, int, char**)	40	static
+cli_dataset.cpp:273:9:static otError ot::Cli::Dataset::ProcessChannel(otInstance*, int, char**)	32	static
+cli_dataset.cpp:289:9:static otError ot::Cli::Dataset::ProcessChannelMask(otInstance*, int, char**)	32	static
+cli_dataset.cpp:304:9:static otError ot::Cli::Dataset::ProcessClear(otInstance*, int, char**)	24	static
+cli_dataset.cpp:313:9:static otError ot::Cli::Dataset::ProcessCommit(otInstance*, int, char**)	32	static
+cli_dataset.cpp:338:9:static otError ot::Cli::Dataset::ProcessDelay(otInstance*, int, char**)	32	static
+cli_dataset.cpp:354:9:static otError ot::Cli::Dataset::ProcessExtPanId(otInstance*, int, char**)	40	static
+cli_dataset.cpp:371:9:static otError ot::Cli::Dataset::ProcessMasterKey(otInstance*, int, char**)	56	static
+cli_dataset.cpp:388:9:static otError ot::Cli::Dataset::ProcessMeshLocalPrefix(otInstance*, int, char**)	48	static
+cli_dataset.cpp:405:9:static otError ot::Cli::Dataset::ProcessNetworkName(otInstance*, int, char**)	32	static
+cli_dataset.cpp:423:9:static otError ot::Cli::Dataset::ProcessPanId(otInstance*, int, char**)	32	static
+cli_dataset.cpp:439:9:static otError ot::Cli::Dataset::ProcessPendingTimestamp(otInstance*, int, char**)	40	static
+cli_dataset.cpp:455:9:static otError ot::Cli::Dataset::ProcessMgmtSetCommand(otInstance*, int, char**)	304	static
+cli_dataset.cpp:579:9:static otError ot::Cli::Dataset::ProcessMgmtGetCommand(otInstance*, int, char**)	104	static
+cli_dataset.cpp:678:9:static otError ot::Cli::Dataset::ProcessPSKc(otInstance*, int, char**)	32	static
+cli_dataset.cpp:696:9:static otError ot::Cli::Dataset::ProcessSecurityPolicy(otInstance*, int, char**)	40	static

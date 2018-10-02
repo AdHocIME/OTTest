@@ -91,18 +91,18 @@ network_data_leader_ftd.cpp:404:6:void ot::NetworkData::Leader::SendCommissionin
 network_data_leader_ftd.cpp:436:9:otError ot::NetworkData::Leader::RlocLookup(uint16_t, bool&, bool&, uint8_t*, uint8_t, bool)	80	static
 network_data_leader_ftd.cpp:599:6:bool ot::NetworkData::Leader::IsStableUpdated(uint8_t*, uint8_t, uint8_t*, uint8_t)	80	static
 network_data_leader_ftd.cpp:737:9:otError ot::NetworkData::Leader::RegisterNetworkData(uint16_t, uint8_t*, uint8_t)	320	static
-network_data_leader_ftd.cpp:789:9:otError ot::NetworkData::Leader::AddNetworkData(uint8_t*, uint8_t, uint8_t*, uint8_t)	40	static
+network_data_leader_ftd.cpp:789:9:otError ot::NetworkData::Leader::AddNetworkData(uint8_t*, uint8_t, uint8_t*, uint8_t)	48	static
 network_data_leader_ftd.cpp:832:9:otError ot::NetworkData::Leader::AddPrefix(ot::NetworkData::PrefixTlv&)	32	static
 network_data_leader_ftd.cpp:900:9:otError ot::NetworkData::Leader::AddHasRoute(ot::NetworkData::PrefixTlv&, ot::NetworkData::HasRouteTlv&)	48	static
 network_data_leader_ftd.cpp:1078:9:otError ot::NetworkData::Leader::AddBorderRouter(ot::NetworkData::PrefixTlv&, ot::NetworkData::BorderRouterTlv&)	56	static
 network_data_leader_ftd.cpp:1166:5:int ot::NetworkData::Leader::AllocateContext()	24	static
 network_data_leader_ftd.cpp:1185:9:otError ot::NetworkData::Leader::FreeContext(uint8_t)	16	static
 network_data_leader_ftd.cpp:1196:9:otError ot::NetworkData::Leader::SendServerDataNotification(uint16_t)	48	static
-network_data_leader_ftd.cpp:1212:9:otError ot::NetworkData::Leader::RemoveRloc(uint16_t, bool)	40	static
+network_data_leader_ftd.cpp:1212:9:otError ot::NetworkData::Leader::RemoveRloc(uint16_t, bool)	48	static
 network_data_leader_ftd.cpp:1279:9:otError ot::NetworkData::Leader::RemoveRloc(ot::NetworkData::PrefixTlv&, uint16_t, bool)	56	static
 network_data_leader_ftd.cpp:1397:9:otError ot::NetworkData::Leader::RemoveRloc(ot::NetworkData::PrefixTlv&, ot::NetworkData::HasRouteTlv&, uint16_t, bool)	40	static
 network_data_leader_ftd.cpp:1421:9:otError ot::NetworkData::Leader::RemoveRloc(ot::NetworkData::PrefixTlv&, ot::NetworkData::BorderRouterTlv&, uint16_t, bool)	40	static
-network_data_leader_ftd.cpp:1445:9:otError ot::NetworkData::Leader::RemoveContext(uint8_t)	40	static
+network_data_leader_ftd.cpp:1445:9:otError ot::NetworkData::Leader::RemoveContext(uint8_t)	48	static
 network_data_leader_ftd.cpp:1489:9:otError ot::NetworkData::Leader::RemoveContext(ot::NetworkData::PrefixTlv&, uint8_t)	40	static
 network_data_leader_ftd.cpp:1533:6:static void ot::NetworkData::Leader::HandleTimer(ot::Timer&)	16	static
 network_data_leader_ftd.cpp:1538:6:void ot::NetworkData::Leader::HandleTimer()	32	static

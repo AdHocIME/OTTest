@@ -1,0 +1,19 @@
+cli_uart.hpp:103:18:ot::Cli::Interpreter& ot::Cli::Uart::GetInterpreter()	16	static
+new.hpp:43:14:void* operator new(size_t, void*)	16	static
+cli_uart.cpp:65:17:void ot::Cli::otCliUartInit(otInstance*)	32	static
+cli_uart.cpp:72:17:void ot::Cli::otCliUartSetUserCommands(const otCliCommand*, uint8_t)	16	static
+cli_uart.cpp:77:17:void ot::Cli::otCliUartOutputBytes(const uint8_t*, uint8_t)	16	static
+cli_uart.cpp:82:17:)	16	static
+cli_uart.cpp:90:17:void ot::Cli::otCliUartAppendResult(otError)	16	static
+cli_server.hpp:48:7:ot::Cli::Server::Server()	16	static
+cli_uart.cpp:95:1:ot::Cli::Uart::Uart(ot::Instance*)	16	static
+cli_uart.cpp:106:17:void ot::Cli::otPlatUartReceived(const uint8_t*, uint16_t)	16	static
+cli_uart.cpp:111:6:void ot::Cli::Uart::ReceiveTask(const uint8_t*, uint16_t)	32	static
+cli_uart.cpp:164:9:otError ot::Cli::Uart::ProcessCommand()	24	static
+cli_uart.cpp:213:5:virtual int ot::Cli::Uart::Output(const char*, uint16_t)	32	static
+cli_uart.cpp:235:5:)	156	static
+cli_uart.cpp:247:5:int ot::Cli::Uart::OutputFormatV(const char*, va_list)	160	static
+cli_uart.cpp:256:6:void ot::Cli::Uart::Send()	16	static
+cli_uart.cpp:282:17:void ot::Cli::otPlatUartSendDone()	8	static
+cli_uart.cpp:287:6:void ot::Cli::Uart::SendDoneTask()	16	static
+cli_uart.cpp:296:17:void ot::Cli::otCliPlatLogv(otLogLevel, otLogRegion, const char*, va_list)	24	static

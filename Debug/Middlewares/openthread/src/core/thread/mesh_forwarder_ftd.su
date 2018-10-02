@@ -19,11 +19,17 @@ message.hpp:541:10:void ot::Message::SetPanId(uint16_t)	16	static
 message.hpp:602:10:bool ot::Message::GetDirectTransmission() const	16	static
 message.hpp:608:10:void ot::Message::ClearDirectTransmission()	16	static
 message.hpp:614:10:void ot::Message::SetDirectTransmission()	16	static
+message.hpp:641:10:bool ot::Message::IsLinkSecurityEnabled() const	16	static
 message.hpp:649:10:void ot::Message::SetLinkSecurityEnabled(bool)	16	static
 message.hpp:659:10:void ot::Message::AddRss(int8_t)	16	static
+message.hpp:675:24:const ot::RssAverager& ot::Message::GetRssAverager() const	16	static
+ip6_headers.hpp:197:13:ot::Ip6::IpProto ot::Ip6::Header::GetNextHeader() const	16	static
 ip6_headers.hpp:229:14:ot::Ip6::Address& ot::Ip6::Header::GetSource()	16	static
 ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
 ip6_headers.hpp:285:20:static uint8_t ot::Ip6::Header::GetDestinationOffset()	4	static
+udp6.hpp:317:14:uint16_t ot::Ip6::UdpHeader::GetSourcePort() const	16	static
+udp6.hpp:333:14:uint16_t ot::Ip6::UdpHeader::GetDestinationPort() const	16	static
+udp6.hpp:365:14:uint16_t ot::Ip6::UdpHeader::GetChecksum() const	16	static
 topology.hpp:129:10:bool ot::Neighbor::IsRxOnWhenIdle() const	16	static
 topology.hpp:137:10:bool ot::Neighbor::IsFullThreadDevice() const	16	static
 topology.hpp:215:10:void ot::Neighbor::SetLastHeard(uint32_t)	16	static
@@ -66,9 +72,12 @@ lowpan.hpp:341:10:void ot::Lowpan::MeshHeader::SetHopsLeft(uint8_t)	16	static
 lowpan.hpp:360:14:uint16_t ot::Lowpan::MeshHeader::GetSource() const	16	static
 lowpan.hpp:376:14:uint16_t ot::Lowpan::MeshHeader::GetDestination() const	16	static
 lowpan.hpp:392:10:void ot::Lowpan::MeshHeader::AppendTo(uint8_t*) const	16	static
+lowpan.hpp:436:5:ot::Lowpan::FragmentHeader::FragmentHeader()	16	static
 lowpan.hpp:480:10:bool ot::Lowpan::FragmentHeader::IsFragmentHeader()	16	static
 lowpan.hpp:488:13:uint8_t ot::Lowpan::FragmentHeader::GetHeaderLength() const	16	static
 lowpan.hpp:496:10:bool ot::Lowpan::FragmentHeader::IsOffsetPresent() const	16	static
+lowpan.hpp:504:14:uint16_t ot::Lowpan::FragmentHeader::GetDatagramSize() const	16	static
+lowpan.hpp:523:14:uint16_t ot::Lowpan::FragmentHeader::GetDatagramTag() const	16	static
 lowpan.hpp:539:14:uint16_t ot::Lowpan::FragmentHeader::GetDatagramOffset() const	16	static
 child_table.hpp:115:14:bool ot::ChildTable::Iterator::IsDone() const	16	static
 child_table.hpp:145:14:void ot::ChildTable::Iterator::operator++(int)	16	static
@@ -85,7 +94,11 @@ thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
 thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
 thread_netif.hpp:314:22:ot::AddressResolver& ot::ThreadNetif::GetAddressResolver()	16	static
 thread_netif.hpp:388:29:ot::Utils::ChildSupervisor& ot::ThreadNetif::GetChildSupervisor()	16	static
+instance.hpp:204:16:otLogLevel ot::Instance::GetLogLevel() const	16	static
 instance.hpp:367:18:ot::MessagePool& ot::Instance::GetMessagePool()	16	static
+tcp.hpp:83:14:uint16_t ot::Ip6::TcpHeader::GetSourcePort() const	16	static
+tcp.hpp:91:14:uint16_t ot::Ip6::TcpHeader::GetDestinationPort() const	16	static
+tcp.hpp:131:14:uint16_t ot::Ip6::TcpHeader::GetChecksum() const	16	static
 mesh_forwarder_ftd.cpp:48:9:otError ot::MeshForwarder::SendMessage(ot::Message&)	120	static
 mesh_forwarder_ftd.cpp:152:6:void ot::MeshForwarder::HandleResolved(const ot::Ip6::Address&, otError)	64	static
 mesh_forwarder_ftd.cpp:192:6:void ot::MeshForwarder::ClearChildIndirectMessages(ot::Child&)	24	static
@@ -98,10 +111,16 @@ mesh_forwarder_ftd.cpp:371:9:otError ot::MeshForwarder::GetIndirectTransmission(
 mesh_forwarder_ftd.cpp:429:10:ot::Message* ot::MeshForwarder::GetIndirectTransmission(ot::Child&)	48	static
 mesh_forwarder_ftd.cpp:471:6:void ot::MeshForwarder::PrepareIndirectTransmission(ot::Message&, const ot::Child&)	64	static
 mesh_forwarder_ftd.cpp:516:9:otError ot::MeshForwarder::SendMesh(ot::Message&, ot::Mac::Frame&)	40	static
-mesh_forwarder_ftd.cpp:541:6:void ot::MeshForwarder::HandleDataRequest(const ot::Mac::Address&, const otThreadLinkInfo&)	48	static
+mesh_forwarder_ftd.cpp:541:6:void ot::MeshForwarder::HandleDataRequest(const ot::Mac::Address&, const otThreadLinkInfo&)	56	static
 mesh_forwarder_ftd.cpp:573:6:void ot::MeshForwarder::HandleSentFrameToChild(const ot::Mac::Frame&, otError, const ot::Mac::Address&)	64	static
 mesh_forwarder_ftd.cpp:700:9:otError ot::MeshForwarder::UpdateMeshRoute(ot::Message&)	48	static
 mesh_forwarder_ftd.cpp:737:9:otError ot::MeshForwarder::UpdateIp6RouteFtd(ot::Ip6::Header&)	48	static
 mesh_forwarder_ftd.cpp:827:9:otError ot::MeshForwarder::CheckReachability(uint8_t*, uint8_t, const ot::Mac::Address&, const ot::Mac::Address&)	112	static
-mesh_forwarder_ftd.cpp:867:6:void ot::MeshForwarder::HandleMesh(uint8_t*, uint8_t, const ot::Mac::Address&, const otThreadLinkInfo&)	88	static
+mesh_forwarder_ftd.cpp:867:6:void ot::MeshForwarder::HandleMesh(uint8_t*, uint8_t, const ot::Mac::Address&, const otThreadLinkInfo&)	112	static
 mesh_forwarder_ftd.cpp:945:6:void ot::MeshForwarder::UpdateRoutes(uint8_t*, uint8_t, const ot::Mac::Address&, const ot::Mac::Address&)	104	static
+mesh_forwarder_ftd.cpp:1057:9:otError ot::MeshForwarder::LogMeshFragmentHeader(ot::MeshForwarder::MessageAction, const ot::Message&, const ot::Mac::Address*, otError, uint16_t&, ot::Mac::Address&, ot::Mac::Address&, otLogLevel)	240	static
+mesh_forwarder_ftd.cpp:1112:9:otError ot::MeshForwarder::DecompressIp6UdpTcpHeader(const ot::Message&, uint16_t, const ot::Mac::Address&, const ot::Mac::Address&, ot::Ip6::Header&, uint16_t&, uint16_t&, uint16_t&)	120	static
+mesh_forwarder_ftd.cpp:1185:6:void ot::MeshForwarder::LogMeshIpHeader(const ot::Message&, uint16_t, const ot::Mac::Address&, const ot::Mac::Address&, otLogLevel)	112	static
+mesh_forwarder_ftd.cpp:1208:6:void ot::MeshForwarder::LogMeshMessage(ot::MeshForwarder::MessageAction, const ot::Message&, const ot::Mac::Address*, otError, otLogLevel)	72	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 17u]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 10u]	16	static

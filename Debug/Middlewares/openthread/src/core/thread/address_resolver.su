@@ -79,20 +79,21 @@ address_resolver.cpp:111:6:void ot::AddressResolver::Remove(uint16_t)	24	static
 address_resolver.cpp:122:25:ot::AddressResolver::Cache* ot::AddressResolver::NewCacheEntry()	24	static
 address_resolver.cpp:147:6:void ot::AddressResolver::MarkCacheEntryAsUsed(ot::AddressResolver::Cache&)	24	static
 address_resolver.cpp:160:13:static const char* ot::AddressResolver::ConvertInvalidationReasonToString(ot::AddressResolver::InvalidationReason)	24	static
-address_resolver.cpp:186:6:void ot::AddressResolver::InvalidateCacheEntry(ot::AddressResolver::Cache&, ot::AddressResolver::InvalidationReason)	32	static
-address_resolver.cpp:219:6:void ot::AddressResolver::UpdateCacheEntry(const ot::Ip6::Address&, ot::Mac::ShortAddress)	32	static
+address_resolver.cpp:186:6:void ot::AddressResolver::InvalidateCacheEntry(ot::AddressResolver::Cache&, ot::AddressResolver::InvalidationReason)	152	static
+address_resolver.cpp:219:6:void ot::AddressResolver::UpdateCacheEntry(const ot::Ip6::Address&, ot::Mac::ShortAddress)	80	static
 address_resolver.cpp:255:9:otError ot::AddressResolver::Resolve(const ot::Ip6::Address&, uint16_t&)	48	static
-address_resolver.cpp:320:9:otError ot::AddressResolver::SendAddressQuery(const ot::Ip6::Address&)	256	static
+address_resolver.cpp:320:9:otError ot::AddressResolver::SendAddressQuery(const ot::Ip6::Address&)	296	static
 address_resolver.cpp:364:6:static void ot::AddressResolver::HandleAddressNotification(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
-address_resolver.cpp:374:6:void ot::AddressResolver::HandleAddressNotification(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	88	static
-address_resolver.cpp:465:9:otError ot::AddressResolver::SendAddressError(const ot::ThreadTargetTlv&, const ot::ThreadMeshLocalEidTlv&, const ot::Ip6::Address*)	240	static
+address_resolver.cpp:374:6:void ot::AddressResolver::HandleAddressNotification(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	184	static
+address_resolver.cpp:465:9:otError ot::AddressResolver::SendAddressError(const ot::ThreadTargetTlv&, const ot::ThreadMeshLocalEidTlv&, const ot::Ip6::Address*)	288	static
 address_resolver.cpp:512:6:static void ot::AddressResolver::HandleAddressError(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
 address_resolver.cpp:522:6:void ot::AddressResolver::HandleAddressError(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	120	static
 address_resolver.cpp:601:6:static void ot::AddressResolver::HandleAddressQuery(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
-address_resolver.cpp:611:6:void ot::AddressResolver::HandleAddressQuery(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	104	static
-address_resolver.cpp:659:6:void ot::AddressResolver::SendAddressQueryResponse(const ot::ThreadTargetTlv&, const ot::ThreadMeshLocalEidTlv&, const ot::ThreadLastTransactionTimeTlv*, const ot::Ip6::Address&)	240	static
+address_resolver.cpp:611:6:void ot::AddressResolver::HandleAddressQuery(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	144	static
+address_resolver.cpp:659:6:void ot::AddressResolver::SendAddressQueryResponse(const ot::ThreadTargetTlv&, const ot::ThreadMeshLocalEidTlv&, const ot::ThreadLastTransactionTimeTlv*, const ot::Ip6::Address&)	280	static
 address_resolver.cpp:706:6:static void ot::AddressResolver::HandleTimer(ot::Timer&)	16	static
-address_resolver.cpp:711:6:void ot::AddressResolver::HandleTimer()	24	static
+address_resolver.cpp:711:6:void ot::AddressResolver::HandleTimer()	80	static
 address_resolver.cpp:760:6:static void ot::AddressResolver::HandleIcmpReceive(void*, otMessage*, const otMessageInfo*, const otIcmp6Header*)	24	static
 address_resolver.cpp:772:6:void ot::AddressResolver::HandleIcmpReceive(ot::Message&, const ot::Ip6::MessageInfo&, const ot::Ip6::IcmpHeader&)	80	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 40u]	16	static
 owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::AddressResolver]	16	static

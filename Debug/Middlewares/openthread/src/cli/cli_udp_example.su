@@ -1,0 +1,12 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+cli_udp_example.cpp:51:1:ot::Cli::UdpExample::UdpExample(ot::Cli::Interpreter&)	16	static
+cli_udp_example.cpp:57:9:otError ot::Cli::UdpExample::ProcessHelp(int, char**)	40	static
+cli_udp_example.cpp:70:9:otError ot::Cli::UdpExample::ProcessBind(int, char**)	56	static
+cli_udp_example.cpp:95:9:otError ot::Cli::UdpExample::ProcessConnect(int, char**)	56	static
+cli_udp_example.cpp:120:9:otError ot::Cli::UdpExample::ProcessClose(int, char**)	24	static
+cli_udp_example.cpp:128:9:otError ot::Cli::UdpExample::ProcessOpen(int, char**)	24	static
+cli_udp_example.cpp:136:9:otError ot::Cli::UdpExample::ProcessSend(int, char**)	96	static
+cli_udp_example.cpp:179:9:otError ot::Cli::UdpExample::Process(int, char**)	40	static
+cli_udp_example.cpp:195:6:static void ot::Cli::UdpExample::HandleUdpReceive(void*, otMessage*, const otMessageInfo*)	24	static
+cli_udp_example.cpp:200:6:void ot::Cli::UdpExample::HandleUdpReceive(otMessage*, const otMessageInfo*)	1600	static

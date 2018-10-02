@@ -1,0 +1,112 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+cli_uart.hpp:103:18:ot::Cli::Interpreter& ot::Cli::Uart::GetInterpreter()	16	static
+cli.cpp:237:6:void ot::Cli::otFreeMemory(const void*)	16	static
+cli.cpp:269:1:ot::Cli::Interpreter::Interpreter(ot::Instance*)	16	static
+cli.cpp:316:5:static int ot::Cli::Interpreter::Hex2Bin(const char*, uint8_t*, uint16_t)	48	static
+cli.cpp:367:6:void ot::Cli::Interpreter::AppendResult(otError) const	32	static
+cli.cpp:379:6:void ot::Cli::Interpreter::OutputBytes(const uint8_t*, uint8_t) const	32	static
+cli.cpp:387:9:static otError ot::Cli::Interpreter::ParseLong(char*, long int&)	24	static
+cli.cpp:394:9:static otError ot::Cli::Interpreter::ParseUnsignedLong(char*, long unsigned int&)	24	static
+cli.cpp:401:6:void ot::Cli::Interpreter::ProcessHelp(int, char**)	40	static
+cli.cpp:417:6:void ot::Cli::Interpreter::ProcessAutoStart(int, char**)	32	static
+cli.cpp:448:6:void ot::Cli::Interpreter::ProcessBufferInfo(int, char**)	72	static
+cli.cpp:472:6:void ot::Cli::Interpreter::ProcessChannel(int, char**)	40	static
+cli.cpp:492:6:void ot::Cli::Interpreter::ProcessChild(int, char**)	80	static
+cli.cpp:602:6:void ot::Cli::Interpreter::ProcessChildMax(int, char**)	40	static
+cli.cpp:622:6:void ot::Cli::Interpreter::ProcessChildTimeout(int, char**)	40	static
+cli.cpp:653:6:void ot::Cli::Interpreter::ProcessContextIdReuseDelay(int, char**)	40	static
+cli.cpp:673:6:void ot::Cli::Interpreter::ProcessCounters(int, char**)	40	static
+cli.cpp:720:6:void ot::Cli::Interpreter::ProcessDataset(int, char**)	32	static
+cli.cpp:728:6:void ot::Cli::Interpreter::ProcessDelayTimerMin(int, char**)	40	static
+cli.cpp:752:6:void ot::Cli::Interpreter::ProcessDiscover(int, char**)	56	static
+cli.cpp:864:6:void ot::Cli::Interpreter::ProcessEidCache(int, char**)	120	static
+cli.cpp:891:6:void ot::Cli::Interpreter::ProcessEui64(int, char**)	40	static
+cli.cpp:907:6:void ot::Cli::Interpreter::ProcessExtAddress(int, char**)	40	static
+cli.cpp:954:6:void ot::Cli::Interpreter::ProcessExtPanId(int, char**)	40	static
+cli.cpp:977:6:void ot::Cli::Interpreter::ProcessFactoryReset(int, char**)	24	static
+cli.cpp:984:6:void ot::Cli::Interpreter::ProcessIfconfig(int, char**)	32	static
+cli.cpp:1016:9:otError ot::Cli::Interpreter::ProcessIpAddrAdd(int, char**)	56	static
+cli.cpp:1033:9:otError ot::Cli::Interpreter::ProcessIpAddrDel(int, char**)	48	static
+cli.cpp:1047:6:void ot::Cli::Interpreter::ProcessIpAddr(int, char**)	104	static
+cli.cpp:1085:9:otError ot::Cli::Interpreter::ProcessIpMulticastAddrAdd(int, char**)	48	static
+cli.cpp:1099:9:otError ot::Cli::Interpreter::ProcessIpMulticastAddrDel(int, char**)	48	static
+cli.cpp:1113:9:otError ot::Cli::Interpreter::ProcessMulticastPromiscuous(int, char**)	32	static
+cli.cpp:1148:6:void ot::Cli::Interpreter::ProcessIpMulticastAddr(int, char**)	96	static
+cli.cpp:1188:6:void ot::Cli::Interpreter::ProcessKeySequence(int, char**)	40	static
+cli.cpp:1228:6:void ot::Cli::Interpreter::ProcessLeaderData(int, char**)	40	static
+cli.cpp:1248:6:void ot::Cli::Interpreter::ProcessLeaderPartitionId(int, char**)	40	static
+cli.cpp:1267:6:void ot::Cli::Interpreter::ProcessLeaderWeight(int, char**)	40	static
+cli.cpp:1288:6:void ot::Cli::Interpreter::ProcessPSKc(int, char**)	56	static
+cli.cpp:1316:6:void ot::Cli::Interpreter::ProcessMasterKey(int, char**)	64	static
+cli.cpp:1343:6:void ot::Cli::Interpreter::ProcessMode(int, char**)	40	static
+cli.cpp:1411:6:void ot::Cli::Interpreter::ProcessNeighbor(int, char**)	80	static
+cli.cpp:1552:6:void ot::Cli::Interpreter::ProcessNetworkIdTimeout(int, char**)	40	static
+cli.cpp:1572:6:void ot::Cli::Interpreter::ProcessNetworkName(int, char**)	40	static
+cli.cpp:1644:6:void ot::Cli::Interpreter::ProcessPanId(int, char**)	40	static
+cli.cpp:1663:6:void ot::Cli::Interpreter::ProcessParent(int, char**)	48	static
+cli.cpp:1690:6:void ot::Cli::Interpreter::ProcessParentPriority(int, char**)	40	static
+cli.cpp:1711:6:static void ot::Cli::Interpreter::s_HandleIcmpReceive(void*, otMessage*, const otMessageInfo*, const otIcmp6Header*)	24	static
+cli.cpp:1721:6:void ot::Cli::Interpreter::HandleIcmpReceive(ot::Message&, const ot::Ip6::MessageInfo&, const otIcmp6Header&)	96	static
+cli.cpp:1749:6:void ot::Cli::Interpreter::ProcessPing(int, char**)	32	static
+cli.cpp:1814:6:static void ot::Cli::Interpreter::s_HandlePingTimer(ot::Timer&)	16	static
+cli.cpp:1819:6:void ot::Cli::Interpreter::HandlePingTimer()	32	static
+cli.cpp:1848:6:void ot::Cli::Interpreter::ProcessPollPeriod(int, char**)	40	static
+cli.cpp:1868:6:void ot::Cli::Interpreter::ProcessPromiscuous(int, char**)	32	static
+cli.cpp:1905:6:static void ot::Cli::Interpreter::s_HandleLinkPcapReceive(const otRadioFrame*, void*)	16	static
+cli.cpp:1910:6:void ot::Cli::Interpreter::HandleLinkPcapReceive(const otRadioFrame*)	48	static
+cli.cpp:2195:6:void ot::Cli::Interpreter::ProcessReleaseRouterId(int, char**)	32	static
+cli.cpp:2210:6:void ot::Cli::Interpreter::ProcessReset(int, char**)	24	static
+cli.cpp:2217:6:void ot::Cli::Interpreter::ProcessRloc16(int, char**)	32	static
+cli.cpp:2384:6:void ot::Cli::Interpreter::ProcessRouter(int, char**)	64	static
+cli.cpp:2477:6:void ot::Cli::Interpreter::ProcessRouterDowngradeThreshold(int, char**)	40	static
+cli.cpp:2496:6:void ot::Cli::Interpreter::ProcessRouterRole(int, char**)	32	static
+cli.cpp:2528:6:void ot::Cli::Interpreter::ProcessRouterSelectionJitter(int, char**)	40	static
+cli.cpp:2548:6:void ot::Cli::Interpreter::ProcessRouterUpgradeThreshold(int, char**)	40	static
+cli.cpp:2568:6:void ot::Cli::Interpreter::ProcessScan(int, char**)	48	static
+cli.cpp:2590:13:static void ot::Cli::Interpreter::s_HandleActiveScanResult(otActiveScanResult*, void*)	16	static
+cli.cpp:2595:6:void ot::Cli::Interpreter::HandleActiveScanResult(otActiveScanResult*)	16	static
+cli.cpp:2621:6:void ot::Cli::Interpreter::ProcessSingleton(int, char**)	32	static
+cli.cpp:2640:6:void ot::Cli::Interpreter::ProcessState(int, char**)	32	static
+cli.cpp:2708:6:void ot::Cli::Interpreter::ProcessThread(int, char**)	32	static
+cli.cpp:2734:6:void ot::Cli::Interpreter::ProcessTxPower(int, char**)	32	static
+cli.cpp:2757:6:void ot::Cli::Interpreter::ProcessUdp(int, char**)	32	static
+cli.cpp:2765:6:void ot::Cli::Interpreter::ProcessVersion(int, char**)	40	static
+cli.cpp:3105:13:static void ot::Cli::Interpreter::s_HandleJoinerCallback(otError, void*)	16	static
+cli.cpp:3110:6:void ot::Cli::Interpreter::HandleJoinerCallback(otError)	24	static
+cli.cpp:3125:6:void ot::Cli::Interpreter::ProcessJoinerPort(int, char**)	40	static
+cli.cpp:3474:6:void ot::Cli::Interpreter::ProcessLine(char*, uint16_t, ot::Cli::Server&)	168	static
+cli.cpp:3542:13:static void ot::Cli::Interpreter::s_HandleNetifStateChanged(otChangedFlags, void*)	16	static
+cli.cpp:3555:6:void ot::Cli::Interpreter::HandleNetifStateChanged(otChangedFlags)	24	static
+cli.cpp:3576:6:void ot::Cli::Interpreter::ProcessNetworkDiagnostic(int, char**)	72	static
+cli.cpp:3622:6:static void ot::Cli::Interpreter::s_HandleDiagnosticGetResponse(otMessage*, const otMessageInfo*, void*)	24	static
+cli.cpp:3628:6:void ot::Cli::Interpreter::HandleDiagnosticGetResponse(ot::Message&, const ot::Ip6::MessageInfo&)	56	static
+cli.cpp:3652:6:void ot::Cli::Interpreter::SetUserCommands(const otCliCommand*, uint8_t)	24	static
+cli.cpp:3658:14:static ot::Cli::Interpreter& ot::Cli::Interpreter::GetOwner(ot::OwnerLocator&)	24	static
+cli.cpp:248:5:ot::Cli::otPtr<T>::otPtr(T*) [with T = const otMacCounters]	16	static
+cli.cpp:252:5:ot::Cli::otPtr<T>::~otPtr() [with T = const otMacCounters]	16	static
+cli.cpp:261:8:T* ot::Cli::otPtr<T>::operator->() const [with T = const otMacCounters]	16	static
+cli.cpp:248:5:ot::Cli::otPtr<T>::otPtr(T*) [with T = const unsigned char]	16	static
+cli.cpp:252:5:ot::Cli::otPtr<T>::~otPtr() [with T = const unsigned char]	16	static
+cli.cpp:260:8:ot::Cli::otPtr<T>::operator T*() const [with T = const unsigned char]	16	static
+cli.cpp:248:5:ot::Cli::otPtr<T>::otPtr(T*) [with T = const otNetifAddress]	16	static
+cli.cpp:252:5:ot::Cli::otPtr<T>::~otPtr() [with T = const otNetifAddress]	16	static
+cli.cpp:260:8:ot::Cli::otPtr<T>::operator T*() const [with T = const otNetifAddress]	16	static
+cli.cpp:248:5:ot::Cli::otPtr<T>::otPtr(T*) [with T = const char]	16	static
+cli.cpp:252:5:ot::Cli::otPtr<T>::~otPtr() [with T = const char]	16	static
+cli.cpp:260:8:ot::Cli::otPtr<T>::operator T*() const [with T = const char]	16	static

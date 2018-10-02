@@ -1,0 +1,7 @@
+cli_server.hpp:48:7:ot::Cli::Server::Server()	16	static
+cli_udp.cpp:46:1:ot::Cli::Udp::Udp(otInstance*, ot::Cli::Interpreter*)	24	static
+cli_udp.cpp:54:9:otError ot::Cli::Udp::Start()	40	static
+cli_udp.cpp:69:6:static void ot::Cli::Udp::HandleUdpReceive(void*, otMessage*, const otMessageInfo*)	24	static
+cli_udp.cpp:74:6:void ot::Cli::Udp::HandleUdpReceive(otMessage*, const otMessageInfo*)	552	static
+cli_udp.cpp:100:5:virtual int ot::Cli::Udp::Output(const char*, uint16_t)	32	static
+cli_udp.cpp:121:5:)	156	static

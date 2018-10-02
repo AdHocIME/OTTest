@@ -1,0 +1,10 @@
+new.hpp:43:14:void* operator new(size_t, void*)	16	static
+cli_console.cpp:52:17:void ot::Cli::otCliConsoleInit(otInstance*, otCliConsoleOutputCallback, void*)	40	static
+cli_console.cpp:61:17:void ot::Cli::otCliConsoleInputLine(char*, uint16_t)	16	static
+cli_server.hpp:48:7:ot::Cli::Server::Server()	16	static
+cli_console.cpp:66:1:ot::Cli::Console::Console(ot::Instance*)	16	static
+cli_console.cpp:73:6:void ot::Cli::Console::SetContext(void*)	16	static
+cli_console.cpp:78:6:void ot::Cli::Console::SetOutputCallback(otCliConsoleOutputCallback)	16	static
+cli_console.cpp:83:6:void ot::Cli::Console::ReceiveTask(char*, uint16_t)	24	static
+cli_console.cpp:88:5:virtual int ot::Cli::Console::Output(const char*, uint16_t)	24	static
+cli_console.cpp:93:5:)	156	static
