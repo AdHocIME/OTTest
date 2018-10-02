@@ -1,0 +1,10 @@
+mle_tlvs.hpp:1027:13:uint8_t ot::Mle::LeaderDataTlv::GetDataVersion() const	16	static
+mle_tlvs.hpp:1043:13:uint8_t ot::Mle::LeaderDataTlv::GetStableDataVersion() const	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+netdata_api.cpp:42:9:otError otNetDataGet(otInstance*, bool, uint8_t*, uint8_t*)	32	static
+netdata_api.cpp:55:9:otError otNetDataGetNextOnMeshPrefix(otInstance*, otNetworkDataIterator*, otBorderRouterConfig*)	32	static
+netdata_api.cpp:70:9:otError otNetDataGetNextRoute(otInstance*, otNetworkDataIterator*, otExternalRouteConfig*)	32	static
+netdata_api.cpp:83:9:uint8_t otNetDataGetVersion(otInstance*)	24	static
+netdata_api.cpp:90:9:uint8_t otNetDataGetStableVersion(otInstance*)	24	static

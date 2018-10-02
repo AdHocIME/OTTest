@@ -1,0 +1,27 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:175:28:const ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress() const	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+topology.hpp:706:10:bool ot::Child::IsIndirectSourceMatchShort() const	16	static
+topology.hpp:714:10:void ot::Child::SetIndirectSourceMatchShort(bool)	16	static
+topology.hpp:722:10:bool ot::Child::IsIndirectSourceMatchPending() const	16	static
+topology.hpp:730:10:void ot::Child::SetIndirectSourceMatchPending(bool)	16	static
+topology.hpp:738:14:uint16_t ot::Child::GetIndirectMessageCount() const	16	static
+topology.hpp:744:10:void ot::Child::IncrementIndirectMessageCount()	16	static
+topology.hpp:750:10:void ot::Child::DecrementIndirectMessageCount()	16	static
+topology.hpp:756:10:void ot::Child::ResetIndirectMessageCount()	16	static
+src_match_controller.hpp:85:10:bool ot::SourceMatchController::IsEnabled() const	16	static
+child_table.hpp:115:14:bool ot::ChildTable::Iterator::IsDone() const	16	static
+child_table.hpp:145:14:void ot::ChildTable::Iterator::operator++(int)	16	static
+child_table.hpp:153:16:ot::Child* ot::ChildTable::Iterator::GetChild()	16	static
+src_match_controller.cpp:47:1:ot::SourceMatchController::SourceMatchController(ot::Instance&)	16	static
+src_match_controller.cpp:54:6:void ot::SourceMatchController::IncrementMessageCount(ot::Child&)	16	static
+src_match_controller.cpp:64:6:void ot::SourceMatchController::DecrementMessageCount(ot::Child&)	16	static
+src_match_controller.cpp:84:6:void ot::SourceMatchController::ResetMessageCount(ot::Child&)	16	static
+src_match_controller.cpp:90:6:void ot::SourceMatchController::SetSrcMatchAsShort(ot::Child&, bool)	24	static
+src_match_controller.cpp:109:6:void ot::SourceMatchController::ClearTable()	16	static
+src_match_controller.cpp:116:6:void ot::SourceMatchController::Enable(bool)	16	static
+src_match_controller.cpp:123:6:void ot::SourceMatchController::AddEntry(ot::Child&)	16	static
+src_match_controller.cpp:142:9:otError ot::SourceMatchController::AddAddress(const ot::Child&)	104	static
+src_match_controller.cpp:172:6:void ot::SourceMatchController::ClearEntry(ot::Child&)	104	static
+src_match_controller.cpp:218:9:otError ot::SourceMatchController::AddPendingEntries()	32	static

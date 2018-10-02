@@ -1,0 +1,8 @@
+cipher_wrap.c:107:13:ccm_ctx_free	8	static
+cipher_wrap.c:97:14:ccm_ctx_alloc	8	static
+cipher_wrap.c:404:12:ccm_aes_setkey_wrap	0	static
+cipher_wrap.c:175:13:aes_ctx_free	8	static
+cipher_wrap.c:163:15:aes_ctx_alloc	8	static
+cipher_wrap.c:151:12:aes_setkey_dec_wrap	0	static
+cipher_wrap.c:157:12:aes_setkey_enc_wrap	0	static
+cipher_wrap.c:116:12:aes_crypt_ecb_wrap	0	static

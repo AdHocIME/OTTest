@@ -1,0 +1,2 @@
+mac_frame.hpp:146:10:void ot::Mac::ExtAddress::SetLocal(bool)	16	static
+meshcop.cpp:40:6:void ot::MeshCoP::ComputeJoinerId(const ot::Mac::ExtAddress&, ot::Mac::ExtAddress&)	160	static

@@ -1,0 +1,9 @@
+uart.c:144:6:stm32f4UartInit	0	static
+uart.c:157:9:otPlatUartEnable	0	static
+uart.c:169:9:otPlatUartDisable	0	static
+uart.c:149:6:stm32f4UartDeinit	0	static
+uart.c:181:9:otPlatUartSend	8	static
+uart.c:199:19:otPlatUartSendDone	0	static
+uart.c:203:19:otPlatUartReceived	0	static
+uart.c:138:6:stm32f4UartProcess	16	static
+uart.c:209:6:otPlatUartReceived_LL	20	static

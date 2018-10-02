@@ -1,0 +1,7 @@
+pk_wrap.c:209:12:eckey_can_do	0	static
+pk_wrap.c:216:15:eckey_get_bitlen	0	static
+pk_wrap.c:292:13:eckey_debug	0	static
+pk_wrap.c:322:12:eckeydh_can_do	0	static
+pk_wrap.c:286:13:eckey_free_wrap	8	static
+pk_wrap.c:276:14:eckey_alloc_wrap	8	static
+pk_wrap.c:270:12:eckey_check_pair	0	static

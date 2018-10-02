@@ -1,0 +1,12 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+message.hpp:641:10:bool ot::Message::IsLinkSecurityEnabled() const	16	static
+ip6_headers.hpp:197:13:ot::Ip6::IpProto ot::Ip6::Header::GetNextHeader() const	16	static
+ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
+udp6.hpp:333:14:uint16_t ot::Ip6::UdpHeader::GetDestinationPort() const	16	static
+tcp.hpp:91:14:uint16_t ot::Ip6::TcpHeader::GetDestinationPort() const	16	static
+ip6_filter.cpp:48:1:ot::Ip6::Filter::Filter()	16	static
+ip6_filter.cpp:53:6:bool ot::Ip6::Filter::Accept(ot::Message&) const	96	static
+ip6_filter.cpp:115:9:otError ot::Ip6::Filter::AddUnsecurePort(uint16_t)	32	static
+ip6_filter.cpp:142:9:otError ot::Ip6::Filter::RemoveUnsecurePort(uint16_t)	24	static
+ip6_filter.cpp:169:17:const uint16_t* ot::Ip6::Filter::GetUnsecurePorts(uint8_t&) const	16	static

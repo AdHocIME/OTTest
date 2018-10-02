@@ -1,0 +1,7 @@
+random.hpp:64:16:uint8_t ot::Random::GetUint8()	8	static
+random.hpp:142:13:void ot::Random::FillBuffer(uint8_t*, uint16_t)	24	static
+slaac_address.cpp:50:6:static void ot::Utils::Slaac::UpdateAddresses(otInstance*, otNetifAddress*, uint32_t, ot::Utils::Slaac::IidCreator, void*)	80	static
+slaac_address.cpp:154:9:static otError ot::Utils::Slaac::CreateRandomIid(otInstance*, otNetifAddress*, void*)	24	static
+slaac_address.cpp:160:9:otError ot::Utils::SemanticallyOpaqueIidGenerator::CreateIid(otInstance*, otNetifAddress*)	32	static
+slaac_address.cpp:176:9:otError ot::Utils::SemanticallyOpaqueIidGenerator::CreateIidOnce(otInstance*, otNetifAddress*)	184	static
+slaac_address.cpp:213:6:bool ot::Utils::SemanticallyOpaqueIidGenerator::IsAddressRegistered(otInstance*, otNetifAddress*)	32	static

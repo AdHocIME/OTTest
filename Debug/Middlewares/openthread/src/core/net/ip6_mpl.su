@@ -1,0 +1,70 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:338:10:void ot::Message::SetSubType(uint8_t)	16	static
+message.hpp:469:14:ot::Message* ot::Message::Clone() const	16	static
+message.hpp:931:13:otError ot::MessageQueue::Enqueue(ot::Message&)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:109:14:uint32_t ot::Timer::GetFireTime() const	16	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+ip6_headers.hpp:269:20:static uint8_t ot::Ip6::Header::GetHopLimitOffset()	4	static
+ip6_headers.hpp:277:20:static uint8_t ot::Ip6::Header::GetHopLimitSize()	4	static
+ip6_headers.hpp:361:5:ot::Ip6::OptionHeader::OptionHeader()	16	static
+ip6_headers.hpp:381:10:void ot::Ip6::OptionHeader::SetType(uint8_t)	16	static
+ip6_headers.hpp:410:13:uint8_t ot::Ip6::OptionHeader::GetLength() const	16	static
+ip6_headers.hpp:418:10:void ot::Ip6::OptionHeader::SetLength(uint8_t)	16	static
+ip6_mpl.hpp:77:10:void ot::Ip6::OptionMpl::Init()	16	static
+ip6_mpl.hpp:110:18:ot::Ip6::OptionMpl::SeedIdLength ot::Ip6::OptionMpl::GetSeedIdLength()	16	static
+ip6_mpl.hpp:118:10:void ot::Ip6::OptionMpl::SetSeedIdLength(ot::Ip6::OptionMpl::SeedIdLength)	16	static
+ip6_mpl.hpp:150:13:uint8_t ot::Ip6::OptionMpl::GetSequence() const	16	static
+ip6_mpl.hpp:158:10:void ot::Ip6::OptionMpl::SetSequence(uint8_t)	16	static
+ip6_mpl.hpp:166:14:uint16_t ot::Ip6::OptionMpl::GetSeedId() const	16	static
+ip6_mpl.hpp:174:10:void ot::Ip6::OptionMpl::SetSeedId(uint16_t)	16	static
+ip6_mpl.hpp:200:14:uint16_t ot::Ip6::MplSeedEntry::GetSeedId() const	16	static
+ip6_mpl.hpp:208:10:void ot::Ip6::MplSeedEntry::SetSeedId(uint16_t)	16	static
+ip6_mpl.hpp:216:13:uint8_t ot::Ip6::MplSeedEntry::GetSequence() const	16	static
+ip6_mpl.hpp:224:10:void ot::Ip6::MplSeedEntry::SetSequence(uint8_t)	16	static
+ip6_mpl.hpp:232:13:uint8_t ot::Ip6::MplSeedEntry::GetLifetime() const	16	static
+ip6_mpl.hpp:240:10:void ot::Ip6::MplSeedEntry::SetLifetime(uint8_t)	16	static
+ip6_mpl.hpp:260:5:ot::Ip6::MplBufferedMessageMetadata::MplBufferedMessageMetadata()	16	static
+ip6_mpl.hpp:276:13:otError ot::Ip6::MplBufferedMessageMetadata::AppendTo(ot::Message&) const	16	static
+ip6_mpl.hpp:286:14:uint16_t ot::Ip6::MplBufferedMessageMetadata::ReadFrom(const ot::Message&)	16	static
+ip6_mpl.hpp:299:13:otError ot::Ip6::MplBufferedMessageMetadata::RemoveFrom(ot::Message&)	16	static
+ip6_mpl.hpp:309:9:int ot::Ip6::MplBufferedMessageMetadata::UpdateIn(ot::Message&) const	16	static
+ip6_mpl.hpp:322:10:bool ot::Ip6::MplBufferedMessageMetadata::IsEarlier(uint32_t) const	16	static
+ip6_mpl.hpp:332:10:bool ot::Ip6::MplBufferedMessageMetadata::IsLater(uint32_t) const	16	static
+ip6_mpl.hpp:340:14:uint16_t ot::Ip6::MplBufferedMessageMetadata::GetSeedId() const	16	static
+ip6_mpl.hpp:348:10:void ot::Ip6::MplBufferedMessageMetadata::SetSeedId(uint16_t)	16	static
+ip6_mpl.hpp:356:13:uint8_t ot::Ip6::MplBufferedMessageMetadata::GetSequence() const	16	static
+ip6_mpl.hpp:364:10:void ot::Ip6::MplBufferedMessageMetadata::SetSequence(uint8_t)	16	static
+ip6_mpl.hpp:372:13:uint8_t ot::Ip6::MplBufferedMessageMetadata::GetTransmissionCount() const	16	static
+ip6_mpl.hpp:380:10:void ot::Ip6::MplBufferedMessageMetadata::SetTransmissionCount(uint8_t)	16	static
+ip6_mpl.hpp:388:14:uint32_t ot::Ip6::MplBufferedMessageMetadata::GetTransmissionTime() const	16	static
+ip6_mpl.hpp:396:10:void ot::Ip6::MplBufferedMessageMetadata::SetTransmissionTime(uint32_t)	16	static
+ip6_mpl.hpp:404:13:uint8_t ot::Ip6::MplBufferedMessageMetadata::GetIntervalOffset() const	16	static
+ip6_mpl.hpp:412:10:void ot::Ip6::MplBufferedMessageMetadata::SetIntervalOffset(uint8_t)	16	static
+ip6_mpl.hpp:493:13:uint8_t ot::Ip6::Mpl::GetTimerExpirations() const	16	static
+ip6.hpp:371:10:ot::Ip6::Mpl& ot::Ip6::Ip6::GetMpl()	16	static
+random.hpp:64:16:uint8_t ot::Random::GetUint8()	8	static
+random.hpp:99:16:uint8_t ot::Random::GetUint8InRange(uint8_t, uint8_t)	16	static
+instance.hpp:311:15:ot::Ip6::Ip6& ot::Instance::GetIp6()	16	static
+instance.hpp:547:30:Type& ot::Instance::Get() [with Type = ot::Ip6::Mpl]	16	static
+ip6_mpl.cpp:46:6:void ot::Ip6::MplBufferedMessageMetadata::GenerateNextTransmissionTime(uint32_t, uint8_t)	32	static
+ip6_mpl.cpp:56:1:ot::Ip6::Mpl::Mpl(ot::Instance&)	16	static
+ip6_mpl.cpp:68:6:void ot::Ip6::Mpl::InitOption(ot::Ip6::OptionMpl&, const ot::Ip6::Address&)	32	static
+ip6_mpl.cpp:88:9:otError ot::Ip6::Mpl::UpdateSeedSet(uint16_t, uint8_t)	32	static
+ip6_mpl.cpp:126:6:void ot::Ip6::Mpl::UpdateBufferedSet(uint16_t, uint8_t)	40	static
+ip6_mpl.cpp:163:6:void ot::Ip6::Mpl::AddBufferedMessage(ot::Message&, uint16_t, uint8_t, bool)	72	static
+ip6_mpl.hpp:64:7:ot::Ip6::OptionMpl::OptionMpl()	16	static
+ip6_mpl.cpp:223:9:otError ot::Ip6::Mpl::ProcessOption(ot::Message&, const ot::Ip6::Address&, bool)	48	static
+ip6_mpl.cpp:260:6:static void ot::Ip6::Mpl::HandleRetransmissionTimer(ot::Timer&)	16	static
+ip6_mpl.cpp:265:6:void ot::Ip6::Mpl::HandleRetransmissionTimer()	56	static
+ip6_mpl.cpp:347:6:static void ot::Ip6::Mpl::HandleSeedSetTimer(ot::Timer&)	16	static
+ip6_mpl.cpp:352:6:void ot::Ip6::Mpl::HandleSeedSetTimer()	32	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::Ip6::Mpl]	16	static

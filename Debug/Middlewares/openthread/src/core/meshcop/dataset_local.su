@@ -1,0 +1,18 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+timestamp.hpp:63:10:void ot::MeshCoP::Timestamp::Init()	16	static
+meshcop_tlvs.hpp:1262:14:uint32_t ot::MeshCoP::DelayTimerTlv::GetDelayTimer() const	16	static
+meshcop_tlvs.hpp:1270:10:void ot::MeshCoP::DelayTimerTlv::SetDelayTimer(uint32_t)	16	static
+dataset.hpp:124:14:uint16_t ot::MeshCoP::Dataset::GetSize() const	16	static
+dataset_local.hpp:148:10:bool ot::MeshCoP::DatasetLocal::IsActive() const	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+instance.hpp:293:15:ot::Settings& ot::Instance::GetSettings()	16	static
+dataset_local.cpp:52:1:ot::MeshCoP::DatasetLocal::DatasetLocal(ot::Instance&, ot::MeshCoP::Tlv::Type)	24	static
+dataset_local.cpp:61:6:void ot::MeshCoP::DatasetLocal::Clear()	24	static
+dataset_local.cpp:68:9:otError ot::MeshCoP::DatasetLocal::Restore(ot::MeshCoP::Dataset&)	24	static
+dataset_local.cpp:92:9:otError ot::MeshCoP::DatasetLocal::Get(ot::MeshCoP::Dataset&) const	40	static
+dataset_local.cpp:129:9:otError ot::MeshCoP::DatasetLocal::Get(otOperationalDataset&) const	288	static
+dataset_local.cpp:147:9:otError ot::MeshCoP::DatasetLocal::Set(const otOperationalDataset&)	288	static
+dataset_local.cpp:164:9:otError ot::MeshCoP::DatasetLocal::Set(const ot::MeshCoP::Dataset&)	32	static
+dataset_local.cpp:200:5:int ot::MeshCoP::DatasetLocal::Compare(const ot::MeshCoP::Timestamp*)	24	static

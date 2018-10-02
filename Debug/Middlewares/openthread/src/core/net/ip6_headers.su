@@ -1,0 +1,6 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+ip6_headers.hpp:173:10:bool ot::Ip6::Header::IsVersion6() const	16	static
+ip6_headers.hpp:181:14:uint16_t ot::Ip6::Header::GetPayloadLength()	16	static
+ip6_headers.cpp:41:9:otError ot::Ip6::Header::Init(const ot::Message&)	24	static

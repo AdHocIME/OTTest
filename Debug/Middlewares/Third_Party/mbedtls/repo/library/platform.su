@@ -1,0 +1,5 @@
+platform.c:42:14:platform_calloc_uninit	0	static
+platform.c:53:13:platform_free_uninit	0	static
+platform.c:64:5:mbedtls_platform_set_calloc_free	0	static
+platform.c:320:5:mbedtls_platform_setup	0	static
+platform.c:330:6:mbedtls_platform_teardown	0	static

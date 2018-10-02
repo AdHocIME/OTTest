@@ -1,0 +1,4 @@
+instance.hpp:302:18:ot::Utils::Heap& ot::Instance::GetHeap()	16	static
+mbedtls.cpp:45:14:void* ot::Crypto::CAlloc(size_t, size_t)	16	static
+mbedtls.cpp:50:13:void ot::Crypto::Free(void*)	16	static
+mbedtls.cpp:55:1:ot::Crypto::MbedTls::MbedTls()	16	static

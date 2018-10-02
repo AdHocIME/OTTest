@@ -1,0 +1,34 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+settings.hpp:133:14:ot::SettingsBase::SettingsBase(ot::Instance&)	16	static
+dataset.hpp:102:14:uint8_t* ot::MeshCoP::Dataset::GetBytes()	16	static
+dataset.hpp:110:20:const uint8_t* ot::MeshCoP::Dataset::GetBytes() const	16	static
+dataset.hpp:124:14:uint16_t ot::MeshCoP::Dataset::GetSize() const	16	static
+dataset.hpp:132:10:void ot::MeshCoP::Dataset::SetSize(uint16_t)	16	static
+settings.cpp:51:6:void ot::SettingsBase::LogNetworkInfo(const char*, const ot::SettingsBase::NetworkInfo&) const	120	static
+settings.cpp:66:6:void ot::SettingsBase::LogParentInfo(const char*, const ot::SettingsBase::ParentInfo&) const	56	static
+settings.cpp:72:6:void ot::SettingsBase::LogChildInfo(const char*, const ot::SettingsBase::ChildInfo&) const	72	static
+settings.cpp:83:6:void ot::SettingsBase::LogFailure(otError, const char*, bool) const	32	static
+settings.cpp:94:6:void ot::Settings::Init()	16	static
+settings.cpp:99:6:void ot::Settings::Wipe()	16	static
+settings.cpp:105:9:otError ot::Settings::SaveOperationalDataset(bool, const ot::MeshCoP::Dataset&)	40	static
+settings.cpp:113:9:otError ot::Settings::ReadOperationalDataset(bool, ot::MeshCoP::Dataset&) const	48	static
+settings.cpp:126:9:otError ot::Settings::DeleteOperationalDataset(bool)	24	static
+settings.cpp:135:9:otError ot::Settings::ReadNetworkInfo(ot::SettingsBase::NetworkInfo&) const	24	static
+settings.cpp:146:9:otError ot::Settings::SaveNetworkInfo(const ot::SettingsBase::NetworkInfo&)	24	static
+settings.cpp:158:9:otError ot::Settings::DeleteNetworkInfo()	24	static
+settings.cpp:170:9:otError ot::Settings::ReadParentInfo(ot::SettingsBase::ParentInfo&) const	24	static
+settings.cpp:181:9:otError ot::Settings::SaveParentInfo(const ot::SettingsBase::ParentInfo&)	24	static
+settings.cpp:193:9:otError ot::Settings::DeleteParentInfo()	24	static
+settings.cpp:205:9:otError ot::Settings::AddChildInfo(const ot::SettingsBase::ChildInfo&)	24	static
+settings.cpp:217:9:otError ot::Settings::DeleteChildInfo()	24	static
+settings.cpp:229:1:ot::Settings::ChildInfoIterator::ChildInfoIterator(ot::Instance&)	16	static
+settings.cpp:237:6:void ot::Settings::ChildInfoIterator::Reset()	16	static
+settings.cpp:244:6:void ot::Settings::ChildInfoIterator::Advance()	16	static
+settings.cpp:253:9:otError ot::Settings::ChildInfoIterator::Delete()	24	static
+settings.cpp:266:6:void ot::Settings::ChildInfoIterator::Read()	32	static
+settings.cpp:280:9:otError ot::Settings::ReadFixedSize(ot::SettingsBase::Key, void*, uint16_t) const	40	static
+settings.cpp:292:9:otError ot::Settings::Read(ot::SettingsBase::Key, void*, uint16_t, uint16_t&) const	40	static
+settings.cpp:304:9:otError ot::Settings::Save(ot::SettingsBase::Key, const void*, uint16_t)	24	static
+settings.cpp:309:9:otError ot::Settings::Add(ot::SettingsBase::Key, const void*, uint16_t)	24	static
+settings.cpp:314:9:otError ot::Settings::Delete(ot::SettingsBase::Key)	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 17u]	16	static

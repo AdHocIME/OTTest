@@ -1,0 +1,5 @@
+tasklet.hpp:129:10:bool ot::TaskletScheduler::AreTaskletsPending()	16	static
+instance.hpp:178:23:ot::TaskletScheduler& ot::Instance::GetTaskletScheduler()	16	static
+tasklet_api.cpp:46:6:void otTaskletsProcess(otInstance*)	24	static
+tasklet_api.cpp:57:6:bool otTaskletsArePending(otInstance*)	24	static
+tasklet_api.cpp:70:19:void otTaskletsSignalPending(otInstance*)	16	static

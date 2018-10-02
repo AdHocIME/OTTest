@@ -1690,7 +1690,7 @@ void MeshForwarder::LogMessage(MessageAction       aAction,
 
 #if OPENTHREAD_FTD
     case Message::kType6lowpan:
-        LogMeshMessage(aAction, aMessage, aMacAddress, aError, logLevel);
+        //LogMeshMessage(aAction, aMessage, aMacAddress, aError, logLevel);
         break;
 #endif
 

@@ -1,0 +1,6 @@
+flash.c:43:9:utilsFlashInit	0	static
+flash.c:48:10:utilsFlashGetSize	0	static
+flash.c:53:9:utilsFlashErasePage	8	static
+flash.c:64:9:utilsFlashStatusWait	0	static
+flash.c:70:10:utilsFlashWrite	8	static
+flash.c:83:10:utilsFlashRead	8	static

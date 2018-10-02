@@ -1,0 +1,32 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+coap_header.hpp:128:13:uint8_t ot::Coap::Header::GetVersion() const	16	static
+coap_header.hpp:136:10:void ot::Coap::Header::SetVersion(uint8_t)	16	static
+coap_header.hpp:156:10:void ot::Coap::Header::SetType(ot::Coap::Header::Type)	16	static
+coap_header.hpp:176:10:void ot::Coap::Header::SetCode(ot::Coap::Header::Code)	16	static
+coap_header.hpp:184:14:uint16_t ot::Coap::Header::GetMessageId() const	16	static
+coap_header.hpp:192:10:void ot::Coap::Header::SetMessageId(uint16_t)	16	static
+coap_header.hpp:200:13:uint8_t ot::Coap::Header::GetTokenLength() const	16	static
+coap_header.hpp:211:20:const uint8_t* ot::Coap::Header::GetToken() const	16	static
+coap_header.hpp:220:10:void ot::Coap::Header::SetToken(const uint8_t*, uint8_t)	24	static
+random.hpp:64:16:uint8_t ot::Random::GetUint8()	8	static
+random.hpp:142:13:void ot::Random::FillBuffer(uint8_t*, uint16_t)	24	static
+coap_header.cpp:46:6:void ot::Coap::Header::Init()	16	static
+coap_header.cpp:57:6:void ot::Coap::Header::Init(ot::Coap::Header::Type, ot::Coap::Header::Code)	16	static
+coap_header.cpp:64:9:otError ot::Coap::Header::FromMessage(const ot::Message&, uint16_t)	48	static
+coap_header.cpp:194:9:otError ot::Coap::Header::AppendOption(const ot::Coap::Header::Option&)	32	static
+coap_header.cpp:259:9:otError ot::Coap::Header::AppendUintOption(uint16_t, uint32_t)	32	static
+coap_header.cpp:278:9:otError ot::Coap::Header::AppendObserveOption(uint32_t)	16	static
+coap_header.cpp:283:9:otError ot::Coap::Header::AppendUriPathOptions(const char*)	40	static
+coap_header.cpp:308:9:otError ot::Coap::Header::AppendContentFormatOption(otCoapOptionContentFormat)	16	static
+coap_header.cpp:313:9:otError ot::Coap::Header::AppendMaxAgeOption(uint32_t)	16	static
+coap_header.cpp:318:9:otError ot::Coap::Header::AppendUriQueryOption(const char*)	24	static
+coap_header.cpp:329:23:const ot::Coap::Header::Option* ot::Coap::Header::GetFirstOption()	24	static
+coap_header.cpp:344:23:const ot::Coap::Header::Option* ot::Coap::Header::GetNextOption()	24	static
+coap_header.cpp:406:9:otError ot::Coap::Header::SetPayloadMarker()	24	static
+coap_header.cpp:417:6:void ot::Coap::Header::SetToken(uint8_t)	24	static
+coap_header.cpp:428:6:void ot::Coap::Header::SetDefaultResponseHeader(const ot::Coap::Header&)	24	static

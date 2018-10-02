@@ -1,0 +1,380 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+encoding.hpp:195:17:uint32_t ot::Encoding::LittleEndian::HostSwap32(uint32_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:109:14:uint32_t ot::Timer::GetFireTime() const	16	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+timer.hpp:199:21:static uint32_t ot::TimerMilli::SecToMsec(uint32_t)	16	static
+mac_frame.hpp:241:10:ot::Mac::Address::Type ot::Mac::Address::GetType() const	16	static
+mac_frame.hpp:275:18:ot::Mac::ShortAddress ot::Mac::Address::GetShort() const	16	static
+mac_frame.hpp:285:23:const ot::Mac::ExtAddress& ot::Mac::Address::GetExtended() const	16	static
+key_manager.hpp:127:14:uint32_t ot::KeyManager::GetCurrentKeySequence() const	16	static
+key_manager.hpp:151:20:const uint8_t* ot::KeyManager::GetCurrentMleKey() const	16	static
+key_manager.hpp:179:14:uint32_t ot::KeyManager::GetMacFrameCounter() const	16	static
+key_manager.hpp:187:10:void ot::KeyManager::SetMacFrameCounter(uint32_t)	16	static
+key_manager.hpp:195:10:void ot::KeyManager::SetStoredMacFrameCounter(uint32_t)	16	static
+key_manager.hpp:209:14:uint32_t ot::KeyManager::GetMleFrameCounter() const	16	static
+key_manager.hpp:217:10:void ot::KeyManager::SetMleFrameCounter(uint32_t)	16	static
+key_manager.hpp:225:10:void ot::KeyManager::SetStoredMleFrameCounter(uint32_t)	16	static
+link_quality.hpp:300:13:uint8_t ot::LinkQualityInfo::GetLinkQuality() const	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:330:13:uint8_t ot::Message::GetSubType() const	16	static
+message.hpp:338:10:void ot::Message::SetSubType(uint8_t)	16	static
+message.hpp:541:10:void ot::Message::SetPanId(uint16_t)	16	static
+message.hpp:561:10:void ot::Message::SetChannel(uint8_t)	16	static
+message.hpp:649:10:void ot::Message::SetLinkSecurityEnabled(bool)	16	static
+message.hpp:931:13:otError ot::MessageQueue::Enqueue(ot::Message&)	16	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+tlvs.hpp:105:14:uint8_t* ot::Tlv::GetValue()	16	static
+crc16.hpp:84:14:uint16_t ot::Crc16::Get() const	16	static
+timestamp.hpp:63:10:void ot::MeshCoP::Timestamp::Init()	16	static
+timestamp.hpp:87:14:uint64_t ot::MeshCoP::Timestamp::GetSeconds() const	32	static
+timestamp.hpp:105:10:void ot::MeshCoP::Timestamp::SetSeconds(uint64_t)	40	static
+timestamp.hpp:127:10:void ot::MeshCoP::Timestamp::SetTicks(uint16_t)	16	static
+timestamp.hpp:146:10:void ot::MeshCoP::Timestamp::SetAuthoritative(bool)	16	static
+meshcop_tlvs.hpp:115:10:ot::MeshCoP::Tlv::Type ot::MeshCoP::Tlv::GetType() const	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:317:10:bool ot::MeshCoP::ExtendedPanIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:325:20:const uint8_t* ot::MeshCoP::ExtendedPanIdTlv::GetExtendedPanId() const	16	static
+meshcop_tlvs.hpp:364:10:bool ot::MeshCoP::NetworkNameTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:372:17:const char* ot::MeshCoP::NetworkNameTlv::GetNetworkName() const	16	static
+meshcop_tlvs.hpp:608:10:bool ot::MeshCoP::SteeringDataTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:651:13:uint8_t ot::MeshCoP::SteeringDataTlv::GetNumBits() const	16	static
+meshcop_tlvs.hpp:662:10:bool ot::MeshCoP::SteeringDataTlv::GetBit(uint8_t) const	16	static
+meshcop_tlvs.hpp:1037:10:bool ot::MeshCoP::JoinerUdpPortTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1045:14:uint16_t ot::MeshCoP::JoinerUdpPortTlv::GetUdpPort() const	16	static
+meshcop_tlvs.hpp:1371:10:bool ot::MeshCoP::ChannelMaskEntry::IsChannelSet(uint8_t) const	24	static
+meshcop_tlvs.hpp:2190:10:void ot::MeshCoP::DiscoveryRequestTlv::Init()	16	static
+meshcop_tlvs.hpp:2221:10:void ot::MeshCoP::DiscoveryRequestTlv::SetVersion(uint8_t)	16	static
+meshcop_tlvs.hpp:2241:10:void ot::MeshCoP::DiscoveryRequestTlv::SetJoiner(bool)	16	static
+meshcop_tlvs.hpp:2292:10:bool ot::MeshCoP::DiscoveryResponseTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:2300:13:uint8_t ot::MeshCoP::DiscoveryResponseTlv::GetVersion() const	16	static
+meshcop_tlvs.hpp:2320:10:bool ot::MeshCoP::DiscoveryResponseTlv::IsNativeCommissioner()	16	static
+random.hpp:64:16:uint8_t ot::Random::GetUint8()	8	static
+random.hpp:75:17:uint16_t ot::Random::GetUint16()	8	static
+random.hpp:86:17:uint32_t ot::Random::GetUint32()	8	static
+random.hpp:114:17:uint16_t ot::Random::GetUint16InRange(uint16_t, uint16_t)	16	static
+random.hpp:130:17:uint32_t ot::Random::GetUint32InRange(uint32_t, uint32_t)	16	static
+random.hpp:142:13:void ot::Random::FillBuffer(uint8_t*, uint16_t)	24	static
+random.hpp:159:17:uint32_t ot::Random::AddJitter(uint32_t, uint16_t)	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+socket.hpp:160:13:uint8_t ot::Ip6::MessageInfo::GetHopLimit() const	16	static
+socket.hpp:168:10:void ot::Ip6::MessageInfo::SetHopLimit(uint8_t)	16	static
+socket.hpp:176:17:const void* ot::Ip6::MessageInfo::GetLinkInfo() const	16	static
+types.h:1156:16:otSockAddr::otSockAddr()	16	static
+socket.hpp:198:5:ot::Ip6::SockAddr::SockAddr()	16	static
+netif.hpp:96:20:const ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress() const	16	static
+netif.hpp:104:14:ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress()	16	static
+netif.hpp:123:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::NetifUnicastAddress::GetNext() const	16	static
+netif.hpp:149:20:const ot::Ip6::Address& ot::Ip6::NetifMulticastAddress::GetAddress() const	16	static
+netif.hpp:157:14:ot::Ip6::Address& ot::Ip6::NetifMulticastAddress::GetAddress()	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+netif.hpp:218:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::Netif::GetUnicastAddresses() const	16	static
+ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
+ip6_mpl.hpp:484:10:void ot::Ip6::Mpl::SetSeedId(uint16_t)	16	static
+ip6_mpl.hpp:502:10:void ot::Ip6::Mpl::SetTimerExpirations(uint8_t)	16	static
+ip6_mpl.hpp:510:10:void ot::Ip6::Mpl::SetMatchingAddress(const ot::Ip6::Address&)	16	static
+ip6.hpp:260:10:void ot::Ip6::Ip6::SetForwardingEnabled(bool)	16	static
+ip6.hpp:355:11:ot::Ip6::Icmp& ot::Ip6::Ip6::GetIcmp()	16	static
+ip6.hpp:363:10:ot::Ip6::Udp& ot::Ip6::Ip6::GetUdp()	16	static
+ip6.hpp:371:10:ot::Ip6::Mpl& ot::Ip6::Ip6::GetMpl()	16	static
+mle_tlvs.hpp:139:10:void ot::Mle::Tlv::SetType(ot::Mle::Tlv::Type)	16	static
+mle_tlvs.hpp:153:20:static otError ot::Mle::Tlv::GetTlv(const ot::Message&, ot::Mle::Tlv::Type, uint16_t, ot::Mle::Tlv&)	24	static
+mle_tlvs.hpp:169:20:static otError ot::Mle::Tlv::GetOffset(const ot::Message&, ot::Mle::Tlv::Type, uint16_t&)	24	static
+mle_tlvs.hpp:188:10:void ot::Mle::SourceAddressTlv::Init()	16	static
+mle_tlvs.hpp:201:10:bool ot::Mle::SourceAddressTlv::IsValid() const	16	static
+mle_tlvs.hpp:209:14:uint16_t ot::Mle::SourceAddressTlv::GetRloc16() const	16	static
+mle_tlvs.hpp:217:10:void ot::Mle::SourceAddressTlv::SetRloc16(uint16_t)	16	static
+mle_tlvs.hpp:235:10:void ot::Mle::ModeTlv::Init()	16	static
+mle_tlvs.hpp:248:10:bool ot::Mle::ModeTlv::IsValid() const	16	static
+mle_tlvs.hpp:264:13:uint8_t ot::Mle::ModeTlv::GetMode() const	16	static
+mle_tlvs.hpp:272:10:void ot::Mle::ModeTlv::SetMode(uint8_t)	16	static
+mle_tlvs.hpp:290:10:void ot::Mle::TimeoutTlv::Init()	16	static
+mle_tlvs.hpp:303:10:bool ot::Mle::TimeoutTlv::IsValid() const	16	static
+mle_tlvs.hpp:311:14:uint32_t ot::Mle::TimeoutTlv::GetTimeout() const	16	static
+mle_tlvs.hpp:319:10:void ot::Mle::TimeoutTlv::SetTimeout(uint32_t)	16	static
+mle_tlvs.hpp:355:10:bool ot::Mle::ChallengeTlv::IsValid() const	16	static
+mle_tlvs.hpp:363:20:const uint8_t* ot::Mle::ChallengeTlv::GetChallenge() const	16	static
+mle_tlvs.hpp:407:10:bool ot::Mle::ResponseTlv::IsValid() const	16	static
+mle_tlvs.hpp:415:20:const uint8_t* ot::Mle::ResponseTlv::GetResponse() const	16	static
+mle_tlvs.hpp:441:10:void ot::Mle::LinkFrameCounterTlv::Init()	16	static
+mle_tlvs.hpp:454:10:bool ot::Mle::LinkFrameCounterTlv::IsValid() const	16	static
+mle_tlvs.hpp:462:14:uint32_t ot::Mle::LinkFrameCounterTlv::GetFrameCounter() const	16	static
+mle_tlvs.hpp:470:10:void ot::Mle::LinkFrameCounterTlv::SetFrameCounter(uint32_t)	16	static
+mle_tlvs.hpp:503:10:bool ot::Mle::RouteTlv::IsValid() const	16	static
+mle_tlvs.hpp:880:10:void ot::Mle::MleFrameCounterTlv::Init()	16	static
+mle_tlvs.hpp:893:10:bool ot::Mle::MleFrameCounterTlv::IsValid() const	16	static
+mle_tlvs.hpp:901:14:uint32_t ot::Mle::MleFrameCounterTlv::GetFrameCounter() const	16	static
+mle_tlvs.hpp:909:10:void ot::Mle::MleFrameCounterTlv::SetFrameCounter(uint32_t)	16	static
+mle_tlvs.hpp:927:10:void ot::Mle::Address16Tlv::Init()	16	static
+mle_tlvs.hpp:940:10:bool ot::Mle::Address16Tlv::IsValid() const	16	static
+mle_tlvs.hpp:948:14:uint16_t ot::Mle::Address16Tlv::GetRloc16() const	16	static
+mle_tlvs.hpp:956:10:void ot::Mle::Address16Tlv::SetRloc16(uint16_t)	16	static
+mle_tlvs.hpp:974:10:void ot::Mle::LeaderDataTlv::Init()	16	static
+mle_tlvs.hpp:987:10:bool ot::Mle::LeaderDataTlv::IsValid() const	16	static
+mle_tlvs.hpp:995:14:uint32_t ot::Mle::LeaderDataTlv::GetPartitionId() const	16	static
+mle_tlvs.hpp:1003:10:void ot::Mle::LeaderDataTlv::SetPartitionId(uint32_t)	16	static
+mle_tlvs.hpp:1011:13:uint8_t ot::Mle::LeaderDataTlv::GetWeighting() const	16	static
+mle_tlvs.hpp:1019:10:void ot::Mle::LeaderDataTlv::SetWeighting(uint8_t)	16	static
+mle_tlvs.hpp:1027:13:uint8_t ot::Mle::LeaderDataTlv::GetDataVersion() const	16	static
+mle_tlvs.hpp:1035:10:void ot::Mle::LeaderDataTlv::SetDataVersion(uint8_t)	16	static
+mle_tlvs.hpp:1043:13:uint8_t ot::Mle::LeaderDataTlv::GetStableDataVersion() const	16	static
+mle_tlvs.hpp:1051:10:void ot::Mle::LeaderDataTlv::SetStableDataVersion(uint8_t)	16	static
+mle_tlvs.hpp:1059:13:uint8_t ot::Mle::LeaderDataTlv::GetLeaderRouterId() const	16	static
+mle_tlvs.hpp:1067:10:void ot::Mle::LeaderDataTlv::SetLeaderRouterId(uint8_t)	16	static
+mle_tlvs.hpp:1089:10:void ot::Mle::NetworkDataTlv::Init()	16	static
+mle_tlvs.hpp:1101:14:uint8_t* ot::Mle::NetworkDataTlv::GetNetworkData()	16	static
+mle_tlvs.hpp:1140:10:bool ot::Mle::TlvRequestTlv::IsValid() const	16	static
+mle_tlvs.hpp:1148:20:const uint8_t* ot::Mle::TlvRequestTlv::GetTlvs() const	16	static
+mle_tlvs.hpp:1199:10:void ot::Mle::ScanMaskTlv::Init()	16	static
+mle_tlvs.hpp:1266:10:void ot::Mle::ScanMaskTlv::SetMask(uint8_t)	16	static
+mle_tlvs.hpp:1297:10:bool ot::Mle::ConnectivityTlv::IsValid() const	16	static
+mle_tlvs.hpp:1309:12:int8_t ot::Mle::ConnectivityTlv::GetParentPriority() const	16	static
+mle_tlvs.hpp:1331:13:uint8_t ot::Mle::ConnectivityTlv::GetLinkQuality3() const	16	static
+mle_tlvs.hpp:1347:13:uint8_t ot::Mle::ConnectivityTlv::GetLinkQuality2() const	16	static
+mle_tlvs.hpp:1363:13:uint8_t ot::Mle::ConnectivityTlv::GetLinkQuality1() const	16	static
+mle_tlvs.hpp:1379:13:uint8_t ot::Mle::ConnectivityTlv::GetActiveRouters() const	16	static
+mle_tlvs.hpp:1395:13:uint8_t ot::Mle::ConnectivityTlv::GetLeaderCost() const	16	static
+mle_tlvs.hpp:1411:13:uint8_t ot::Mle::ConnectivityTlv::GetIdSequence() const	16	static
+mle_tlvs.hpp:1483:10:void ot::Mle::LinkMarginTlv::Init()	16	static
+mle_tlvs.hpp:1496:10:bool ot::Mle::LinkMarginTlv::IsValid() const	16	static
+mle_tlvs.hpp:1504:13:uint8_t ot::Mle::LinkMarginTlv::GetLinkMargin() const	16	static
+mle_tlvs.hpp:1512:10:void ot::Mle::LinkMarginTlv::SetLinkMargin(uint8_t)	16	static
+mle_tlvs.hpp:1530:10:void ot::Mle::StatusTlv::Init()	16	static
+mle_tlvs.hpp:1543:10:bool ot::Mle::StatusTlv::IsValid() const	16	static
+mle_tlvs.hpp:1559:12:ot::Mle::StatusTlv::Status ot::Mle::StatusTlv::GetStatus() const	16	static
+mle_tlvs.hpp:1567:10:void ot::Mle::StatusTlv::SetStatus(ot::Mle::StatusTlv::Status)	16	static
+mle_tlvs.hpp:1585:10:void ot::Mle::VersionTlv::Init()	16	static
+mle_tlvs.hpp:1614:10:void ot::Mle::VersionTlv::SetVersion(uint16_t)	16	static
+mle_tlvs.hpp:1635:13:uint8_t ot::Mle::AddressRegistrationEntry::GetLength() const	16	static
+mle_tlvs.hpp:1644:10:bool ot::Mle::AddressRegistrationEntry::IsCompressed() const	16	static
+mle_tlvs.hpp:1650:10:void ot::Mle::AddressRegistrationEntry::SetUncompressed()	16	static
+mle_tlvs.hpp:1666:10:void ot::Mle::AddressRegistrationEntry::SetContextId(uint8_t)	16	static
+mle_tlvs.hpp:1682:10:void ot::Mle::AddressRegistrationEntry::SetIid(const uint8_t*)	16	static
+mle_tlvs.hpp:1698:10:void ot::Mle::AddressRegistrationEntry::SetIp6Address(const ot::Ip6::Address&)	16	static
+mle_tlvs.hpp:1727:10:void ot::Mle::ChannelTlv::Init()	16	static
+mle_tlvs.hpp:1740:10:bool ot::Mle::ChannelTlv::IsValid() const	16	static
+mle_tlvs.hpp:1756:10:void ot::Mle::ChannelTlv::SetChannelPage(uint8_t)	16	static
+mle_tlvs.hpp:1764:14:uint16_t ot::Mle::ChannelTlv::GetChannel() const	16	static
+mle_tlvs.hpp:1772:10:void ot::Mle::ChannelTlv::SetChannel(uint16_t)	16	static
+mle_tlvs.hpp:1791:10:void ot::Mle::PanIdTlv::Init()	16	static
+mle_tlvs.hpp:1804:10:bool ot::Mle::PanIdTlv::IsValid() const	16	static
+mle_tlvs.hpp:1812:14:uint16_t ot::Mle::PanIdTlv::GetPanId() const	16	static
+mle_tlvs.hpp:1820:10:void ot::Mle::PanIdTlv::SetPanId(uint16_t)	16	static
+mle_tlvs.hpp:1979:10:void ot::Mle::ActiveTimestampTlv::Init()	16	static
+mle_tlvs.hpp:1993:10:bool ot::Mle::ActiveTimestampTlv::IsValid() const	16	static
+mle_tlvs.hpp:2008:10:void ot::Mle::PendingTimestampTlv::Init()	16	static
+mle_tlvs.hpp:2022:10:bool ot::Mle::PendingTimestampTlv::IsValid() const	16	static
+topology.hpp:79:11:ot::Neighbor::State ot::Neighbor::GetState() const	16	static
+topology.hpp:87:10:void ot::Neighbor::SetState(ot::Neighbor::State)	16	static
+topology.hpp:95:10:bool ot::Neighbor::IsStateRestoring() const	16	static
+topology.hpp:105:10:bool ot::Neighbor::IsStateValidOrRestoring() const	16	static
+topology.hpp:121:10:void ot::Neighbor::SetDeviceMode(uint8_t)	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:183:10:void ot::Neighbor::SetExtAddress(const ot::Mac::ExtAddress&)	16	static
+topology.hpp:191:14:uint32_t ot::Neighbor::GetKeySequence() const	16	static
+topology.hpp:199:10:void ot::Neighbor::SetKeySequence(uint32_t)	16	static
+topology.hpp:215:10:void ot::Neighbor::SetLastHeard(uint32_t)	16	static
+topology.hpp:231:10:void ot::Neighbor::SetLinkFrameCounter(uint32_t)	16	static
+topology.hpp:239:14:uint32_t ot::Neighbor::GetMleFrameCounter() const	16	static
+topology.hpp:247:10:void ot::Neighbor::SetMleFrameCounter(uint32_t)	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+topology.hpp:271:10:void ot::Neighbor::SetRloc16(uint16_t)	16	static
+topology.hpp:307:10:void ot::Neighbor::ResetLinkFailures()	16	static
+topology.hpp:315:22:ot::LinkQualityInfo& ot::Neighbor::GetLinkInfo()	16	static
+topology.hpp:885:13:uint8_t ot::Router::GetLinkQualityOut() const	16	static
+topology.hpp:893:10:void ot::Router::SetLinkQualityOut(uint8_t)	16	static
+mac.hpp:492:10:void ot::Mac::Mac::SetBeaconEnabled(bool)	16	static
+mac.hpp:558:23:const ot::Mac::ExtAddress& ot::Mac::Mac::GetExtAddress() const	16	static
+mac.hpp:574:18:ot::Mac::ShortAddress ot::Mac::Mac::GetShortAddress() const	16	static
+mac.hpp:592:13:uint8_t ot::Mac::Mac::GetPanChannel() const	16	static
+mac.hpp:700:14:uint16_t ot::Mac::Mac::GetPanId() const	16	static
+mac.hpp:718:20:const uint8_t* ot::Mac::Mac::GetExtendedPanId() const	16	static
+notifier.hpp:173:10:bool ot::Notifier::IsPending() const	16	static
+mle.hpp:139:10:void ot::Mle::Header::Init()	16	static
+mle.hpp:152:10:bool ot::Mle::Header::IsValid() const	16	static
+mle.hpp:165:13:uint8_t ot::Mle::Header::GetLength() const	24	static
+mle.hpp:189:19:ot::Mle::Header::SecuritySuite ot::Mle::Header::GetSecuritySuite() const	16	static
+mle.hpp:197:10:void ot::Mle::Header::SetSecuritySuite(ot::Mle::Header::SecuritySuite)	16	static
+mle.hpp:205:13:uint8_t ot::Mle::Header::GetHeaderLength() const	16	static
+mle.hpp:216:20:const uint8_t* ot::Mle::Header::GetBytes() const	16	static
+mle.hpp:239:10:void ot::Mle::Header::SetKeyIdMode2()	16	static
+mle.hpp:250:14:uint32_t ot::Mle::Header::GetKeyId() const	16	static
+mle.hpp:258:10:void ot::Mle::Header::SetKeyId(uint32_t)	16	static
+mle.hpp:270:14:uint32_t ot::Mle::Header::GetFrameCounter() const	16	static
+mle.hpp:278:10:void ot::Mle::Header::SetFrameCounter(uint32_t)	16	static
+mle.hpp:319:13:ot::Mle::Header::Command ot::Mle::Header::GetCommand() const	16	static
+mle.hpp:337:10:void ot::Mle::Header::SetCommand(ot::Mle::Header::Command)	16	static
+mle.hpp:370:5:ot::Mle::DelayedResponseHeader::DelayedResponseHeader()	16	static
+mle.hpp:379:5:ot::Mle::DelayedResponseHeader::DelayedResponseHeader(uint32_t, const ot::Ip6::Address&)	24	static
+mle.hpp:394:13:otError ot::Mle::DelayedResponseHeader::AppendTo(ot::Message&)	16	static
+mle.hpp:404:14:uint16_t ot::Mle::DelayedResponseHeader::ReadFrom(ot::Message&)	16	static
+mle.hpp:417:20:static otError ot::Mle::DelayedResponseHeader::RemoveFrom(ot::Message&)	16	static
+mle.hpp:428:14:uint32_t ot::Mle::DelayedResponseHeader::GetSendTime() const	16	static
+mle.hpp:436:25:const ot::Ip6::Address& ot::Mle::DelayedResponseHeader::GetDestination() const	16	static
+mle.hpp:446:10:bool ot::Mle::DelayedResponseHeader::IsEarlier(uint32_t)	16	static
+mle.hpp:456:10:bool ot::Mle::DelayedResponseHeader::IsLater(uint32_t)	16	static
+mle.hpp:654:10:bool ot::Mle::Mle::IsRxOnWhenIdle() const	16	static
+mle.hpp:662:10:bool ot::Mle::Mle::IsFullThreadDevice() const	16	static
+mle.hpp:678:10:bool ot::Mle::Mle::IsFullNetworkData() const	16	static
+mle.hpp:911:21:static uint16_t ot::Mle::Mle::GetChildId(uint16_t)	16	static
+mle.hpp:921:20:static uint8_t ot::Mle::Mle::GetRouterId(uint16_t)	16	static
+mle.hpp:971:21:static uint16_t ot::Mle::Mle::GetRloc16(uint8_t)	16	static
+mle.hpp:982:17:static bool ot::Mle::Mle::IsActiveRouter(uint16_t)	16	static
+dataset_manager.hpp:103:13:otError ot::MeshCoP::DatasetManager::Get(ot::MeshCoP::Dataset&) const	16	static
+router_table.hpp:274:13:uint8_t ot::RouterTable::GetRouterIdSequence() const	16	static
+mle_router_ftd.hpp:196:10:void ot::Mle::MleRouter::SetPreviousPartitionId(uint32_t)	16	static
+mle_router_ftd.hpp:222:13:uint8_t ot::Mle::MleRouter::GetNetworkIdTimeout() const	16	static
+mle_router_ftd.hpp:284:13:uint8_t ot::Mle::MleRouter::GetRouterSelectionJitterTimeout()	16	static
+mle_router_ftd.hpp:660:18:ot::RouterTable& ot::Mle::MleRouter::GetRouterTable()	16	static
+network_data_leader.hpp:88:13:uint8_t ot::NetworkData::LeaderBase::GetVersion() const	16	static
+network_data_leader.hpp:96:13:uint8_t ot::NetworkData::LeaderBase::GetStableVersion() const	16	static
+mesh_forwarder.hpp:206:22:ot::DataPollManager& ot::MeshForwarder::GetDataPollManager()	16	static
+thread_netif.hpp:128:10:bool ot::ThreadNetif::IsUp() const	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+thread_netif.hpp:323:26:ot::AnnounceBeginServer& ot::ThreadNetif::GetAnnounceBeginServer()	16	static
+instance.hpp:285:15:ot::Notifier& ot::Instance::GetNotifier()	16	static
+instance.hpp:293:15:ot::Settings& ot::Instance::GetSettings()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:465:30:Type& ot::Instance::Get() [with Type = ot::Mle::Mle]	16	static
+mle.cpp:66:1:ot::Mle::Mle::Mle(ot::Instance&)	32	static
+mle.cpp:211:9:otError ot::Mle::Mle::Enable()	40	static
+mle.cpp:225:9:otError ot::Mle::Mle::Disable()	24	static
+mle.cpp:236:9:otError ot::Mle::Mle::Start(bool, bool)	24	static
+mle.cpp:277:9:otError ot::Mle::Mle::Stop(bool)	24	static
+mle.cpp:299:6:void ot::Mle::Mle::SetRole(otDeviceRole)	32	static
+mle.cpp:323:6:void ot::Mle::Mle::SetAttachState(ot::Mle::Mle::AttachState)	32	static
+mle.cpp:333:9:otError ot::Mle::Mle::Restore()	80	static
+mle.cpp:404:9:otError ot::Mle::Mle::Store()	72	static
+mle.cpp:458:9:otError ot::Mle::Mle::Discover(uint32_t, uint16_t, bool, bool, ot::Mle::Mle::DiscoverHandler, void*)	64	static
+mle.cpp:519:6:bool ot::Mle::Mle::IsDiscoverInProgress()	16	static
+mle.cpp:524:6:void ot::Mle::Mle::HandleDiscoverComplete()	16	static
+mle.cpp:531:9:otError ot::Mle::Mle::BecomeDetached()	24	static
+mle.cpp:563:9:otError ot::Mle::Mle::BecomeChild(ot::Mle::AttachMode)	32	static
+mle.cpp:616:10:uint32_t ot::Mle::Mle::GetAttachStartDelay() const	48	static
+mle.cpp:660:6:bool ot::Mle::Mle::IsAttached() const	16	static
+mle.cpp:665:9:otError ot::Mle::Mle::SetStateDetached()	24	static
+mle.cpp:691:9:otError ot::Mle::Mle::SetStateChild(uint16_t)	24	static
+mle.cpp:736:6:void ot::Mle::Mle::InformPreviousChannel()	16	static
+mle.cpp:752:9:otError ot::Mle::Mle::SetTimeout(uint32_t)	16	static
+mle.cpp:774:9:otError ot::Mle::Mle::SetDeviceMode(uint8_t)	24	static
+mle.cpp:815:21:const ot::Ip6::Address& ot::Mle::Mle::GetLinkLocalAddress() const	16	static
+mle.cpp:820:9:otError ot::Mle::Mle::UpdateLinkLocalAddress()	32	static
+mle.cpp:833:16:const uint8_t* ot::Mle::Mle::GetMeshLocalPrefix() const	16	static
+mle.cpp:838:9:otError ot::Mle::Mle::SetMeshLocalPrefix(const uint8_t*)	32	static
+mle.cpp:902:21:const ot::Ip6::Address& ot::Mle::Mle::GetLinkLocalAllThreadNodesAddress() const	16	static
+mle.cpp:907:21:const ot::Ip6::Address& ot::Mle::Mle::GetRealmLocalAllThreadNodesAddress() const	16	static
+mle.cpp:912:10:uint16_t ot::Mle::Mle::GetRloc16() const	16	static
+mle.cpp:917:9:otError ot::Mle::Mle::SetRloc16(uint16_t)	32	static
+mle.cpp:936:9:uint8_t ot::Mle::Mle::GetLeaderId() const	16	static
+mle.cpp:941:6:void ot::Mle::Mle::SetLeaderData(uint32_t, uint8_t, uint8_t)	24	static
+mle.cpp:958:21:const ot::Ip6::Address& ot::Mle::Mle::GetMeshLocal16() const	16	static
+mle.cpp:963:21:const ot::Ip6::Address& ot::Mle::Mle::GetMeshLocal64() const	16	static
+mle.cpp:968:9:otError ot::Mle::Mle::GetLeaderAddress(ot::Ip6::Address&) const	24	static
+mle.cpp:984:9:otError ot::Mle::Mle::GetLeaderAloc(ot::Ip6::Address&) const	24	static
+mle.cpp:1018:9:otError ot::Mle::Mle::AddLeaderAloc()	24	static
+mle.cpp:1032:22:const ot::Mle::LeaderDataTlv& ot::Mle::Mle::GetLeaderDataTlv()	32	static
+mle.cpp:1041:9:otError ot::Mle::Mle::GetLeaderData(otLeaderData&)	24	static
+mle.cpp:1058:6:void ot::Mle::Mle::GenerateNonce(const ot::Mac::ExtAddress&, uint32_t, uint8_t, uint8_t*)	24	static
+mle.cpp:1078:10:ot::Message* ot::Mle::Mle::NewMleMessage()	24	static
+mle.cpp:1093:9:otError ot::Mle::Mle::AppendHeader(ot::Message&, ot::Mle::Header::Command)	40	static
+mle.cpp:1117:9:otError ot::Mle::Mle::AppendSourceAddress(ot::Message&)	24	static
+mle.cpp:1127:9:otError ot::Mle::Mle::AppendStatus(ot::Message&, ot::Mle::StatusTlv::Status)	32	static
+mle.cpp:1137:9:otError ot::Mle::Mle::AppendMode(ot::Message&, uint8_t)	32	static
+mle.cpp:1147:9:otError ot::Mle::Mle::AppendTimeout(ot::Message&, uint32_t)	32	static
+mle.cpp:1157:9:otError ot::Mle::Mle::AppendChallenge(ot::Message&, const uint8_t*, uint8_t)	32	static
+mle.cpp:1171:9:otError ot::Mle::Mle::AppendResponse(ot::Message&, const uint8_t*, uint8_t)	32	static
+mle.cpp:1186:9:otError ot::Mle::Mle::AppendLinkFrameCounter(ot::Message&)	24	static
+mle.cpp:1196:9:otError ot::Mle::Mle::AppendMleFrameCounter(ot::Message&)	24	static
+mle.cpp:1206:9:otError ot::Mle::Mle::AppendAddress16(ot::Message&, uint16_t)	32	static
+mle.cpp:1216:9:otError ot::Mle::Mle::AppendLeaderData(ot::Message&)	24	static
+mle.cpp:1225:6:void ot::Mle::Mle::FillNetworkDataTlv(ot::Mle::NetworkDataTlv&, bool)	40	static
+mle.cpp:1234:9:otError ot::Mle::Mle::AppendNetworkData(ot::Message&, bool)	288	static
+mle.cpp:1248:9:otError ot::Mle::Mle::AppendTlvRequest(ot::Message&, const uint8_t*, uint8_t)	32	static
+mle.cpp:1263:9:otError ot::Mle::Mle::AppendScanMask(ot::Message&, uint8_t)	32	static
+mle.cpp:1273:9:otError ot::Mle::Mle::AppendLinkMargin(ot::Message&, uint8_t)	32	static
+mle.cpp:1283:9:otError ot::Mle::Mle::AppendVersion(ot::Message&)	24	static
+mle.cpp:1293:9:otError ot::Mle::Mle::AppendAddressRegistration(ot::Message&)	88	static
+mle.cpp:1399:9:otError ot::Mle::Mle::AppendActiveTimestamp(ot::Message&)	40	static
+mle.cpp:1417:9:otError ot::Mle::Mle::AppendPendingTimestamp(ot::Message&)	48	static
+mle.cpp:1434:6:static void ot::Mle::Mle::HandleStateChanged(ot::Notifier::Callback&, otChangedFlags)	16	static
+mle.cpp:1439:6:void ot::Mle::Mle::HandleStateChanged(otChangedFlags)	32	static
+mle.cpp:1564:6:static void ot::Mle::Mle::HandleAttachTimer(ot::Timer&)	16	static
+mle.cpp:1569:6:void ot::Mle::Mle::HandleAttachTimer()	40	static
+mle.cpp:1685:6:bool ot::Mle::Mle::PrepareAnnounceState()	296	static
+mle.cpp:1724:10:uint32_t ot::Mle::Mle::Reattach()	24	static
+mle.cpp:1797:6:static void ot::Mle::Mle::HandleDelayedResponseTimer(ot::Timer&)	16	static
+mle.cpp:1802:6:void ot::Mle::Mle::HandleDelayedResponseTimer()	56	static
+mle.cpp:1850:6:void ot::Mle::Mle::RemoveDelayedDataResponseMessage()	40	static
+mle.cpp:1873:9:otError ot::Mle::Mle::SendParentRequest(ot::Mle::Mle::ParentRequestType)	40	static
+mle.cpp:1929:9:otError ot::Mle::Mle::SendChildIdRequest()	56	static
+mle.cpp:2001:9:otError ot::Mle::Mle::SendDataRequest(const ot::Ip6::Address&, const uint8_t*, uint8_t, uint16_t)	32	static
+mle.cpp:2051:6:void ot::Mle::Mle::ScheduleMessageTransmissionTimer()	24	static
+mle.cpp:2093:6:static void ot::Mle::Mle::HandleMessageTransmissionTimer(ot::Timer&)	16	static
+mle.cpp:2098:6:void ot::Mle::Mle::HandleMessageTransmissionTimer()	40	static
+mle.cpp:2161:9:otError ot::Mle::Mle::SendChildUpdateRequest()	48	static
+mle.cpp:2235:9:otError ot::Mle::Mle::SendChildUpdateResponse(const uint8_t*, uint8_t, const ot::Mle::ChallengeTlv&)	64	static
+mle.cpp:2293:9:otError ot::Mle::Mle::SendAnnounce(uint8_t, bool)	32	static
+mle.cpp:2304:9:otError ot::Mle::Mle::SendAnnounce(uint8_t, bool, const ot::Ip6::Address&)	64	static
+mle.cpp:2355:9:otError ot::Mle::Mle::SendOrphanAnnounce()	296	static
+aes_ccm.hpp:59:7:ot::Crypto::AesCcm::AesCcm()	16	static
+aes_ccm.hpp:59:7:ot::Crypto::AesCcm::~AesCcm()	16	static
+mle.cpp:2385:9:otError ot::Mle::Mle::SendMessage(ot::Message&, const ot::Ip6::Address&)	560	static
+mle.cpp:2451:9:otError ot::Mle::Mle::AddDelayedResponse(ot::Message&, const ot::Ip6::Address&, uint16_t)	56	static
+mle.cpp:2482:6:static void ot::Mle::Mle::HandleUdpReceive(void*, otMessage*, const otMessageInfo*)	24	static
+mle.cpp:2488:6:void ot::Mle::Mle::HandleUdpReceive(ot::Message&, const ot::Ip6::MessageInfo&)	544	static
+mle.cpp:2738:9:otError ot::Mle::Mle::HandleAdvertisement(const ot::Message&, const ot::Ip6::MessageInfo&)	160	static
+mle.cpp:2838:9:otError ot::Mle::Mle::HandleDataResponse(const ot::Message&, const ot::Ip6::MessageInfo&)	32	static
+mle.cpp:2854:9:otError ot::Mle::Mle::HandleLeaderData(const ot::Message&, const ot::Ip6::MessageInfo&)	112	static
+mle.cpp:3015:6:bool ot::Mle::Mle::IsBetterParent(uint16_t, uint8_t, uint8_t, ot::Mle::ConnectivityTlv&)	32	static
+mle.cpp:3060:6:void ot::Mle::Mle::ResetParentCandidate()	16	static
+mle.cpp:3066:9:otError ot::Mle::Mle::HandleParentResponse(const ot::Message&, const ot::Ip6::MessageInfo&, uint32_t)	136	static
+mle.cpp:3247:9:otError ot::Mle::Mle::HandleChildIdResponse(const ot::Message&, const ot::Ip6::MessageInfo&)	184	static
+mle.cpp:3370:9:otError ot::Mle::Mle::HandleChildUpdateRequest(const ot::Message&, const ot::Ip6::MessageInfo&)	88	static
+mle.cpp:3433:9:otError ot::Mle::Mle::HandleChildUpdateResponse(const ot::Message&, const ot::Ip6::MessageInfo&)	88	static
+mle.cpp:3546:9:otError ot::Mle::Mle::HandleAnnounce(const ot::Message&, const ot::Ip6::MessageInfo&)	80	static
+mle.cpp:3616:6:void ot::Mle::Mle::ProcessAnnounce()	40	static
+mle.cpp:3639:9:otError ot::Mle::Mle::HandleDiscoveryResponse(const ot::Message&, const ot::Ip6::MessageInfo&)	192	static
+mle.cpp:3761:11:ot::Neighbor* ot::Mle::Mle::GetNeighbor(uint16_t)	24	static
+mle.cpp:3777:11:ot::Neighbor* ot::Mle::Mle::GetNeighbor(const ot::Mac::ExtAddress&)	24	static
+mle.cpp:3793:11:ot::Neighbor* ot::Mle::Mle::GetNeighbor(const ot::Mac::Address&)	24	static
+mle.cpp:3814:10:uint16_t ot::Mle::Mle::GetNextHop(uint16_t) const	16	static
+mle.cpp:3821:6:bool ot::Mle::Mle::IsRoutingLocator(const ot::Ip6::Address&) const	16	static
+mle.cpp:3828:6:bool ot::Mle::Mle::IsAnycastLocator(const ot::Ip6::Address&) const	16	static
+mle.cpp:3834:6:bool ot::Mle::Mle::IsMeshLocalAddress(const ot::Ip6::Address&) const	16	static
+mle.cpp:3839:9:ot::Router* ot::Mle::Mle::GetParent()	16	static
+mle.cpp:3844:9:ot::Router* ot::Mle::Mle::GetParentCandidate()	24	static
+mle.cpp:3860:9:otError ot::Mle::Mle::CheckReachability(uint16_t, uint16_t, ot::Ip6::Header&)	96	static
+mle.cpp:4033:6:void ot::Mle::Mle::LogMleMessage(const char*, const ot::Ip6::Address&) const	80	static
+mle.cpp:4041:6:void ot::Mle::Mle::LogMleMessage(const char*, const ot::Ip6::Address&, uint16_t) const	80	static
+mle.cpp:4050:13:static const char* ot::Mle::Mle::RoleToString(otDeviceRole)	24	static
+mle.cpp:4081:13:static const char* ot::Mle::Mle::AttachModeToString(ot::Mle::AttachMode)	24	static
+mle.cpp:4107:13:static const char* ot::Mle::Mle::AttachStateToString(ot::Mle::Mle::AttachState)	24	static
+mle.cpp:4149:13:static const char* ot::Mle::Mle::ReattachStateToString(ot::Mle::Mle::ReattachState)	24	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::Mle::Mle]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 40u]	16	static

@@ -1,0 +1,22 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+timer.hpp:245:5:ot::TimerScheduler::TimerScheduler(ot::Instance&)	16	static
+timer.hpp:316:5:ot::TimerMilliScheduler::TimerMilliScheduler(ot::Instance&)	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+settings.hpp:133:14:ot::SettingsBase::SettingsBase(ot::Instance&)	16	static
+settings.hpp:168:14:ot::Settings::Settings(ot::Instance&)	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+instance.hpp:293:15:ot::Settings& ot::Instance::GetSettings()	16	static
+new.hpp:43:14:void* operator new(size_t, void*)	16	static
+instance.hpp:85:16:otInstance::otInstance()	16	static
+instance.cpp:53:1:ot::Instance::Instance()	16	static
+instance.cpp:93:11:static ot::Instance& ot::Instance::InitSingle()	24	static
+instance.cpp:107:11:static ot::Instance& ot::Instance::Get()	16	static
+instance.cpp:137:6:void ot::Instance::Reset()	16	static
+instance.cpp:142:6:void ot::Instance::AfterInit()	16	static
+instance.cpp:171:6:void ot::Instance::Finalize()	16	static
+instance.cpp:188:6:void ot::Instance::FactoryReset()	16	static
+instance.cpp:194:9:otError ot::Instance::ErasePersistentInfo()	24	static
+instance.cpp:205:6:void ot::Instance::RegisterActiveScanCallback(otHandleActiveScanResult, void*)	24	static
+instance.cpp:211:6:void ot::Instance::InvokeActiveScanCallback(otActiveScanResult*) const	16	static
+instance.cpp:219:6:void ot::Instance::RegisterEnergyScanCallback(otHandleEnergyScanResult, void*)	24	static
+instance.cpp:225:6:void ot::Instance::InvokeEnergyScanCallback(otEnergyScanResult*) const	16	static

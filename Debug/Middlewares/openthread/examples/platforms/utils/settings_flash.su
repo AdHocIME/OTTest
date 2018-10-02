@@ -1,0 +1,11 @@
+settings_flash.c:113:13:initSettings	32	static
+settings_flash.c:205:16:addSetting.isra.1	568	static
+settings_flash.c:258:6:otPlatSettingsInit	24	static
+settings_flash.c:307:9:otPlatSettingsBeginChange	0	static
+settings_flash.c:313:9:otPlatSettingsCommitChange	0	static
+settings_flash.c:319:9:otPlatSettingsAbandonChange	0	static
+settings_flash.c:325:9:otPlatSettingsGet	56	static
+settings_flash.c:384:9:otPlatSettingsSet	0	static
+settings_flash.c:389:9:otPlatSettingsAdd	32	static
+settings_flash.c:398:9:otPlatSettingsDelete	40	static
+settings_flash.c:444:6:otPlatSettingsWipe	8	static

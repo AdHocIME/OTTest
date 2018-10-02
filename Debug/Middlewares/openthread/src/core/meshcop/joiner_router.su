@@ -1,0 +1,114 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:338:10:void ot::Message::SetSubType(uint8_t)	16	static
+message.hpp:649:10:void ot::Message::SetLinkSecurityEnabled(bool)	16	static
+message.hpp:931:13:otError ot::MessageQueue::Enqueue(ot::Message&)	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:168:10:ot::Coap::Header::Code ot::Coap::Header::GetCode() const	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:128:14:uint16_t ot::Ip6::MessageInfo::GetPeerPort() const	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+types.h:1156:16:otSockAddr::otSockAddr()	16	static
+socket.hpp:198:5:ot::Ip6::SockAddr::SockAddr()	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+udp6.hpp:144:15:ot::Ip6::SockAddr& ot::Ip6::UdpSocket::GetSockName()	16	static
+ip6.hpp:363:10:ot::Ip6::Udp& ot::Ip6::Ip6::GetUdp()	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+tlvs.hpp:97:14:uint16_t ot::Tlv::GetSize() const	16	static
+tlvs.hpp:206:10:void ot::ExtendedTlv::SetLength(uint16_t)	16	static
+timestamp.hpp:63:10:void ot::MeshCoP::Timestamp::Init()	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:147:20:static otError ot::MeshCoP::Tlv::GetTlv(const ot::Message&, ot::MeshCoP::Tlv::Type, uint16_t, ot::MeshCoP::Tlv&)	24	static
+meshcop_tlvs.hpp:164:20:static otError ot::MeshCoP::Tlv::GetValueOffset(const ot::Message&, ot::MeshCoP::Tlv::Type, uint16_t&, uint16_t&)	24	static
+meshcop_tlvs.hpp:304:10:void ot::MeshCoP::ExtendedPanIdTlv::Init()	16	static
+meshcop_tlvs.hpp:333:10:void ot::MeshCoP::ExtendedPanIdTlv::SetExtendedPanId(const uint8_t*)	16	static
+meshcop_tlvs.hpp:351:10:void ot::MeshCoP::NetworkNameTlv::Init()	16	static
+meshcop_tlvs.hpp:380:10:void ot::MeshCoP::NetworkNameTlv::SetNetworkName(const char*)	24	static
+meshcop_tlvs.hpp:403:10:void ot::MeshCoP::PSKcTlv::Init()	16	static
+meshcop_tlvs.hpp:450:10:void ot::MeshCoP::NetworkMasterKeyTlv::Init()	16	static
+meshcop_tlvs.hpp:479:10:void ot::MeshCoP::NetworkMasterKeyTlv::SetNetworkMasterKey(const otMasterKey&)	16	static
+meshcop_tlvs.hpp:497:10:void ot::MeshCoP::NetworkKeySequenceTlv::Init()	16	static
+meshcop_tlvs.hpp:526:10:void ot::MeshCoP::NetworkKeySequenceTlv::SetNetworkKeySequence(uint32_t)	16	static
+meshcop_tlvs.hpp:544:10:void ot::MeshCoP::MeshLocalPrefixTlv::Init()	16	static
+meshcop_tlvs.hpp:573:10:void ot::MeshCoP::MeshLocalPrefixTlv::SetMeshLocalPrefix(const uint8_t*)	16	static
+meshcop_tlvs.hpp:734:14:uint16_t ot::MeshCoP::BorderAgentLocatorTlv::GetBorderAgentLocator() const	16	static
+meshcop_tlvs.hpp:864:10:void ot::MeshCoP::SecurityPolicyTlv::Init()	16	static
+meshcop_tlvs.hpp:937:10:void ot::MeshCoP::ActiveTimestampTlv::Init()	16	static
+meshcop_tlvs.hpp:1024:10:void ot::MeshCoP::JoinerUdpPortTlv::Init()	16	static
+meshcop_tlvs.hpp:1037:10:bool ot::MeshCoP::JoinerUdpPortTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1045:14:uint16_t ot::MeshCoP::JoinerUdpPortTlv::GetUdpPort() const	16	static
+meshcop_tlvs.hpp:1053:10:void ot::MeshCoP::JoinerUdpPortTlv::SetUdpPort(uint16_t)	16	static
+meshcop_tlvs.hpp:1071:10:void ot::MeshCoP::JoinerIidTlv::Init()	16	static
+meshcop_tlvs.hpp:1084:10:bool ot::MeshCoP::JoinerIidTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1092:20:const uint8_t* ot::MeshCoP::JoinerIidTlv::GetIid() const	16	static
+meshcop_tlvs.hpp:1100:10:void ot::MeshCoP::JoinerIidTlv::SetIid(const uint8_t*)	16	static
+meshcop_tlvs.hpp:1118:10:void ot::MeshCoP::JoinerRouterLocatorTlv::Init()	16	static
+meshcop_tlvs.hpp:1147:10:void ot::MeshCoP::JoinerRouterLocatorTlv::SetJoinerRouterLocator(uint16_t)	16	static
+meshcop_tlvs.hpp:1186:20:const uint8_t* ot::MeshCoP::JoinerRouterKekTlv::GetKek() const	16	static
+meshcop_tlvs.hpp:1451:10:void ot::MeshCoP::ChannelMaskTlv::Init()	16	static
+key_manager.hpp:127:14:uint32_t ot::KeyManager::GetCurrentKeySequence() const	16	static
+key_manager.hpp:239:20:const uint8_t* ot::KeyManager::GetKek() const	16	static
+joiner_router.hpp:147:5:ot::MeshCoP::DelayedJoinEntHeader::DelayedJoinEntHeader()	16	static
+joiner_router.hpp:156:5:ot::MeshCoP::DelayedJoinEntHeader::DelayedJoinEntHeader(uint32_t, ot::Ip6::MessageInfo&, const uint8_t*)	32	static
+joiner_router.hpp:172:13:otError ot::MeshCoP::DelayedJoinEntHeader::AppendTo(ot::Message&)	16	static
+joiner_router.hpp:182:14:uint16_t ot::MeshCoP::DelayedJoinEntHeader::ReadFrom(ot::Message&)	16	static
+joiner_router.hpp:195:20:static otError ot::MeshCoP::DelayedJoinEntHeader::RemoveFrom(ot::Message&)	16	static
+joiner_router.hpp:206:14:uint32_t ot::MeshCoP::DelayedJoinEntHeader::GetSendTime() const	16	static
+joiner_router.hpp:214:29:const ot::Ip6::MessageInfo* ot::MeshCoP::DelayedJoinEntHeader::GetMessageInfo() const	16	static
+joiner_router.hpp:222:20:const uint8_t* ot::MeshCoP::DelayedJoinEntHeader::GetKek() const	16	static
+joiner_router.hpp:242:10:bool ot::MeshCoP::DelayedJoinEntHeader::IsLater(uint32_t)	16	static
+mac.hpp:669:17:const char* ot::Mac::Mac::GetNetworkName() const	16	static
+mac.hpp:718:20:const uint8_t* ot::Mac::Mac::GetExtendedPanId() const	16	static
+mle.hpp:662:10:bool ot::Mle::Mle::IsFullThreadDevice() const	16	static
+dataset_manager.hpp:103:13:otError ot::MeshCoP::DatasetManager::Get(ot::MeshCoP::Dataset&) const	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:215:18:ot::Ip6::Filter& ot::ThreadNetif::GetIp6Filter()	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:298:28:ot::MeshCoP::JoinerRouter& ot::ThreadNetif::GetJoinerRouter()	16	static
+instance.hpp:285:15:ot::Notifier& ot::Instance::GetNotifier()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:516:43:Type& ot::Instance::Get() [with Type = ot::MeshCoP::JoinerRouter]	16	static
+meshcop.hpp:56:17:ot::Message* ot::MeshCoP::NewMeshCoPMessage(ot::Coap::CoapBase&, const ot::Coap::Header&)	16	static
+joiner_router.cpp:59:1:ot::MeshCoP::JoinerRouter::JoinerRouter(ot::Instance&)	24	static
+joiner_router.cpp:74:6:static void ot::MeshCoP::JoinerRouter::HandleStateChanged(ot::Notifier::Callback&, otChangedFlags)	16	static
+joiner_router.cpp:79:6:void ot::MeshCoP::JoinerRouter::HandleStateChanged(otChangedFlags)	48	static
+joiner_router.cpp:108:9:otError ot::MeshCoP::JoinerRouter::GetBorderAgentRloc(uint16_t&)	24	static
+joiner_router.cpp:123:10:uint16_t ot::MeshCoP::JoinerRouter::GetJoinerUdpPort()	24	static
+joiner_router.cpp:140:9:otError ot::MeshCoP::JoinerRouter::SetJoinerUdpPort(uint16_t)	16	static
+joiner_router.cpp:149:6:static void ot::MeshCoP::JoinerRouter::HandleUdpReceive(void*, otMessage*, const otMessageInfo*)	24	static
+joiner_router.cpp:155:6:void ot::MeshCoP::JoinerRouter::HandleUdpReceive(ot::Message&, const ot::Ip6::MessageInfo&)	288	static
+joiner_router.cpp:228:6:static void ot::MeshCoP::JoinerRouter::HandleRelayTransmit(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+joiner_router.cpp:238:6:void ot::MeshCoP::JoinerRouter::HandleRelayTransmit(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	152	static
+joiner_router.cpp:308:9:otError ot::MeshCoP::JoinerRouter::DelaySendingJoinerEntrust(const ot::Ip6::MessageInfo&, const ot::MeshCoP::JoinerRouterKekTlv&)	744	static
+joiner_router.cpp:420:6:static void ot::MeshCoP::JoinerRouter::HandleTimer(ot::Timer&)	16	static
+joiner_router.cpp:425:6:void ot::MeshCoP::JoinerRouter::HandleTimer()	16	static
+joiner_router.cpp:430:6:void ot::MeshCoP::JoinerRouter::SendDelayedJoinerEntrust()	144	static
+joiner_router.cpp:475:9:otError ot::MeshCoP::JoinerRouter::SendJoinerEntrust(ot::Message&, const ot::Ip6::MessageInfo&)	40	static
+joiner_router.cpp:495:6:static void ot::MeshCoP::JoinerRouter::HandleJoinerEntrustResponse(void*, otCoapHeader*, otMessage*, const otMessageInfo*, otError)	32	static
+joiner_router.cpp:506:6:void ot::MeshCoP::JoinerRouter::HandleJoinerEntrustResponse(ot::Coap::Header*, ot::Message*, const ot::Ip6::MessageInfo*, otError)	24	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::MeshCoP::JoinerRouter]	16	static

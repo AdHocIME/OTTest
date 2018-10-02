@@ -1,0 +1,8 @@
+alarm.c:66:10:stm32f4AlarmGetCurrentTime	0	static
+alarm.c:70:6:stm32f4AlarmInit	0	static
+alarm.c:75:6:stm32f4AlarmDeinit	0	static
+alarm.c:79:6:stm32f4AlarmProcess	0	static
+alarm.c:100:10:otPlatAlarmMilliGetNow	0	static
+alarm.c:105:6:otPlatAlarmMilliStartAt	12	static
+alarm.c:122:6:otPlatAlarmMilliStop	0	static
+alarm.c:140:6:alarmTick	12	static

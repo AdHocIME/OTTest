@@ -1,0 +1,7 @@
+dataset_manager.hpp:114:13:otError ot::MeshCoP::DatasetManager::Get(otOperationalDataset&) const	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+dataset_api.cpp:42:6:bool otDatasetIsCommissioned(otInstance*)	120	static
+dataset_api.cpp:53:9:otError otDatasetGetActive(otInstance*, otOperationalDataset*)	24	static
+dataset_api.cpp:66:9:otError otDatasetGetPending(otInstance*, otOperationalDataset*)	24	static

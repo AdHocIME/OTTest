@@ -1,0 +1,22 @@
+mac_frame.hpp:313:10:void ot::Mac::Address::SetShort(ot::Mac::ShortAddress)	16	static
+mac_frame.hpp:327:10:void ot::Mac::Address::SetExtended(const ot::Mac::ExtAddress&)	16	static
+random.hpp:64:16:uint8_t ot::Random::GetUint8()	8	static
+random.hpp:142:13:void ot::Random::FillBuffer(uint8_t*, uint16_t)	24	static
+topology.hpp:79:11:ot::Neighbor::State ot::Neighbor::GetState() const	16	static
+topology.hpp:175:28:const ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress() const	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+topology.hpp:441:35:otChildIp6AddressIterator ot::Child::Ip6AddressIterator::Get() const	16	static
+topology.hpp:444:14:void ot::Child::Ip6AddressIterator::Increment()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+topology.cpp:45:6:void ot::Neighbor::GenerateChallenge()	16	static
+topology.cpp:50:6:bool ot::Child::IsStateValidOrAttaching() const	24	static
+topology.cpp:73:6:void ot::Child::ClearIp6Addresses()	16	static
+topology.cpp:88:13:bool ot::IsAllZero(const uint8_t*, uint8_t)	24	static
+topology.cpp:101:9:otError ot::Child::GetMeshLocalIp6Address(ot::Instance&, ot::Ip6::Address&) const	40	static
+topology.cpp:116:9:otError ot::Child::GetNextIp6Address(ot::Instance&, ot::Child::Ip6AddressIterator&, ot::Ip6::Address&) const	40	static
+topology.cpp:141:9:otError ot::Child::AddIp6Address(ot::Instance&, const ot::Ip6::Address&)	40	static
+topology.cpp:171:9:otError ot::Child::RemoveIp6Address(ot::Instance&, const ot::Ip6::Address&)	40	static
+topology.cpp:213:6:bool ot::Child::HasIp6Address(ot::Instance&, const ot::Ip6::Address&) const	32	static
+topology.cpp:239:6:void ot::Child::GenerateChallenge()	16	static
+topology.cpp:244:21:const ot::Mac::Address& ot::Child::GetMacAddress(ot::Mac::Address&) const	16	static

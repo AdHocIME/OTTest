@@ -1,0 +1,84 @@
+encoding.hpp:214:17:uint16_t ot::Encoding::LittleEndian::ReadUint16(const uint8_t*)	16	static
+encoding.hpp:227:17:uint32_t ot::Encoding::LittleEndian::ReadUint32(const uint8_t*)	16	static
+encoding.hpp:240:13:void ot::Encoding::LittleEndian::WriteUint16(uint16_t, uint8_t*)	16	static
+encoding.hpp:253:13:void ot::Encoding::LittleEndian::WriteUint32(uint32_t, uint8_t*)	16	static
+mac_frame.hpp:230:5:ot::Mac::Address::Address()	16	static
+mac_frame.hpp:241:10:ot::Mac::Address::Type ot::Mac::Address::GetType() const	16	static
+mac_frame.hpp:275:18:ot::Mac::ShortAddress ot::Mac::Address::GetShort() const	16	static
+mac_frame.hpp:285:23:const ot::Mac::ExtAddress& ot::Mac::Address::GetExtended() const	16	static
+mac_frame.hpp:303:10:void ot::Mac::Address::SetNone()	16	static
+mac_frame.hpp:313:10:void ot::Mac::Address::SetShort(ot::Mac::ShortAddress)	16	static
+mac_frame.hpp:570:13:uint8_t ot::Mac::Frame::GetType() const	16	static
+mac_frame.hpp:587:10:bool ot::Mac::Frame::GetSecurityEnabled() const	16	static
+mac_frame.hpp:613:10:bool ot::Mac::Frame::GetAckRequest() const	16	static
+mac_frame.hpp:638:13:uint8_t ot::Mac::Frame::GetSequence() const	16	static
+mac_frame.hpp:886:13:uint8_t ot::Mac::Frame::GetLength() const	16	static
+mac_frame.hpp:1090:13:uint8_t ot::Mac::Frame::GetPsduLength() const	16	static
+mac_frame.hpp:1098:10:void ot::Mac::Frame::SetPsduLength(uint8_t)	16	static
+mac_frame.hpp:1106:14:uint8_t* ot::Mac::Frame::GetPsdu()	16	static
+mac_frame.hpp:1114:14:uint8_t* ot::Mac::Frame::GetPsdu() const	16	static
+mac_frame.hpp:1379:13:uint8_t ot::Mac::BeaconPayload::GetProtocolId() const	16	static
+mac_frame.hpp:1387:13:uint8_t ot::Mac::BeaconPayload::GetProtocolVersion() const	16	static
+mac_frame.hpp:1396:10:bool ot::Mac::BeaconPayload::IsNative() const	16	static
+mac_frame.hpp:1417:10:bool ot::Mac::BeaconPayload::IsJoiningPermitted() const	16	static
+mac_frame.hpp:1445:17:const char* ot::Mac::BeaconPayload::GetNetworkName() const	16	static
+mac_frame.hpp:1466:20:const uint8_t* ot::Mac::BeaconPayload::GetExtendedPanId() const	16	static
+mac_frame.cpp:46:6:bool ot::Mac::ExtAddress::operator==(const ot::Mac::ExtAddress&) const	16	static
+mac_frame.cpp:51:6:bool ot::Mac::ExtAddress::operator!=(const ot::Mac::ExtAddress&) const	16	static
+mac_frame.cpp:56:24:ot::Mac::ExtAddress::InfoString ot::Mac::ExtAddress::ToString() const	56	static
+mac_frame.cpp:61:6:void ot::Mac::Address::SetExtended(const uint8_t*, bool)	32	static
+mac_frame.cpp:78:21:ot::Mac::Address::InfoString ot::Mac::Address::ToString() const	16	static
+mac_frame.cpp:84:9:otError ot::Mac::Frame::InitMacHeader(uint16_t, uint8_t)	24	static
+mac_frame.cpp:179:10:uint16_t ot::Mac::Frame::GetFrameControlField() const	16	static
+mac_frame.cpp:184:9:otError ot::Mac::Frame::ValidatePsdu() const	32	static
+mac_frame.cpp:196:6:void ot::Mac::Frame::SetAckRequest(bool)	16	static
+mac_frame.cpp:208:6:void ot::Mac::Frame::SetFramePending(bool)	16	static
+mac_frame.cpp:220:9:uint8_t ot::Mac::Frame::FindDstPanIdIndex() const	24	static
+mac_frame.cpp:233:9:otError ot::Mac::Frame::GetDstPanId(ot::Mac::PanId&) const	24	static
+mac_frame.cpp:245:9:otError ot::Mac::Frame::SetDstPanId(ot::Mac::PanId)	24	static
+mac_frame.cpp:255:9:uint8_t ot::Mac::Frame::FindDstAddrIndex() const	16	static
+mac_frame.cpp:260:9:otError ot::Mac::Frame::GetDstAddr(ot::Mac::Address&) const	24	static
+mac_frame.cpp:286:9:otError ot::Mac::Frame::SetDstAddr(ot::Mac::ShortAddress)	24	static
+mac_frame.cpp:294:9:otError ot::Mac::Frame::SetDstAddr(const ot::Mac::ExtAddress&)	32	static
+mac_frame.cpp:310:9:otError ot::Mac::Frame::SetDstAddr(const ot::Mac::Address&)	24	static
+mac_frame.cpp:332:9:uint8_t ot::Mac::Frame::FindSrcPanIdIndex() const	24	static
+mac_frame.cpp:362:6:bool ot::Mac::Frame::IsSrcPanIdPresent(uint16_t) const	24	static
+mac_frame.cpp:386:9:otError ot::Mac::Frame::GetSrcPanId(ot::Mac::PanId&) const	24	static
+mac_frame.cpp:398:9:otError ot::Mac::Frame::SetSrcPanId(ot::Mac::PanId)	24	static
+mac_frame.cpp:410:9:uint8_t ot::Mac::Frame::FindSrcAddrIndex() const	24	static
+mac_frame.cpp:439:9:otError ot::Mac::Frame::GetSrcAddr(ot::Mac::Address&) const	24	static
+mac_frame.cpp:466:9:otError ot::Mac::Frame::SetSrcAddr(ot::Mac::ShortAddress)	24	static
+mac_frame.cpp:478:9:otError ot::Mac::Frame::SetSrcAddr(const ot::Mac::ExtAddress&)	32	static
+mac_frame.cpp:494:9:otError ot::Mac::Frame::SetSrcAddr(const ot::Mac::Address&)	24	static
+mac_frame.cpp:516:9:uint8_t ot::Mac::Frame::FindSecurityHeaderIndex() const	24	static
+mac_frame.cpp:560:9:otError ot::Mac::Frame::GetSecurityLevel(uint8_t&) const	24	static
+mac_frame.cpp:573:9:otError ot::Mac::Frame::GetKeyIdMode(uint8_t&) const	24	static
+mac_frame.cpp:586:9:otError ot::Mac::Frame::GetFrameCounter(uint32_t&) const	24	static
+mac_frame.cpp:602:9:otError ot::Mac::Frame::SetFrameCounter(uint32_t)	24	static
+mac_frame.cpp:616:16:const uint8_t* ot::Mac::Frame::GetKeySource() const	24	static
+mac_frame.cpp:629:9:static uint8_t ot::Mac::Frame::GetKeySourceLength(uint8_t)	24	static
+mac_frame.cpp:655:6:void ot::Mac::Frame::SetKeySource(const uint8_t*)	32	static
+mac_frame.cpp:670:9:otError ot::Mac::Frame::GetKeyId(uint8_t&) const	32	static
+mac_frame.cpp:689:9:otError ot::Mac::Frame::SetKeyId(uint8_t)	32	static
+mac_frame.cpp:706:9:otError ot::Mac::Frame::GetCommandId(uint8_t&) const	24	static
+mac_frame.cpp:719:9:otError ot::Mac::Frame::SetCommandId(uint8_t)	24	static
+mac_frame.cpp:732:6:bool ot::Mac::Frame::IsDataRequestCommand() const	24	static
+mac_frame.cpp:745:9:uint8_t ot::Mac::Frame::GetHeaderLength() const	24	static
+mac_frame.cpp:750:9:uint8_t ot::Mac::Frame::GetFooterLength() const	24	static
+mac_frame.cpp:787:9:uint8_t ot::Mac::Frame::GetMaxPayloadLength() const	24	static
+mac_frame.cpp:792:9:uint8_t ot::Mac::Frame::GetPayloadLength() const	24	static
+mac_frame.cpp:797:9:otError ot::Mac::Frame::SetPayloadLength(uint8_t)	24	static
+mac_frame.cpp:803:9:uint8_t ot::Mac::Frame::SkipSecurityHeaderIndex() const	32	static
+mac_frame.cpp:892:9:uint8_t ot::Mac::Frame::FindPayloadIndex() const	24	static
+mac_frame.cpp:940:10:uint8_t* ot::Mac::Frame::GetPayload()	24	static
+mac_frame.cpp:951:10:uint8_t* ot::Mac::Frame::GetPayload() const	24	static
+mac_frame.cpp:962:10:uint8_t* ot::Mac::Frame::GetFooter()	24	static
+mac_frame.cpp:967:10:uint8_t* ot::Mac::Frame::GetFooter() const	24	static
+mac_frame.cpp:1067:19:ot::Mac::Frame::InfoString ot::Mac::Frame::ToInfoString() const	112	static
+mac_frame.cpp:1128:27:ot::Mac::BeaconPayload::InfoString ot::Mac::BeaconPayload::ToInfoString() const	128	static
+string.hpp:63:7:ot::StringBase::StringBase()	16	static
+string.hpp:111:5:) [with short unsigned int SIZE = 17u]	36	static
+string.hpp:98:5:ot::String<SIZE>::String() [with short unsigned int SIZE = 110u]	16	static
+string.hpp:191:13:) [with short unsigned int SIZE = 110u]	36	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 17u]	16	static
+string.hpp:111:5:) [with short unsigned int SIZE = 92u]	36	static

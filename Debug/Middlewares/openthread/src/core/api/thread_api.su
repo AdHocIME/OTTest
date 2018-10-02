@@ -1,0 +1,81 @@
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+link_quality.hpp:254:12:int8_t ot::LinkQualityInfo::GetAverageRss() const	16	static
+link_quality.hpp:300:13:uint8_t ot::LinkQualityInfo::GetLinkQuality() const	16	static
+link_quality.hpp:308:12:int8_t ot::LinkQualityInfo::GetLastRss() const	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+timer.hpp:207:21:static uint32_t ot::TimerMilli::MsecToSec(uint32_t)	16	static
+key_manager.hpp:127:14:uint32_t ot::KeyManager::GetCurrentKeySequence() const	16	static
+key_manager.hpp:294:14:uint32_t ot::KeyManager::GetKeySwitchGuardTime() const	16	static
+key_manager.hpp:304:10:void ot::KeyManager::SetKeySwitchGuardTime(uint32_t)	16	static
+mle_tlvs.hpp:995:14:uint32_t ot::Mle::LeaderDataTlv::GetPartitionId() const	16	static
+mle_tlvs.hpp:1011:13:uint8_t ot::Mle::LeaderDataTlv::GetWeighting() const	16	static
+mle_tlvs.hpp:1059:13:uint8_t ot::Mle::LeaderDataTlv::GetLeaderRouterId() const	16	static
+topology.hpp:79:11:ot::Neighbor::State ot::Neighbor::GetState() const	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:207:14:uint32_t ot::Neighbor::GetLastHeard() const	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+topology.hpp:315:22:ot::LinkQualityInfo& ot::Neighbor::GetLinkInfo()	16	static
+topology.hpp:869:13:uint8_t ot::Router::GetNextHop() const	16	static
+topology.hpp:885:13:uint8_t ot::Router::GetLinkQualityOut() const	16	static
+topology.hpp:901:13:uint8_t ot::Router::GetCost() const	16	static
+mac.hpp:669:17:const char* ot::Mac::Mac::GetNetworkName() const	16	static
+mac.hpp:700:14:uint16_t ot::Mac::Mac::GetPanId() const	16	static
+mac.hpp:718:20:const uint8_t* ot::Mac::Mac::GetExtendedPanId() const	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+mle.hpp:637:13:uint8_t ot::Mle::Mle::GetDeviceMode() const	16	static
+mle.hpp:798:14:uint32_t ot::Mle::Mle::GetTimeout() const	16	static
+mle.hpp:921:20:static uint8_t ot::Mle::Mle::GetRouterId(uint16_t)	16	static
+settings.hpp:296:13:otError ot::Settings::SaveThreadAutoStart(uint8_t)	16	static
+settings.hpp:308:13:otError ot::Settings::ReadThreadAutoStart(uint8_t&) const	16	static
+mesh_forwarder.hpp:214:25:const otIpCounters& ot::MeshForwarder::GetCounters() const	16	static
+thread_netif.hpp:168:43:ot::NetworkDiagnostic::NetworkDiagnostic& ot::ThreadNetif::GetNetworkDiagnostic()	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+instance.hpp:293:15:ot::Settings& ot::Instance::GetSettings()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+thread_api.cpp:46:10:uint32_t otThreadGetChildTimeout(otInstance*)	24	static
+thread_api.cpp:53:6:void otThreadSetChildTimeout(otInstance*, uint32_t)	24	static
+thread_api.cpp:60:16:const uint8_t* otThreadGetExtendedPanId(otInstance*)	24	static
+thread_api.cpp:67:9:otError otThreadSetExtendedPanId(otInstance*, const uint8_t*)	32	static
+thread_api.cpp:91:9:otError otThreadGetLeaderRloc(otInstance*, otIp6Address*)	24	static
+thread_api.cpp:104:18:otLinkModeConfig otThreadGetLinkMode(otInstance*)	24	static
+thread_api.cpp:135:9:otError otThreadSetLinkMode(otInstance*, otLinkModeConfig)	24	static
+thread_api.cpp:163:20:const otMasterKey* otThreadGetMasterKey(otInstance*)	24	static
+thread_api.cpp:170:9:otError otThreadSetMasterKey(otInstance*, const otMasterKey*)	24	static
+thread_api.cpp:187:21:const otIp6Address* otThreadGetMeshLocalEid(otInstance*)	24	static
+thread_api.cpp:194:16:const uint8_t* otThreadGetMeshLocalPrefix(otInstance*)	24	static
+thread_api.cpp:201:9:otError otThreadSetMeshLocalPrefix(otInstance*, const uint8_t*)	24	static
+thread_api.cpp:217:21:const otIp6Address* otThreadGetLinkLocalIp6Address(otInstance*)	24	static
+thread_api.cpp:224:13:const char* otThreadGetNetworkName(otInstance*)	24	static
+thread_api.cpp:231:9:otError otThreadSetNetworkName(otInstance*, const char*)	24	static
+thread_api.cpp:247:10:uint32_t otThreadGetKeySequenceCounter(otInstance*)	24	static
+thread_api.cpp:254:6:void otThreadSetKeySequenceCounter(otInstance*, uint32_t)	24	static
+thread_api.cpp:261:10:uint32_t otThreadGetKeySwitchGuardTime(otInstance*)	24	static
+thread_api.cpp:268:6:void otThreadSetKeySwitchGuardTime(otInstance*, uint32_t)	24	static
+thread_api.cpp:275:9:otError otThreadBecomeDetached(otInstance*)	24	static
+thread_api.cpp:282:9:otError otThreadBecomeChild(otInstance*)	24	static
+thread_api.cpp:289:9:otError otThreadGetNextNeighborInfo(otInstance*, otNeighborInfoIterator*, otNeighborInfo*)	32	static
+thread_api.cpp:302:14:otDeviceRole otThreadGetDeviceRole(otInstance*)	24	static
+thread_api.cpp:309:9:otError otThreadGetLeaderData(otInstance*, otLeaderData*)	24	static
+thread_api.cpp:322:9:uint8_t otThreadGetLeaderRouterId(otInstance*)	24	static
+thread_api.cpp:329:9:uint8_t otThreadGetLeaderWeight(otInstance*)	24	static
+thread_api.cpp:336:10:uint32_t otThreadGetPartitionId(otInstance*)	24	static
+thread_api.cpp:343:10:uint16_t otThreadGetRloc16(otInstance*)	24	static
+thread_api.cpp:350:9:otError otThreadGetParentInfo(otInstance*, otRouterInfo*)	40	static
+thread_api.cpp:374:9:otError otThreadGetParentAverageRssi(otInstance*, int8_t*)	32	static
+thread_api.cpp:391:9:otError otThreadGetParentLastRssi(otInstance*, int8_t*)	32	static
+thread_api.cpp:409:6:void otThreadSetReceiveDiagnosticGetCallback(otInstance*, otReceiveDiagnosticGetCallback, void*)	32	static
+thread_api.cpp:418:9:otError otThreadSendDiagnosticGet(otInstance*, const otIp6Address*, const uint8_t*, uint8_t)	32	static
+thread_api.cpp:429:9:otError otThreadSendDiagnosticReset(otInstance*, const otIp6Address*, const uint8_t*, uint8_t)	32	static
+thread_api.cpp:441:9:otError otThreadSetEnabled(otInstance*, bool)	24	static
+thread_api.cpp:461:6:bool otThreadGetAutoStart(otInstance*)	24	static
+thread_api.cpp:479:9:otError otThreadSetAutoStart(otInstance*, bool)	24	static
+thread_api.cpp:493:6:bool otThreadIsSingleton(otInstance*)	24	static
+thread_api.cpp:500:9:otError otThreadDiscover(otInstance*, uint32_t, uint16_t, bool, bool, otHandleActiveScanResult, void*)	48	static
+thread_api.cpp:514:6:bool otThreadIsDiscoverInProgress(otInstance*)	24	static
+thread_api.cpp:521:21:const otIpCounters* otThreadGetIp6Counters(otInstance*)	24	static

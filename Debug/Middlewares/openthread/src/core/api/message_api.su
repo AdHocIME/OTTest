@@ -1,0 +1,42 @@
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:608:10:void ot::Message::ClearDirectTransmission()	16	static
+message.hpp:614:10:void ot::Message::SetDirectTransmission()	16	static
+message.hpp:641:10:bool ot::Message::IsLinkSecurityEnabled() const	16	static
+message.hpp:667:12:int8_t ot::Message::GetAverageRss() const	16	static
+message.hpp:718:19:ot::MessageQueue* ot::Message::GetMessageQueue() const	16	static
+message.hpp:931:13:otError ot::MessageQueue::Enqueue(ot::Message&)	16	static
+message.hpp:1287:14:uint16_t ot::MessagePool::GetFreeBufferCount() const	16	static
+ip6_mpl.hpp:518:25:const ot::MessageQueue& ot::Ip6::Mpl::GetBufferedMessageSet() const	16	static
+ip6.hpp:339:26:const ot::PriorityQueue& ot::Ip6::Ip6::GetSendQueue() const	16	static
+ip6.hpp:371:10:ot::Ip6::Mpl& ot::Ip6::Ip6::GetMpl()	16	static
+coap.hpp:419:25:const ot::MessageQueue& ot::Coap::ResponsesQueue::GetResponses() const	16	static
+coap.hpp:666:25:const ot::MessageQueue& ot::Coap::CoapBase::GetRequestMessages() const	16	static
+coap.hpp:674:25:const ot::MessageQueue& ot::Coap::CoapBase::GetCachedResponses() const	16	static
+mle.hpp:999:25:const ot::MessageQueue& ot::Mle::Mle::GetMessageQueue() const	16	static
+mesh_forwarder.hpp:190:26:const ot::PriorityQueue& ot::MeshForwarder::GetSendQueue() const	16	static
+mesh_forwarder.hpp:198:25:const ot::MessageQueue& ot::MeshForwarder::GetReassemblyQueue() const	16	static
+mesh_forwarder.hpp:223:25:const ot::MessageQueue& ot::MeshForwarder::GetResolvingQueue() const	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:367:18:ot::MessagePool& ot::Instance::GetMessagePool()	16	static
+message_api.cpp:42:6:void otMessageFree(otMessage*)	16	static
+message_api.cpp:47:10:uint16_t otMessageGetLength(otMessage*)	24	static
+message_api.cpp:53:9:otError otMessageSetLength(otMessage*, uint16_t)	24	static
+message_api.cpp:59:10:uint16_t otMessageGetOffset(otMessage*)	24	static
+message_api.cpp:65:9:otError otMessageSetOffset(otMessage*, uint16_t)	24	static
+message_api.cpp:71:6:bool otMessageIsLinkSecurityEnabled(otMessage*)	24	static
+message_api.cpp:77:6:void otMessageSetDirectTransmission(otMessage*, bool)	24	static
+message_api.cpp:91:8:int8_t otMessageGetRss(otMessage*)	24	static
+message_api.cpp:97:9:otError otMessageAppend(otMessage*, const void*, uint16_t)	32	static
+message_api.cpp:103:5:int otMessageRead(otMessage*, uint16_t, void*, uint16_t)	32	static
+message_api.cpp:109:5:int otMessageWrite(otMessage*, uint16_t, const void*, uint16_t)	32	static
+message_api.cpp:115:6:void otMessageQueueInit(otMessageQueue*)	16	static
+message_api.cpp:120:9:otError otMessageQueueEnqueue(otMessageQueue*, otMessage*)	24	static
+message_api.cpp:127:9:otError otMessageQueueEnqueueAtHead(otMessageQueue*, otMessage*)	24	static
+message_api.cpp:134:9:otError otMessageQueueDequeue(otMessageQueue*, otMessage*)	24	static
+message_api.cpp:141:12:otMessage* otMessageQueueGetHead(otMessageQueue*)	24	static
+message_api.cpp:147:12:otMessage* otMessageQueueGetNext(otMessageQueue*, const otMessage*)	32	static
+message_api.cpp:166:6:void otMessageGetBufferInfo(otInstance*, otBufferInfo*)	24	static

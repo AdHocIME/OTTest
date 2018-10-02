@@ -1,0 +1,4 @@
+joiner_api.cpp:42:9:otError otJoinerStart(otInstance*, const char*, const char*, const char*, const char*, const char*, const char*, otJoinerCallback, void*)	32	static
+joiner_api.cpp:73:9:otError otJoinerStop(otInstance*)	24	static
+joiner_api.cpp:88:15:otJoinerState otJoinerGetState(otInstance*)	24	static
+joiner_api.cpp:103:9:otError otJoinerGetId(otInstance*, otExtAddress*)	24	static

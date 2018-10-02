@@ -1,0 +1,177 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+mac_frame.hpp:230:5:ot::Mac::Address::Address()	16	static
+mac_frame.hpp:257:10:bool ot::Mac::Address::IsShort() const	16	static
+mac_frame.hpp:265:10:bool ot::Mac::Address::IsExtended() const	16	static
+mac_frame.hpp:275:18:ot::Mac::ShortAddress ot::Mac::Address::GetShort() const	16	static
+mac_frame.hpp:295:17:ot::Mac::ExtAddress& ot::Mac::Address::GetExtended()	16	static
+mac_frame.hpp:313:10:void ot::Mac::Address::SetShort(ot::Mac::ShortAddress)	16	static
+mac_frame.hpp:327:10:void ot::Mac::Address::SetExtended(const ot::Mac::ExtAddress&)	16	static
+mac_frame.hpp:352:10:bool ot::Mac::Address::IsBroadcast() const	16	static
+mac_frame.hpp:360:10:bool ot::Mac::Address::IsShortAddrInvalid() const	16	static
+mac_frame.hpp:570:13:uint8_t ot::Mac::Frame::GetType() const	16	static
+mac_frame.hpp:587:10:bool ot::Mac::Frame::GetSecurityEnabled() const	16	static
+mac_frame.hpp:613:10:bool ot::Mac::Frame::GetAckRequest() const	16	static
+mac_frame.hpp:646:10:void ot::Mac::Frame::SetSequence(uint8_t)	16	static
+mac_frame.hpp:886:13:uint8_t ot::Mac::Frame::GetLength() const	16	static
+mac_frame.hpp:949:13:uint8_t ot::Mac::Frame::GetChannel() const	16	static
+mac_frame.hpp:957:10:void ot::Mac::Frame::SetChannel(uint8_t)	16	static
+mac_frame.hpp:965:12:int8_t ot::Mac::Frame::GetRssi() const	16	static
+mac_frame.hpp:981:13:uint8_t ot::Mac::Frame::GetLqi() const	16	static
+mac_frame.hpp:1013:10:void ot::Mac::Frame::SetMaxCsmaBackoffs(uint8_t)	16	static
+mac_frame.hpp:1033:10:void ot::Mac::Frame::SetMaxFrameRetries(uint8_t)	16	static
+mac_frame.hpp:1050:10:void ot::Mac::Frame::SetIsARetransmission(bool)	16	static
+mac_frame.hpp:1090:13:uint8_t ot::Mac::Frame::GetPsduLength() const	16	static
+mac_frame.hpp:1106:14:uint8_t* ot::Mac::Frame::GetPsdu()	16	static
+mac_frame.hpp:1114:14:uint8_t* ot::Mac::Frame::GetPsdu() const	16	static
+link_quality.hpp:332:10:void ot::LinkQualityInfo::AddMessageTxStatus(bool)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:314:13:uint8_t ot::Message::GetType() const	16	static
+message.hpp:330:13:uint8_t ot::Message::GetSubType() const	16	static
+message.hpp:355:13:uint8_t ot::Message::GetPriority() const	16	static
+message.hpp:477:14:uint16_t ot::Message::GetDatagramTag() const	16	static
+message.hpp:485:10:void ot::Message::SetDatagramTag(uint16_t)	16	static
+message.hpp:531:14:uint16_t ot::Message::GetPanId() const	16	static
+message.hpp:541:10:void ot::Message::SetPanId(uint16_t)	16	static
+message.hpp:551:13:uint8_t ot::Message::GetChannel() const	16	static
+message.hpp:569:13:uint8_t ot::Message::GetTimeout() const	16	static
+message.hpp:577:10:void ot::Message::SetTimeout(uint8_t)	16	static
+message.hpp:602:10:bool ot::Message::GetDirectTransmission() const	16	static
+message.hpp:608:10:void ot::Message::ClearDirectTransmission()	16	static
+message.hpp:614:10:void ot::Message::SetDirectTransmission()	16	static
+message.hpp:623:10:bool ot::Message::GetTxSuccess() const	16	static
+message.hpp:632:10:void ot::Message::SetTxSuccess(bool)	16	static
+message.hpp:641:10:bool ot::Message::IsLinkSecurityEnabled() const	16	static
+message.hpp:649:10:void ot::Message::SetLinkSecurityEnabled(bool)	16	static
+message.hpp:659:10:void ot::Message::AddRss(int8_t)	16	static
+message.hpp:675:24:const ot::RssAverager& ot::Message::GetRssAverager() const	16	static
+message.hpp:931:13:otError ot::MessageQueue::Enqueue(ot::Message&)	16	static
+random.hpp:75:17:uint16_t ot::Random::GetUint16()	8	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+ip6_headers.hpp:173:10:bool ot::Ip6::Header::IsVersion6() const	16	static
+ip6_headers.hpp:197:13:ot::Ip6::IpProto ot::Ip6::Header::GetNextHeader() const	16	static
+ip6_headers.hpp:229:14:ot::Ip6::Address& ot::Ip6::Header::GetSource()	16	static
+ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
+udp6.hpp:317:14:uint16_t ot::Ip6::UdpHeader::GetSourcePort() const	16	static
+udp6.hpp:333:14:uint16_t ot::Ip6::UdpHeader::GetDestinationPort() const	16	static
+udp6.hpp:365:14:uint16_t ot::Ip6::UdpHeader::GetChecksum() const	16	static
+topology.hpp:79:11:ot::Neighbor::State ot::Neighbor::GetState() const	16	static
+topology.hpp:95:10:bool ot::Neighbor::IsStateRestoring() const	16	static
+topology.hpp:105:10:bool ot::Neighbor::IsStateValidOrRestoring() const	16	static
+topology.hpp:129:10:bool ot::Neighbor::IsRxOnWhenIdle() const	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+topology.hpp:295:13:uint8_t ot::Neighbor::GetLinkFailures() const	16	static
+topology.hpp:301:10:void ot::Neighbor::IncrementLinkFailures()	16	static
+topology.hpp:307:10:void ot::Neighbor::ResetLinkFailures()	16	static
+topology.hpp:315:22:ot::LinkQualityInfo& ot::Neighbor::GetLinkInfo()	16	static
+topology.hpp:738:14:uint16_t ot::Child::GetIndirectMessageCount() const	16	static
+mac.hpp:314:5:ot::Mac::Receiver::Receiver(ot::Mac::Receiver::ReceiveFrameHandler, ot::Mac::Receiver::DataPollTimeoutHandler, void*)	24	static
+mac.hpp:375:5:ot::Mac::Sender::Sender(ot::Mac::Sender::FrameRequestHandler, ot::Mac::Sender::SentFrameHandler, void*)	24	static
+mac.hpp:500:10:bool ot::Mac::Mac::GetRxOnWhenIdle() const	16	static
+mac.hpp:558:23:const ot::Mac::ExtAddress& ot::Mac::Mac::GetExtAddress() const	16	static
+mac.hpp:574:18:ot::Mac::ShortAddress ot::Mac::Mac::GetShortAddress() const	16	static
+mac.hpp:700:14:uint16_t ot::Mac::Mac::GetPanId() const	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+mle.hpp:686:10:bool ot::Mle::Mle::IsMinimalEndDevice() const	16	static
+mle.hpp:911:21:static uint16_t ot::Mle::Mle::GetChildId(uint16_t)	16	static
+mle.hpp:921:20:static uint8_t ot::Mle::Mle::GetRouterId(uint16_t)	16	static
+mle.hpp:982:17:static bool ot::Mle::Mle::IsActiveRouter(uint16_t)	16	static
+lowpan.hpp:100:17:static bool ot::Lowpan::Lowpan::IsLowpanHc(uint8_t*)	16	static
+lowpan.hpp:258:5:ot::Lowpan::MeshHeader::MeshHeader()	16	static
+lowpan.hpp:264:10:void ot::Lowpan::MeshHeader::Init()	16	static
+lowpan.hpp:296:10:bool ot::Lowpan::MeshHeader::IsMeshHeader() const	16	static
+lowpan.hpp:314:10:bool ot::Lowpan::MeshHeader::IsDeepHopsLeftField() const	16	static
+lowpan.hpp:322:13:uint8_t ot::Lowpan::MeshHeader::GetHeaderLength() const	16	static
+lowpan.hpp:341:10:void ot::Lowpan::MeshHeader::SetHopsLeft(uint8_t)	16	static
+lowpan.hpp:368:10:void ot::Lowpan::MeshHeader::SetSource(uint16_t)	16	static
+lowpan.hpp:384:10:void ot::Lowpan::MeshHeader::SetDestination(uint16_t)	16	static
+lowpan.hpp:392:10:void ot::Lowpan::MeshHeader::AppendTo(uint8_t*) const	16	static
+lowpan.hpp:436:5:ot::Lowpan::FragmentHeader::FragmentHeader()	16	static
+lowpan.hpp:447:10:void ot::Lowpan::FragmentHeader::Init()	16	static
+lowpan.hpp:480:10:bool ot::Lowpan::FragmentHeader::IsFragmentHeader()	16	static
+lowpan.hpp:488:13:uint8_t ot::Lowpan::FragmentHeader::GetHeaderLength() const	16	static
+lowpan.hpp:496:10:bool ot::Lowpan::FragmentHeader::IsOffsetPresent() const	16	static
+lowpan.hpp:504:14:uint16_t ot::Lowpan::FragmentHeader::GetDatagramSize() const	16	static
+lowpan.hpp:512:10:void ot::Lowpan::FragmentHeader::SetDatagramSize(uint16_t)	16	static
+lowpan.hpp:523:14:uint16_t ot::Lowpan::FragmentHeader::GetDatagramTag() const	16	static
+lowpan.hpp:531:10:void ot::Lowpan::FragmentHeader::SetDatagramTag(uint16_t)	16	static
+lowpan.hpp:539:14:uint16_t ot::Lowpan::FragmentHeader::GetDatagramOffset() const	16	static
+lowpan.hpp:547:10:void ot::Lowpan::FragmentHeader::SetDatagramOffset(uint16_t)	16	static
+child_table.hpp:115:14:bool ot::ChildTable::Iterator::IsDone() const	16	static
+child_table.hpp:145:14:void ot::ChildTable::Iterator::operator++(int)	16	static
+child_table.hpp:153:16:ot::Child* ot::ChildTable::Iterator::GetChild()	16	static
+mle_router_ftd.hpp:345:17:ot::ChildTable& ot::Mle::MleRouter::GetChildTable()	16	static
+mesh_forwarder.hpp:206:22:ot::DataPollManager& ot::MeshForwarder::GetDataPollManager()	16	static
+child_supervision.hpp:267:14:void ot::Utils::SupervisionListener::Start()	16	static
+child_supervision.hpp:268:14:void ot::Utils::SupervisionListener::Stop()	16	static
+child_supervision.hpp:271:14:void ot::Utils::SupervisionListener::UpdateOnReceive(const ot::Mac::Address&, bool)	24	static
+thread_netif.hpp:215:18:ot::Ip6::Filter& ot::ThreadNetif::GetIp6Filter()	16	static
+thread_netif.hpp:231:21:ot::Lowpan::Lowpan& ot::ThreadNetif::GetLowpan()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+thread_netif.hpp:396:33:ot::Utils::SupervisionListener& ot::ThreadNetif::GetSupervisionListener()	16	static
+instance.hpp:204:16:otLogLevel ot::Instance::GetLogLevel() const	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:367:18:ot::MessagePool& ot::Instance::GetMessagePool()	16	static
+instance.hpp:460:35:Type& ot::Instance::Get() [with Type = ot::MeshForwarder]	16	static
+tcp.hpp:83:14:uint16_t ot::Ip6::TcpHeader::GetSourcePort() const	16	static
+tcp.hpp:91:14:uint16_t ot::Ip6::TcpHeader::GetDestinationPort() const	16	static
+tcp.hpp:131:14:uint16_t ot::Ip6::TcpHeader::GetChecksum() const	16	static
+mesh_forwarder.cpp:59:1:ot::MeshForwarder::MeshForwarder(ot::Instance&)	16	static
+mesh_forwarder.cpp:99:9:otError ot::MeshForwarder::Start()	24	static
+mesh_forwarder.cpp:112:9:otError ot::MeshForwarder::Stop()	32	static
+mesh_forwarder.cpp:148:6:void ot::MeshForwarder::RemoveMessage(ot::Message&)	40	static
+mesh_forwarder.cpp:165:6:static void ot::MeshForwarder::ScheduleTransmissionTask(ot::Tasklet&)	16	static
+mesh_forwarder.cpp:170:6:void ot::MeshForwarder::ScheduleTransmissionTask()	16	static
+mesh_forwarder.cpp:198:9:otError ot::MeshForwarder::PrepareDiscoverRequest()	24	static
+mesh_forwarder.cpp:229:10:ot::Message* ot::MeshForwarder::GetDirectTransmission()	40	static
+mesh_forwarder.cpp:303:9:otError ot::MeshForwarder::PrepareDataPoll()	40	static
+mesh_forwarder.cpp:329:9:otError ot::MeshForwarder::UpdateIp6Route(ot::Message&)	72	static
+mesh_forwarder.cpp:394:6:bool ot::MeshForwarder::GetRxOnWhenIdle()	16	static
+mesh_forwarder.cpp:399:6:void ot::MeshForwarder::SetRxOnWhenIdle(bool)	24	static
+mesh_forwarder.cpp:417:9:otError ot::MeshForwarder::GetMacSourceAddress(const ot::Ip6::Address&, ot::Mac::Address&)	40	static
+mesh_forwarder.cpp:431:9:otError ot::MeshForwarder::GetMacDestinationAddress(const ot::Ip6::Address&, ot::Mac::Address&)	32	static
+mesh_forwarder.cpp:456:9:static otError ot::MeshForwarder::HandleFrameRequest(ot::Mac::Sender&, ot::Mac::Frame&)	16	static
+mesh_forwarder.cpp:461:9:otError ot::MeshForwarder::HandleFrameRequest(ot::Mac::Frame&)	48	static
+mesh_forwarder.cpp:585:9:otError ot::MeshForwarder::SendPoll(ot::Message&, ot::Mac::Frame&)	32	static
+mesh_forwarder.cpp:615:9:otError ot::MeshForwarder::SendFragment(ot::Message&, ot::Mac::Frame&)	112	static
+mesh_forwarder.cpp:902:9:otError ot::MeshForwarder::SendEmptyFrame(ot::Mac::Frame&, bool)	48	static
+mesh_forwarder.cpp:943:6:static void ot::MeshForwarder::HandleSentFrame(ot::Mac::Sender&, ot::Mac::Frame&, otError)	24	static
+mesh_forwarder.cpp:948:6:void ot::MeshForwarder::HandleSentFrame(ot::Mac::Frame&, otError)	64	static
+mesh_forwarder.cpp:1086:6:void ot::MeshForwarder::SetDiscoverParameters(uint32_t)	16	static
+mesh_forwarder.cpp:1091:6:static void ot::MeshForwarder::HandleDiscoverTimer(ot::Timer&)	16	static
+mesh_forwarder.cpp:1096:6:void ot::MeshForwarder::HandleDiscoverTimer()	16	static
+mesh_forwarder.cpp:1121:6:void ot::MeshForwarder::HandleDiscoverComplete()	24	static
+mesh_forwarder.cpp:1139:6:static void ot::MeshForwarder::HandleReceivedFrame(ot::Mac::Receiver&, ot::Mac::Frame&)	16	static
+mesh_forwarder.cpp:1144:6:void ot::MeshForwarder::HandleReceivedFrame(ot::Mac::Frame&)	88	static
+mesh_forwarder.cpp:1241:6:void ot::MeshForwarder::HandleFragment(uint8_t*, uint8_t, const ot::Mac::Address&, const ot::Mac::Address&, const otThreadLinkInfo&)	72	static
+mesh_forwarder.cpp:1364:6:void ot::MeshForwarder::ClearReassemblyList()	32	static
+mesh_forwarder.cpp:1381:6:static void ot::MeshForwarder::HandleReassemblyTimer(ot::Timer&)	16	static
+mesh_forwarder.cpp:1386:6:void ot::MeshForwarder::HandleReassemblyTimer()	40	static
+mesh_forwarder.cpp:1417:6:void ot::MeshForwarder::HandleLowpanHC(uint8_t*, uint8_t, const ot::Mac::Address&, const ot::Mac::Address&, const otThreadLinkInfo&)	56	static
+mesh_forwarder.cpp:1471:9:otError ot::MeshForwarder::HandleDatagram(ot::Message&, const otThreadLinkInfo&, const ot::Mac::Address&)	48	static
+mesh_forwarder.cpp:1483:6:static void ot::MeshForwarder::HandleDataPollTimeout(ot::Mac::Receiver&)	16	static
+mesh_forwarder.cpp:1490:9:otError ot::MeshForwarder::ParseIp6UdpTcpHeader(const ot::Message&, ot::Ip6::Header&, uint16_t&, uint16_t&, uint16_t&)	48	static
+mesh_forwarder.cpp:1536:13:const char* ot::MeshForwarder::MessageActionToString(ot::MeshForwarder::MessageAction, otError)	24	static
+mesh_forwarder.cpp:1570:13:const char* ot::MeshForwarder::MessagePriorityToString(const ot::Message&)	24	static
+mesh_forwarder.cpp:1597:6:void ot::MeshForwarder::LogIp6SourceDestAddresses(ot::Ip6::Header&, uint16_t, uint16_t, otLogLevel)	216	static
+mesh_forwarder.cpp:1627:6:void ot::MeshForwarder::LogIp6Message(ot::MeshForwarder::MessageAction, const ot::Message&, const ot::Mac::Address*, otError, otLogLevel)	216	static
+mesh_forwarder.cpp:1661:6:void ot::MeshForwarder::LogMessage(ot::MeshForwarder::MessageAction, const ot::Message&, const ot::Mac::Address*, otError)	40	static
+mesh_forwarder.cpp:1705:6:void ot::MeshForwarder::LogFrame(const char*, const ot::Mac::Frame&, otError)	264	static
+mesh_forwarder.cpp:1718:6:void ot::MeshForwarder::LogFragmentFrameDrop(otError, uint8_t, const ot::Mac::Address&, const ot::Mac::Address&, const ot::Lowpan::FragmentHeader&, bool)	120	static
+mesh_forwarder.cpp:1732:6:void ot::MeshForwarder::LogLowpanHcFrameDrop(otError, uint8_t, const ot::Mac::Address&, const ot::Mac::Address&, bool)	96	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::MeshForwarder]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 40u]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 17u]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 10u]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 110u]	16	static

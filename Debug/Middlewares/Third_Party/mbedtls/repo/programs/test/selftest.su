@@ -1,0 +1,2 @@
+selftest.c:75:12:test_snprintf	48	static
+selftest.c:261:5:main	32	static

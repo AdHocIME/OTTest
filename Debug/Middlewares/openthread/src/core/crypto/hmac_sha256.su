@@ -1,0 +1,5 @@
+hmac_sha256.cpp:39:1:ot::Crypto::HmacSha256::HmacSha256()	24	static
+hmac_sha256.cpp:47:1:ot::Crypto::HmacSha256::~HmacSha256()	16	static
+hmac_sha256.cpp:52:6:void ot::Crypto::HmacSha256::Start(const uint8_t*, uint16_t)	24	static
+hmac_sha256.cpp:57:6:void ot::Crypto::HmacSha256::Update(const uint8_t*, uint16_t)	24	static
+hmac_sha256.cpp:62:6:void ot::Crypto::HmacSha256::Finish(uint8_t*)	16	static

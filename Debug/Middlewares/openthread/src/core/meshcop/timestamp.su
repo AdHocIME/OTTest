@@ -1,0 +1,5 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+timestamp.hpp:87:14:uint64_t ot::MeshCoP::Timestamp::GetSeconds() const	32	static
+timestamp.hpp:119:14:uint16_t ot::MeshCoP::Timestamp::GetTicks() const	16	static
+timestamp.cpp:43:5:int ot::MeshCoP::Timestamp::Compare(const ot::MeshCoP::Timestamp&) const	56	static

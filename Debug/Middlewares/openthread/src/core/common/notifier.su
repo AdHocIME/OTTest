@@ -1,0 +1,22 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+notifier.hpp:184:10:bool ot::Notifier::HasSignaled(otChangedFlags) const	16	static
+instance.hpp:285:15:ot::Notifier& ot::Instance::GetNotifier()	16	static
+instance.hpp:455:30:Type& ot::Instance::Get() [with Type = ot::Notifier]	16	static
+notifier.cpp:44:1:ot::Notifier::Callback::Callback(ot::Notifier::Callback::Handler, void*)	24	static
+notifier.cpp:51:1:ot::Notifier::Notifier(ot::Instance&)	24	static
+notifier.cpp:65:9:otError ot::Notifier::RegisterCallback(ot::Notifier::Callback&)	24	static
+notifier.cpp:78:6:void ot::Notifier::RemoveCallback(ot::Notifier::Callback&)	24	static
+notifier.cpp:101:9:otError ot::Notifier::RegisterCallback(otStateChangedCallback, void*)	40	static
+notifier.cpp:134:6:void ot::Notifier::RemoveCallback(otStateChangedCallback, void*)	32	static
+notifier.cpp:153:6:void ot::Notifier::Signal(otChangedFlags)	16	static
+notifier.cpp:160:6:void ot::Notifier::SignalIfFirst(otChangedFlags)	16	static
+notifier.cpp:168:6:static void ot::Notifier::HandleStateChanged(ot::Tasklet&)	16	static
+notifier.cpp:173:6:void ot::Notifier::HandleStateChanged()	32	static
+notifier.cpp:207:6:void ot::Notifier::LogChangedFlags(otChangedFlags) const	168	static
+notifier.cpp:229:13:const char* ot::Notifier::FlagToString(otChangedFlags) const	24	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::Notifier]	16	static
+string.hpp:63:7:ot::StringBase::StringBase()	16	static
+string.hpp:98:5:ot::String<SIZE>::String() [with short unsigned int SIZE = 128u]	16	static
+string.hpp:191:13:) [with short unsigned int SIZE = 128u]	36	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 128u]	16	static

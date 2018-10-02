@@ -1,0 +1,59 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:123:17:uint16_t ot::Encoding::BigEndian::ReadUint16(const uint8_t*)	16	static
+mac_frame.hpp:230:5:ot::Mac::Address::Address()	16	static
+mac_frame.hpp:241:10:ot::Mac::Address::Type ot::Mac::Address::GetType() const	16	static
+mac_frame.hpp:275:18:ot::Mac::ShortAddress ot::Mac::Address::GetShort() const	16	static
+mac_frame.hpp:285:23:const ot::Mac::ExtAddress& ot::Mac::Address::GetExtended() const	16	static
+mac_frame.hpp:313:10:void ot::Mac::Address::SetShort(ot::Mac::ShortAddress)	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+ip6_headers.hpp:143:10:void ot::Ip6::Header::Init()	16	static
+ip6_headers.hpp:197:13:ot::Ip6::IpProto ot::Ip6::Header::GetNextHeader() const	16	static
+ip6_headers.hpp:205:10:void ot::Ip6::Header::SetNextHeader(ot::Ip6::IpProto)	16	static
+ip6_headers.hpp:213:13:uint8_t ot::Ip6::Header::GetHopLimit() const	16	static
+ip6_headers.hpp:221:10:void ot::Ip6::Header::SetHopLimit(uint8_t)	16	static
+ip6_headers.hpp:229:14:ot::Ip6::Address& ot::Ip6::Header::GetSource()	16	static
+ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
+ip6_headers.hpp:261:20:static uint8_t ot::Ip6::Header::GetPayloadLengthOffset()	4	static
+ip6_headers.hpp:309:13:ot::Ip6::IpProto ot::Ip6::ExtensionHeader::GetNextHeader() const	16	static
+ip6_headers.hpp:325:13:uint8_t ot::Ip6::ExtensionHeader::GetLength() const	16	static
+ip6_headers.hpp:361:5:ot::Ip6::OptionHeader::OptionHeader()	16	static
+ip6_headers.hpp:373:13:uint8_t ot::Ip6::OptionHeader::GetType() const	16	static
+ip6_headers.hpp:381:10:void ot::Ip6::OptionHeader::SetType(uint8_t)	16	static
+ip6_headers.hpp:410:13:uint8_t ot::Ip6::OptionHeader::GetLength() const	16	static
+ip6_headers.hpp:418:10:void ot::Ip6::OptionHeader::SetLength(uint8_t)	16	static
+ip6_headers.hpp:447:10:void ot::Ip6::OptionPadN::Init(uint8_t)	16	static
+ip6_headers.hpp:485:10:void ot::Ip6::OptionPad1::Init()	16	static
+udp6.hpp:317:14:uint16_t ot::Ip6::UdpHeader::GetSourcePort() const	16	static
+udp6.hpp:325:10:void ot::Ip6::UdpHeader::SetSourcePort(uint16_t)	16	static
+udp6.hpp:333:14:uint16_t ot::Ip6::UdpHeader::GetDestinationPort() const	16	static
+udp6.hpp:341:10:void ot::Ip6::UdpHeader::SetDestinationPort(uint16_t)	16	static
+udp6.hpp:357:10:void ot::Ip6::UdpHeader::SetLength(uint16_t)	16	static
+udp6.hpp:373:10:void ot::Ip6::UdpHeader::SetChecksum(uint16_t)	16	static
+udp6.hpp:381:20:static uint8_t ot::Ip6::UdpHeader::GetLengthOffset()	4	static
+udp6.hpp:389:20:static uint8_t ot::Ip6::UdpHeader::GetChecksumOffset()	4	static
+lowpan.hpp:314:10:bool ot::Lowpan::MeshHeader::IsDeepHopsLeftField() const	16	static
+lowpan.hpp:480:10:bool ot::Lowpan::FragmentHeader::IsFragmentHeader()	16	static
+lowpan.hpp:496:10:bool ot::Lowpan::FragmentHeader::IsOffsetPresent() const	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+lowpan.cpp:51:1:ot::Lowpan::Lowpan::Lowpan(ot::Instance&)	16	static
+lowpan.cpp:56:9:static otError ot::Lowpan::Lowpan::CopyContext(const ot::Lowpan::Context&, ot::Ip6::Address&)	32	static
+lowpan.cpp:69:9:static otError ot::Lowpan::Lowpan::ComputeIid(const ot::Mac::Address&, const ot::Lowpan::Context&, ot::Ip6::Address&)	40	static
+lowpan.cpp:103:5:int ot::Lowpan::Lowpan::CompressSourceIid(const ot::Mac::Address&, const ot::Ip6::Address&, const ot::Lowpan::Context&, uint16_t&, uint8_t*)	64	static
+lowpan.cpp:142:5:int ot::Lowpan::Lowpan::CompressDestinationIid(const ot::Mac::Address&, const ot::Ip6::Address&, const ot::Lowpan::Context&, uint16_t&, uint8_t*)	64	static
+lowpan.cpp:181:5:int ot::Lowpan::Lowpan::CompressMulticast(const ot::Ip6::Address&, uint16_t&, uint8_t*)	48	static
+lowpan.cpp:242:5:int ot::Lowpan::Lowpan::Compress(ot::Message&, const ot::Mac::Address&, const ot::Mac::Address&, uint8_t*)	120	static
+lowpan.cpp:433:5:int ot::Lowpan::Lowpan::CompressExtensionHeader(ot::Message&, uint8_t*, uint8_t&)	48	static
+lowpan.cpp:511:5:int ot::Lowpan::Lowpan::CompressUdp(ot::Message&, uint8_t*)	48	static
+lowpan.cpp:559:9:otError ot::Lowpan::Lowpan::DispatchToNextHeader(uint8_t, ot::Ip6::IpProto&)	32	static
+lowpan.cpp:600:5:int ot::Lowpan::Lowpan::DecompressBaseHeader(ot::Ip6::Header&, bool&, const ot::Mac::Address&, const ot::Mac::Address&, const uint8_t*, uint16_t)	80	static
+ip6_headers.hpp:430:7:ot::Ip6::OptionPadN::OptionPadN()	16	static
+lowpan.cpp:892:5:int ot::Lowpan::Lowpan::DecompressExtensionHeader(ot::Message&, const uint8_t*, uint16_t)	56	static
+lowpan.cpp:972:5:int ot::Lowpan::Lowpan::DecompressUdpHeader(ot::Ip6::UdpHeader&, const uint8_t*, uint16_t)	40	static
+lowpan.cpp:1042:5:int ot::Lowpan::Lowpan::DecompressUdpHeader(ot::Message&, const uint8_t*, uint16_t, uint16_t)	40	static
+lowpan.cpp:1067:5:int ot::Lowpan::Lowpan::Decompress(ot::Message&, const ot::Mac::Address&, const ot::Mac::Address&, const uint8_t*, uint16_t, uint16_t)	104	static
+lowpan.cpp:1149:9:otError ot::Lowpan::MeshHeader::Init(const uint8_t*, uint8_t)	32	static
+lowpan.cpp:1175:9:otError ot::Lowpan::MeshHeader::Init(const ot::Message&)	24	static
+lowpan.cpp:1203:9:otError ot::Lowpan::FragmentHeader::Init(const uint8_t*, uint8_t)	32	static
+lowpan.cpp:1224:9:otError ot::Lowpan::FragmentHeader::Init(const ot::Message&, uint16_t)	32	static

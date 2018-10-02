@@ -1,0 +1,41 @@
+message.hpp:649:10:void ot::Message::SetLinkSecurityEnabled(bool)	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+netif.hpp:218:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::Netif::GetUnicastAddresses() const	16	static
+netif.hpp:318:34:const ot::Ip6::NetifMulticastAddress* ot::Ip6::Netif::GetMulticastAddresses() const	16	static
+netif.hpp:393:10:bool ot::Ip6::Netif::IsMulticastPromiscuousEnabled()	16	static
+netif.hpp:401:10:void ot::Ip6::Netif::SetMulticastPromiscuous(bool)	16	static
+ip6.hpp:232:10:bool ot::Ip6::Ip6::IsReceiveIp6FilterEnabled()	16	static
+ip6.hpp:244:10:void ot::Ip6::Ip6::SetReceiveIp6FilterEnabled(bool)	16	static
+mac.hpp:558:23:const ot::Mac::ExtAddress& ot::Mac::Mac::GetExtAddress() const	16	static
+thread_netif.hpp:128:10:bool ot::ThreadNetif::IsUp() const	16	static
+thread_netif.hpp:215:18:ot::Ip6::Filter& ot::ThreadNetif::GetIp6Filter()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+instance.hpp:311:15:ot::Ip6::Ip6& ot::Instance::GetIp6()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:367:18:ot::MessagePool& ot::Instance::GetMessagePool()	16	static
+ip6_api.cpp:46:9:otError otIp6SetEnabled(otInstance*, bool)	24	static
+ip6_api.cpp:72:6:bool otIp6IsEnabled(otInstance*)	24	static
+ip6_api.cpp:79:23:const otNetifAddress* otIp6GetUnicastAddresses(otInstance*)	24	static
+ip6_api.cpp:86:9:otError otIp6AddUnicastAddress(otInstance*, const otNetifAddress*)	24	static
+ip6_api.cpp:94:9:otError otIp6RemoveUnicastAddress(otInstance*, const otIp6Address*)	24	static
+ip6_api.cpp:101:32:const otNetifMulticastAddress* otIp6GetMulticastAddresses(otInstance*)	24	static
+ip6_api.cpp:108:9:otError otIp6SubscribeMulticastAddress(otInstance*, const otIp6Address*)	24	static
+ip6_api.cpp:115:9:otError otIp6UnsubscribeMulticastAddress(otInstance*, const otIp6Address*)	24	static
+ip6_api.cpp:122:6:bool otIp6IsMulticastPromiscuousEnabled(otInstance*)	24	static
+ip6_api.cpp:129:6:void otIp6SetMulticastPromiscuousEnabled(otInstance*, bool)	24	static
+ip6_api.cpp:136:6:void otIp6SlaacUpdate(otInstance*, otNetifAddress*, uint32_t, otIp6SlaacIidCreate, void*)	32	static
+ip6_api.cpp:145:9:otError otIp6CreateRandomIid(otInstance*, otNetifAddress*, void*)	24	static
+ip6_api.cpp:150:9:otError otIp6CreateMacIid(otInstance*, otNetifAddress*, void*)	40	static
+ip6_api.cpp:161:9:otError otIp6CreateSemanticallyOpaqueIid(otInstance*, otNetifAddress*, void*)	24	static
+ip6_api.cpp:166:6:void otIp6SetReceiveCallback(otInstance*, otIp6ReceiveCallback, void*)	32	static
+ip6_api.cpp:173:6:bool otIp6IsReceiveFilterEnabled(otInstance*)	24	static
+ip6_api.cpp:180:6:void otIp6SetReceiveFilterEnabled(otInstance*, bool)	24	static
+ip6_api.cpp:187:9:otError otIp6Send(otInstance*, otMessage*)	32	static
+ip6_api.cpp:197:12:otMessage* otIp6NewMessage(otInstance*, bool)	24	static
+ip6_api.cpp:210:9:otError otIp6AddUnsecurePort(otInstance*, uint16_t)	24	static
+ip6_api.cpp:217:9:otError otIp6RemoveUnsecurePort(otInstance*, uint16_t)	24	static
+ip6_api.cpp:224:17:const uint16_t* otIp6GetUnsecurePorts(otInstance*, uint8_t*)	24	static
+ip6_api.cpp:231:6:bool otIp6IsAddressEqual(const otIp6Address*, const otIp6Address*)	16	static
+ip6_api.cpp:236:9:otError otIp6AddressFromString(const char*, otIp6Address*)	16	static
+ip6_api.cpp:241:9:uint8_t otIp6PrefixMatch(const otIp6Address*, const otIp6Address*)	24	static
+ip6_api.cpp:253:6:bool otIp6IsAddressUnspecified(const otIp6Address*)	16	static

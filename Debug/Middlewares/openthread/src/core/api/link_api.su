@@ -1,0 +1,48 @@
+link_quality.hpp:91:14:uint16_t ot::SuccessRateTracker::GetFailureRate() const	16	static
+mac.hpp:135:5:ot::Mac::ChannelMask::ChannelMask(uint32_t)	16	static
+mac.hpp:152:14:uint32_t ot::Mac::ChannelMask::GetMask() const	16	static
+mac.hpp:558:23:const ot::Mac::ExtAddress& ot::Mac::Mac::GetExtAddress() const	16	static
+mac.hpp:574:18:ot::Mac::ShortAddress ot::Mac::Mac::GetShortAddress() const	16	static
+mac.hpp:592:13:uint8_t ot::Mac::Mac::GetPanChannel() const	16	static
+mac.hpp:653:24:const ot::Mac::ChannelMask& ot::Mac::Mac::GetSupportedChannelMask() const	16	static
+mac.hpp:700:14:uint16_t ot::Mac::Mac::GetPanId() const	16	static
+mac.hpp:852:20:otMacCounters& ot::Mac::Mac::GetCounters()	16	static
+mac.hpp:889:14:uint16_t ot::Mac::Mac::GetCcaFailureRate() const	16	static
+mac.hpp:908:10:bool ot::Mac::Mac::IsEnabled()	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+mesh_forwarder.hpp:206:22:ot::DataPollManager& ot::MeshForwarder::GetDataPollManager()	16	static
+thread_netif.hpp:128:10:bool ot::ThreadNetif::IsUp() const	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+link_api.cpp:45:9:uint8_t otLinkGetChannel(otInstance*)	24	static
+link_api.cpp:52:9:otError otLinkSetChannel(otInstance*, uint8_t)	24	static
+link_api.cpp:68:10:uint32_t otLinkGetSupportedChannelMask(otInstance*)	24	static
+link_api.cpp:75:9:otError otLinkSetSupportedChannelMask(otInstance*, uint32_t)	40	static
+link_api.cpp:89:21:const otExtAddress* otLinkGetExtendedAddress(otInstance*)	24	static
+link_api.cpp:96:9:otError otLinkSetExtendedAddress(otInstance*, const otExtAddress*)	24	static
+link_api.cpp:113:6:void otLinkGetFactoryAssignedIeeeEui64(otInstance*, otExtAddress*)	16	static
+link_api.cpp:118:9:otPanId otLinkGetPanId(otInstance*)	24	static
+link_api.cpp:125:9:otError otLinkSetPanId(otInstance*, otPanId)	24	static
+link_api.cpp:141:10:uint32_t otLinkGetPollPeriod(otInstance*)	24	static
+link_api.cpp:148:6:void otLinkSetPollPeriod(otInstance*, uint32_t)	24	static
+link_api.cpp:155:9:otError otLinkSendDataRequest(otInstance*)	24	static
+link_api.cpp:162:16:otShortAddress otLinkGetShortAddress(otInstance*)	24	static
+link_api.cpp:285:6:void otLinkSetPcapCallback(otInstance*, otLinkPcapCallback, void*)	32	static
+link_api.cpp:292:6:bool otLinkIsPromiscuous(otInstance*)	24	static
+link_api.cpp:299:9:otError otLinkSetPromiscuous(otInstance*, bool)	24	static
+link_api.cpp:313:9:otError otLinkSetEnabled(otInstance*, bool)	24	static
+link_api.cpp:327:6:bool otLinkIsEnabled(otInstance*)	24	static
+link_api.cpp:334:22:const otMacCounters* otLinkGetCounters(otInstance*)	24	static
+link_api.cpp:341:9:otError otLinkActiveScan(otInstance*, uint32_t, uint16_t, otHandleActiveScanResult, void*)	40	static
+link_api.cpp:354:6:bool otLinkIsActiveScanInProgress(otInstance*)	24	static
+link_api.cpp:361:6:void HandleActiveScanResult(void*, ot::Mac::Frame*)	80	static
+link_api.cpp:378:9:otError otLinkEnergyScan(otInstance*, uint32_t, uint16_t, otHandleEnergyScanResult, void*)	40	static
+link_api.cpp:391:6:void HandleEnergyScanResult(void*, otEnergyScanResult*)	24	static
+link_api.cpp:398:6:bool otLinkIsEnergyScanInProgress(otInstance*)	24	static
+link_api.cpp:405:6:bool otLinkIsInTransmitState(otInstance*)	24	static
+link_api.cpp:412:9:otError otLinkOutOfBandTransmitRequest(otInstance*, otRadioFrame*)	24	static
+link_api.cpp:419:10:uint16_t otLinkGetCcaFailureRate(otInstance*)	24	static

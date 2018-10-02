@@ -1,0 +1,27 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+mac_frame.hpp:241:10:ot::Mac::Address::Type ot::Mac::Address::GetType() const	16	static
+mac_frame.hpp:275:18:ot::Mac::ShortAddress ot::Mac::Address::GetShort() const	16	static
+mac_frame.hpp:285:23:const ot::Mac::ExtAddress& ot::Mac::Address::GetExtended() const	16	static
+topology.hpp:79:11:ot::Neighbor::State ot::Neighbor::GetState() const	16	static
+topology.hpp:95:10:bool ot::Neighbor::IsStateRestoring() const	16	static
+topology.hpp:105:10:bool ot::Neighbor::IsStateValidOrRestoring() const	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+mle_router_ftd.hpp:345:17:ot::ChildTable& ot::Mle::MleRouter::GetChildTable()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:475:32:Type& ot::Instance::Get() [with Type = ot::ChildTable]	16	static
+child_table.cpp:43:1:ot::ChildTable::Iterator::Iterator(ot::Instance&, ot::ChildTable::StateFilter)	24	static
+child_table.cpp:52:1:ot::ChildTable::Iterator::Iterator(ot::Instance&, ot::ChildTable::StateFilter, ot::Child*)	24	static
+child_table.cpp:61:6:void ot::ChildTable::Iterator::Reset()	24	static
+child_table.cpp:78:6:void ot::ChildTable::Iterator::Advance()	32	static
+child_table.cpp:102:1:ot::ChildTable::ChildTable(ot::Instance&)	16	static
+child_table.cpp:109:8:ot::Child* ot::ChildTable::GetChildAtIndex(uint8_t)	24	static
+child_table.cpp:120:8:ot::Child* ot::ChildTable::GetNewChild()	24	static
+child_table.cpp:139:8:ot::Child* ot::ChildTable::FindChild(uint16_t, ot::ChildTable::StateFilter)	24	static
+child_table.cpp:157:8:ot::Child* ot::ChildTable::FindChild(const ot::Mac::ExtAddress&, ot::ChildTable::StateFilter)	32	static
+child_table.cpp:175:8:ot::Child* ot::ChildTable::FindChild(const ot::Mac::Address&, ot::ChildTable::StateFilter)	32	static
+child_table.cpp:196:6:bool ot::ChildTable::HasChildren(ot::ChildTable::StateFilter) const	32	static
+child_table.cpp:213:9:uint8_t ot::ChildTable::GetNumChildren(ot::ChildTable::StateFilter) const	32	static
+child_table.cpp:229:9:otError ot::ChildTable::SetMaxChildrenAllowed(uint8_t)	24	static
+child_table.cpp:242:6:static bool ot::ChildTable::MatchesFilter(const ot::Child&, ot::ChildTable::StateFilter)	24	static

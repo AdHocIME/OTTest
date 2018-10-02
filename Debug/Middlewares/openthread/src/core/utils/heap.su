@@ -1,0 +1,20 @@
+heap.hpp:73:14:uint16_t ot::Utils::Block::GetSize() const	16	static
+heap.hpp:81:10:void ot::Utils::Block::SetSize(uint16_t)	16	static
+heap.hpp:93:14:uint16_t ot::Utils::Block::GetNext() const	16	static
+heap.hpp:106:10:void ot::Utils::Block::SetNext(uint16_t)	16	static
+heap.hpp:117:11:void* ot::Utils::Block::GetPointer()	16	static
+heap.hpp:125:14:uint16_t ot::Utils::Block::GetLeftNext() const	16	static
+heap.hpp:134:10:bool ot::Utils::Block::IsLeftFree() const	16	static
+heap.hpp:143:10:bool ot::Utils::Block::IsFree() const	16	static
+heap.hpp:253:12:ot::Utils::Block& ot::Utils::Heap::BlockAt(uint16_t)	16	static
+heap.hpp:263:12:ot::Utils::Block& ot::Utils::Heap::BlockOf(void*)	24	static
+heap.hpp:276:12:ot::Utils::Block& ot::Utils::Heap::BlockSuper()	16	static
+heap.hpp:286:12:ot::Utils::Block& ot::Utils::Heap::BlockNext(const ot::Utils::Block&)	16	static
+heap.hpp:296:12:ot::Utils::Block& ot::Utils::Heap::BlockRight(const ot::Utils::Block&)	24	static
+heap.hpp:312:10:bool ot::Utils::Heap::IsLeftFree(const ot::Utils::Block&)	16	static
+heap.hpp:322:14:uint16_t ot::Utils::Heap::BlockOffset(const ot::Utils::Block&)	16	static
+heap.cpp:45:1:ot::Utils::Heap::Heap()	32	static
+heap.cpp:62:7:void* ot::Utils::Heap::CAlloc(size_t, size_t)	48	static
+heap.cpp:120:6:void ot::Utils::Heap::BlockInsert(ot::Utils::Block&, ot::Utils::Block&)	40	static
+heap.cpp:133:8:ot::Utils::Block& ot::Utils::Heap::BlockPrev(const ot::Utils::Block&)	32	static
+heap.cpp:145:6:void ot::Utils::Heap::Free(void*)	48	static

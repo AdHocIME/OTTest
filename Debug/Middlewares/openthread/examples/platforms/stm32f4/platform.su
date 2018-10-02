@@ -1,0 +1,5 @@
+platform.c:46:6:__cxa_pure_virtual	0	static
+platform.c:83:6:PlatformDeinit	8	static
+platform.c:52:6:PlatformInit	8	static
+platform.c:104:6:PlatformPseudoResetWasRequested	0	static
+platform.c:109:6:PlatformProcessDrivers	8	static

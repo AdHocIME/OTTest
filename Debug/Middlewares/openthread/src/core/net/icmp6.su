@@ -1,0 +1,33 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+icmp6.hpp:72:10:void ot::Ip6::IcmpHeader::Init()	16	static
+icmp6.hpp:106:10:ot::Ip6::IcmpHeader::Type ot::Ip6::IcmpHeader::GetType() const	16	static
+icmp6.hpp:114:10:void ot::Ip6::IcmpHeader::SetType(ot::Ip6::IcmpHeader::Type)	16	static
+icmp6.hpp:129:10:void ot::Ip6::IcmpHeader::SetCode(ot::Ip6::IcmpHeader::Code)	16	static
+icmp6.hpp:161:10:void ot::Ip6::IcmpHeader::SetId(uint16_t)	16	static
+icmp6.hpp:169:14:uint16_t ot::Ip6::IcmpHeader::GetSequence() const	16	static
+icmp6.hpp:177:10:void ot::Ip6::IcmpHeader::SetSequence(uint16_t)	16	static
+icmp6.hpp:185:20:static uint8_t ot::Ip6::IcmpHeader::GetChecksumOffset()	4	static
+icmp6.hpp:193:20:static uint8_t ot::Ip6::IcmpHeader::GetDataOffset()	4	static
+icmp6.hpp:221:10:void ot::Ip6::IcmpHandler::HandleReceiveMessage(ot::Message&, const ot::Ip6::MessageInfo&, const ot::Ip6::IcmpHeader&)	32	static
+icmp6.hpp:226:18:ot::Ip6::IcmpHandler* ot::Ip6::IcmpHandler::GetNext()	16	static
+icmp6.cpp:52:1:ot::Ip6::Icmp::Icmp(ot::Instance&)	16	static
+icmp6.cpp:60:10:ot::Message* ot::Ip6::Icmp::NewMessage(uint16_t)	16	static
+icmp6.cpp:65:9:otError ot::Ip6::Icmp::RegisterHandler(ot::Ip6::IcmpHandler&)	24	static
+icmp6.cpp:84:9:otError ot::Ip6::Icmp::SendEchoRequest(ot::Message&, const ot::Ip6::MessageInfo&, uint16_t)	88	static
+icmp6.cpp:107:9:otError ot::Ip6::Icmp::SendError(ot::Ip6::IcmpHeader::Type, ot::Ip6::IcmpHeader::Code, const ot::Ip6::MessageInfo&, const ot::Ip6::Header&)	96	static
+icmp6.cpp:143:9:otError ot::Ip6::Icmp::HandleMessage(ot::Message&, ot::Ip6::MessageInfo&)	56	static
+icmp6.cpp:176:6:bool ot::Ip6::Icmp::ShouldHandleEchoRequest(const ot::Ip6::MessageInfo&)	24	static
+icmp6.cpp:199:9:otError ot::Ip6::Icmp::HandleEchoRequest(ot::Message&, const ot::Ip6::MessageInfo&)	104	static
+icmp6.cpp:251:9:otError ot::Ip6::Icmp::UpdateChecksum(ot::Message&, uint16_t)	40	static

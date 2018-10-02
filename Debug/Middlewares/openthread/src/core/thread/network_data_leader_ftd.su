@@ -1,0 +1,109 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:395:13:uint8_t ot::Coap::Header::GetLength() const	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+timer.hpp:199:21:static uint32_t ot::TimerMilli::SecToMsec(uint32_t)	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+coap.hpp:611:13:otError ot::Coap::CoapBase::SendEmptyAck(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+tlvs.hpp:97:14:uint16_t ot::Tlv::GetSize() const	16	static
+tlvs.hpp:121:10:ot::Tlv* ot::Tlv::GetNext()	16	static
+meshcop_tlvs.hpp:115:10:ot::MeshCoP::Tlv::Type ot::MeshCoP::Tlv::GetType() const	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:131:10:ot::MeshCoP::Tlv* ot::MeshCoP::Tlv::GetNext()	16	static
+meshcop_tlvs.hpp:830:10:bool ot::MeshCoP::CommissionerSessionIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:838:14:uint16_t ot::MeshCoP::CommissionerSessionIdTlv::GetCommissionerSessionId() const	16	static
+meshcop_tlvs.hpp:966:10:void ot::MeshCoP::StateTlv::Init()	16	static
+meshcop_tlvs.hpp:1006:10:void ot::MeshCoP::StateTlv::SetState(ot::MeshCoP::StateTlv::State)	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+mle.hpp:932:17:static bool ot::Mle::Mle::RouterIdMatch(uint16_t, uint16_t)	16	static
+thread_tlvs.hpp:111:20:static otError ot::ThreadTlv::GetTlv(const ot::Message&, ot::ThreadTlv::Type, uint16_t, ot::Tlv&)	24	static
+thread_tlvs.hpp:237:10:bool ot::ThreadRloc16Tlv::IsValid() const	16	static
+thread_tlvs.hpp:245:14:uint16_t ot::ThreadRloc16Tlv::GetRloc16() const	16	static
+thread_tlvs.hpp:524:10:bool ot::ThreadNetworkDataTlv::IsValid() const	16	static
+thread_tlvs.hpp:532:14:uint8_t* ot::ThreadNetworkDataTlv::GetTlvs()	16	static
+network_data_tlvs.hpp:73:10:void ot::NetworkData::NetworkDataTlv::Init()	16	static
+network_data_tlvs.hpp:100:10:ot::NetworkData::NetworkDataTlv::Type ot::NetworkData::NetworkDataTlv::GetType() const	16	static
+network_data_tlvs.hpp:108:10:void ot::NetworkData::NetworkDataTlv::SetType(ot::NetworkData::NetworkDataTlv::Type)	16	static
+network_data_tlvs.hpp:116:13:uint8_t ot::NetworkData::NetworkDataTlv::GetLength() const	16	static
+network_data_tlvs.hpp:124:10:void ot::NetworkData::NetworkDataTlv::SetLength(uint8_t)	16	static
+network_data_tlvs.hpp:132:14:uint8_t* ot::NetworkData::NetworkDataTlv::GetValue()	16	static
+network_data_tlvs.hpp:140:21:ot::NetworkData::NetworkDataTlv* ot::NetworkData::NetworkDataTlv::GetNext()	16	static
+network_data_tlvs.hpp:158:10:bool ot::NetworkData::NetworkDataTlv::IsStable() const	16	static
+network_data_tlvs.hpp:164:10:void ot::NetworkData::NetworkDataTlv::SetStable()	16	static
+network_data_tlvs.hpp:200:14:uint16_t ot::NetworkData::HasRouteEntry::GetRloc() const	16	static
+network_data_tlvs.hpp:252:10:void ot::NetworkData::HasRouteTlv::Init()	16	static
+network_data_tlvs.hpp:265:13:uint8_t ot::NetworkData::HasRouteTlv::GetNumEntries() const	16	static
+network_data_tlvs.hpp:275:20:ot::NetworkData::HasRouteEntry* ot::NetworkData::HasRouteTlv::GetEntry(uint8_t)	16	static
+network_data_tlvs.hpp:297:10:void ot::NetworkData::PrefixTlv::Init(uint8_t, uint8_t, const uint8_t*)	24	static
+network_data_tlvs.hpp:314:10:bool ot::NetworkData::PrefixTlv::IsValid() const	16	static
+network_data_tlvs.hpp:326:13:uint8_t ot::NetworkData::PrefixTlv::GetDomainId() const	16	static
+network_data_tlvs.hpp:334:13:uint8_t ot::NetworkData::PrefixTlv::GetPrefixLength() const	16	static
+network_data_tlvs.hpp:342:14:uint8_t* ot::NetworkData::PrefixTlv::GetPrefix()	16	static
+network_data_tlvs.hpp:350:21:ot::NetworkData::NetworkDataTlv* ot::NetworkData::PrefixTlv::GetSubTlvs()	16	static
+network_data_tlvs.hpp:361:13:uint8_t ot::NetworkData::PrefixTlv::GetSubTlvsLength() const	16	static
+network_data_tlvs.hpp:372:10:void ot::NetworkData::PrefixTlv::SetSubTlvsLength(uint8_t)	16	static
+network_data_tlvs.hpp:418:14:uint16_t ot::NetworkData::BorderRouterEntry::GetRloc() const	16	static
+network_data_tlvs.hpp:607:10:void ot::NetworkData::BorderRouterTlv::Init()	16	static
+network_data_tlvs.hpp:620:13:uint8_t ot::NetworkData::BorderRouterTlv::GetNumEntries() const	16	static
+network_data_tlvs.hpp:630:24:ot::NetworkData::BorderRouterEntry* ot::NetworkData::BorderRouterTlv::GetEntry(uint8_t)	16	static
+network_data_tlvs.hpp:648:10:void ot::NetworkData::ContextTlv::Init()	16	static
+network_data_tlvs.hpp:670:10:void ot::NetworkData::ContextTlv::ClearCompress()	16	static
+network_data_tlvs.hpp:676:10:void ot::NetworkData::ContextTlv::SetCompress()	16	static
+network_data_tlvs.hpp:684:13:uint8_t ot::NetworkData::ContextTlv::GetContextId() const	16	static
+network_data_tlvs.hpp:692:10:void ot::NetworkData::ContextTlv::SetContextId(uint8_t)	16	static
+network_data_tlvs.hpp:711:10:void ot::NetworkData::ContextTlv::SetContextLength(uint8_t)	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:542:41:Type& ot::Instance::Get() [with Type = ot::NetworkData::Leader]	16	static
+meshcop.hpp:56:17:ot::Message* ot::MeshCoP::NewMeshCoPMessage(ot::Coap::CoapBase&, const ot::Coap::Header&)	16	static
+network_data_leader_ftd.cpp:64:1:ot::NetworkData::Leader::Leader(ot::Instance&)	16	static
+network_data_leader_ftd.cpp:74:6:void ot::NetworkData::Leader::Reset()	16	static
+network_data_leader_ftd.cpp:83:6:void ot::NetworkData::Leader::Start()	24	static
+network_data_leader_ftd.cpp:92:6:void ot::NetworkData::Leader::Stop()	24	static
+network_data_leader_ftd.cpp:101:6:void ot::NetworkData::Leader::IncrementVersion()	16	static
+network_data_leader_ftd.cpp:110:6:void ot::NetworkData::Leader::IncrementStableVersion()	16	static
+network_data_leader_ftd.cpp:118:10:uint32_t ot::NetworkData::Leader::GetContextIdReuseDelay() const	16	static
+network_data_leader_ftd.cpp:123:9:otError ot::NetworkData::Leader::SetContextIdReuseDelay(uint32_t)	16	static
+network_data_leader_ftd.cpp:129:6:void ot::NetworkData::Leader::RemoveBorderRouter(uint16_t, bool)	48	static
+network_data_leader_ftd.cpp:151:6:static void ot::NetworkData::Leader::HandleServerData(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_data_leader_ftd.cpp:161:6:void ot::NetworkData::Leader::HandleServerData(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	296	static
+network_data_leader_ftd.cpp:189:6:static void ot::NetworkData::Leader::HandleCommissioningSet(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_data_leader_ftd.cpp:199:6:void ot::NetworkData::Leader::HandleCommissioningSet(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	320	static
+network_data_leader_ftd.cpp:300:6:static void ot::NetworkData::Leader::HandleCommissioningGet(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_data_leader_ftd.cpp:310:6:void ot::NetworkData::Leader::HandleCommissioningGet(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	304	static
+network_data_leader_ftd.cpp:334:6:void ot::NetworkData::Leader::SendCommissioningGetResponse(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, uint8_t*, uint8_t)	216	static
+network_data_leader_ftd.cpp:404:6:void ot::NetworkData::Leader::SendCommissioningSetResponse(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, ot::MeshCoP::StateTlv::State)	192	static
+network_data_leader_ftd.cpp:436:9:otError ot::NetworkData::Leader::RlocLookup(uint16_t, bool&, bool&, uint8_t*, uint8_t, bool)	80	static
+network_data_leader_ftd.cpp:599:6:bool ot::NetworkData::Leader::IsStableUpdated(uint8_t*, uint8_t, uint8_t*, uint8_t)	80	static
+network_data_leader_ftd.cpp:737:9:otError ot::NetworkData::Leader::RegisterNetworkData(uint16_t, uint8_t*, uint8_t)	320	static
+network_data_leader_ftd.cpp:789:9:otError ot::NetworkData::Leader::AddNetworkData(uint8_t*, uint8_t, uint8_t*, uint8_t)	40	static
+network_data_leader_ftd.cpp:832:9:otError ot::NetworkData::Leader::AddPrefix(ot::NetworkData::PrefixTlv&)	32	static
+network_data_leader_ftd.cpp:900:9:otError ot::NetworkData::Leader::AddHasRoute(ot::NetworkData::PrefixTlv&, ot::NetworkData::HasRouteTlv&)	48	static
+network_data_leader_ftd.cpp:1078:9:otError ot::NetworkData::Leader::AddBorderRouter(ot::NetworkData::PrefixTlv&, ot::NetworkData::BorderRouterTlv&)	56	static
+network_data_leader_ftd.cpp:1166:5:int ot::NetworkData::Leader::AllocateContext()	24	static
+network_data_leader_ftd.cpp:1185:9:otError ot::NetworkData::Leader::FreeContext(uint8_t)	16	static
+network_data_leader_ftd.cpp:1196:9:otError ot::NetworkData::Leader::SendServerDataNotification(uint16_t)	48	static
+network_data_leader_ftd.cpp:1212:9:otError ot::NetworkData::Leader::RemoveRloc(uint16_t, bool)	40	static
+network_data_leader_ftd.cpp:1279:9:otError ot::NetworkData::Leader::RemoveRloc(ot::NetworkData::PrefixTlv&, uint16_t, bool)	56	static
+network_data_leader_ftd.cpp:1397:9:otError ot::NetworkData::Leader::RemoveRloc(ot::NetworkData::PrefixTlv&, ot::NetworkData::HasRouteTlv&, uint16_t, bool)	40	static
+network_data_leader_ftd.cpp:1421:9:otError ot::NetworkData::Leader::RemoveRloc(ot::NetworkData::PrefixTlv&, ot::NetworkData::BorderRouterTlv&, uint16_t, bool)	40	static
+network_data_leader_ftd.cpp:1445:9:otError ot::NetworkData::Leader::RemoveContext(uint8_t)	40	static
+network_data_leader_ftd.cpp:1489:9:otError ot::NetworkData::Leader::RemoveContext(ot::NetworkData::PrefixTlv&, uint8_t)	40	static
+network_data_leader_ftd.cpp:1533:6:static void ot::NetworkData::Leader::HandleTimer(ot::Timer&)	16	static
+network_data_leader_ftd.cpp:1538:6:void ot::NetworkData::Leader::HandleTimer()	32	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::NetworkData::Leader]	16	static

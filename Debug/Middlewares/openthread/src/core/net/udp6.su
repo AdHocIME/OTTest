@@ -1,0 +1,44 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:88:14:uint16_t ot::Ip6::MessageInfo::GetSockPort() const	16	static
+socket.hpp:96:10:void ot::Ip6::MessageInfo::SetSockPort(uint16_t)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:128:14:uint16_t ot::Ip6::MessageInfo::GetPeerPort() const	16	static
+socket.hpp:206:14:ot::Ip6::Address& ot::Ip6::SockAddr::GetAddress()	16	static
+udp6.hpp:144:15:ot::Ip6::SockAddr& ot::Ip6::UdpSocket::GetSockName()	16	static
+udp6.hpp:152:15:ot::Ip6::SockAddr& ot::Ip6::UdpSocket::GetPeerName()	16	static
+udp6.hpp:155:16:ot::Ip6::UdpSocket* ot::Ip6::UdpSocket::GetNext()	16	static
+udp6.hpp:156:16:void ot::Ip6::UdpSocket::SetNext(ot::Ip6::UdpSocket*)	16	static
+udp6.hpp:158:10:void ot::Ip6::UdpSocket::HandleUdpReceive(ot::Message&, const ot::Ip6::MessageInfo&)	24	static
+udp6.hpp:317:14:uint16_t ot::Ip6::UdpHeader::GetSourcePort() const	16	static
+udp6.hpp:325:10:void ot::Ip6::UdpHeader::SetSourcePort(uint16_t)	16	static
+udp6.hpp:333:14:uint16_t ot::Ip6::UdpHeader::GetDestinationPort() const	16	static
+udp6.hpp:341:10:void ot::Ip6::UdpHeader::SetDestinationPort(uint16_t)	16	static
+udp6.hpp:357:10:void ot::Ip6::UdpHeader::SetLength(uint16_t)	16	static
+udp6.hpp:373:10:void ot::Ip6::UdpHeader::SetChecksum(uint16_t)	16	static
+udp6.hpp:389:20:static uint8_t ot::Ip6::UdpHeader::GetChecksumOffset()	4	static
+udp.h:66:16:otUdpSocket::otUdpSocket()	16	static
+udp6.cpp:48:1:ot::Ip6::UdpSocket::UdpSocket(ot::Ip6::Udp&)	16	static
+udp6.cpp:53:10:ot::Message* ot::Ip6::UdpSocket::NewMessage(uint16_t)	16	static
+udp6.cpp:58:9:otError ot::Ip6::UdpSocket::Open(otUdpReceive, void*)	24	static
+udp6.cpp:68:9:otError ot::Ip6::UdpSocket::Bind(const ot::Ip6::SockAddr&)	24	static
+udp6.cpp:80:9:otError ot::Ip6::UdpSocket::Connect(const ot::Ip6::SockAddr&)	24	static
+udp6.cpp:86:9:otError ot::Ip6::UdpSocket::Close()	24	static
+udp6.cpp:98:9:otError ot::Ip6::UdpSocket::SendTo(ot::Message&, const ot::Ip6::MessageInfo&)	80	static
+udp6.cpp:135:1:ot::Ip6::Udp::Udp(ot::Instance&)	16	static
+udp6.cpp:142:9:otError ot::Ip6::Udp::AddSocket(ot::Ip6::UdpSocket&)	24	static
+udp6.cpp:159:9:otError ot::Ip6::Udp::RemoveSocket(ot::Ip6::UdpSocket&)	24	static
+udp6.cpp:182:10:uint16_t ot::Ip6::Udp::GetEphemeralPort()	24	static
+udp6.cpp:198:10:ot::Message* ot::Ip6::Udp::NewMessage(uint16_t)	16	static
+udp6.cpp:203:9:otError ot::Ip6::Udp::SendDatagram(ot::Message&, ot::Ip6::MessageInfo&, ot::Ip6::IpProto)	40	static
+udp6.cpp:235:9:otError ot::Ip6::Udp::HandleMessage(ot::Message&, ot::Ip6::MessageInfo&)	48	static
+udp6.cpp:268:6:void ot::Ip6::Udp::HandlePayload(ot::Message&, ot::Ip6::MessageInfo&)	40	static
+udp6.cpp:308:9:otError ot::Ip6::Udp::UpdateChecksum(ot::Message&, uint16_t)	40	static

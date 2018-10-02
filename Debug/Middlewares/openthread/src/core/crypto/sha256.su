@@ -1,0 +1,5 @@
+sha256.cpp:39:1:ot::Crypto::Sha256::Sha256()	16	static
+sha256.cpp:44:1:ot::Crypto::Sha256::~Sha256()	16	static
+sha256.cpp:49:6:void ot::Crypto::Sha256::Start()	16	static
+sha256.cpp:54:6:void ot::Crypto::Sha256::Update(const uint8_t*, uint16_t)	24	static
+sha256.cpp:59:6:void ot::Crypto::Sha256::Finish(uint8_t*)	16	static

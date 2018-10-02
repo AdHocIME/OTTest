@@ -1,0 +1,89 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+message.hpp:139:19:ot::Buffer* ot::Buffer::GetNextBuffer() const	16	static
+message.hpp:145:10:void ot::Buffer::SetNextBuffer(ot::Buffer*)	16	static
+message.hpp:154:14:uint8_t* ot::Buffer::GetFirstData()	16	static
+message.hpp:162:20:const uint8_t* ot::Buffer::GetFirstData() const	16	static
+message.hpp:170:14:uint8_t* ot::Buffer::GetData()	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:314:13:uint8_t ot::Message::GetType() const	16	static
+message.hpp:322:10:void ot::Message::SetType(uint8_t)	16	static
+message.hpp:330:13:uint8_t ot::Message::GetSubType() const	16	static
+message.hpp:338:10:void ot::Message::SetSubType(uint8_t)	16	static
+message.hpp:355:13:uint8_t ot::Message::GetPriority() const	16	static
+message.hpp:585:12:int8_t ot::Message::GetInterfaceId() const	16	static
+message.hpp:593:10:void ot::Message::SetInterfaceId(int8_t)	16	static
+message.hpp:641:10:bool ot::Message::IsLinkSecurityEnabled() const	16	static
+message.hpp:649:10:void ot::Message::SetLinkSecurityEnabled(bool)	16	static
+message.hpp:718:19:ot::MessageQueue* ot::Message::GetMessageQueue() const	16	static
+message.hpp:784:18:ot::MessagePool* ot::Message::GetMessagePool() const	16	static
+message.hpp:792:10:void ot::Message::SetMessagePool(ot::MessagePool*)	16	static
+message.hpp:800:10:bool ot::Message::IsInAQueue() const	16	static
+message.hpp:816:20:ot::PriorityQueue* ot::Message::GetPriorityQueue() const	16	static
+message.hpp:837:15:ot::Message*& ot::Message::Next(uint8_t)	16	static
+message.hpp:847:21:ot::Message* const& ot::Message::Next(uint8_t) const	16	static
+message.hpp:857:15:ot::Message*& ot::Message::Prev(uint8_t)	16	static
+message.hpp:865:14:uint16_t ot::Message::GetReserved() const	16	static
+message.hpp:873:10:void ot::Message::SetReserved(uint16_t)	16	static
+message.hpp:972:14:ot::Message* ot::MessageQueue::GetTail() const	16	static
+message.hpp:980:10:void ot::MessageQueue::SetTail(ot::Message*)	16	static
+message.hpp:1113:13:uint8_t ot::PriorityQueue::PrevPriority(uint8_t) const	16	static
+message.hpp:1167:18:ot::Message* ot::MessagePool::Iterator::GetMessage() const	16	static
+message.hpp:1224:9:ot::MessagePool::Iterator::Iterator(ot::Message*)	16	static
+message.hpp:1276:14:ot::MessagePool::Iterator ot::MessagePool::GetAllMessagesTail() const	24	static
+message.hpp:1287:14:uint16_t ot::MessagePool::GetFreeBufferCount() const	16	static
+message.hpp:1299:20:ot::PriorityQueue* ot::MessagePool::GetAllMessagesQueue()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+message.cpp:46:1:ot::MessagePool::MessagePool(ot::Instance&)	24	static
+message.cpp:68:10:ot::Message* ot::MessagePool::New(uint8_t, uint16_t)	24	static
+message.cpp:93:6:void ot::MessagePool::Free(ot::Message*)	16	static
+message.cpp:102:9:ot::Buffer* ot::MessagePool::NewBuffer()	24	static
+message.cpp:130:6:void ot::MessagePool::FreeBuffers(ot::Buffer*)	24	static
+message.cpp:146:9:otError ot::MessagePool::ReclaimBuffers(int)	24	static
+message.cpp:171:10:ot::Message* ot::MessagePool::Iterator::Next() const	32	static
+message.cpp:190:10:ot::Message* ot::MessagePool::Iterator::Prev() const	32	static
+message.cpp:209:23:ot::MessagePool::Iterator ot::MessagePool::GetAllMessagesHead() const	32	static
+message.cpp:228:9:otError ot::Message::ResizeMessage(uint16_t)	32	static
+message.cpp:260:6:void ot::Message::Free()	16	static
+message.cpp:265:10:ot::Message* ot::Message::GetNext() const	32	static
+message.cpp:289:9:otError ot::Message::SetLength(uint16_t)	40	static
+message.cpp:315:9:uint8_t ot::Message::GetBufferCount() const	24	static
+message.cpp:327:9:otError ot::Message::MoveOffset(int)	32	static
+message.cpp:341:9:otError ot::Message::SetOffset(uint16_t)	32	static
+message.cpp:354:6:bool ot::Message::IsSubTypeMle() const	24	static
+message.cpp:370:9:otError ot::Message::SetPriority(uint8_t)	24	static
+message.cpp:405:9:otError ot::Message::Append(const void*, uint16_t)	32	static
+message.cpp:421:9:otError ot::Message::Prepend(const void*, uint16_t)	40	static
+message.cpp:456:9:otError ot::Message::RemoveHeader(uint16_t)	16	static
+message.cpp:475:10:uint16_t ot::Message::Read(uint16_t, uint16_t, void*) const	40	static
+message.cpp:553:5:int ot::Message::Write(uint16_t, uint16_t, const void*)	40	static
+message.cpp:627:5:int ot::Message::CopyTo(uint16_t, uint16_t, uint16_t, ot::Message&) const	48	static
+message.cpp:649:10:ot::Message* ot::Message::Clone(uint16_t) const	40	static
+message.cpp:679:6:bool ot::Message::GetChildMask(uint8_t) const	16	static
+message.cpp:685:6:void ot::Message::ClearChildMask(uint8_t)	16	static
+message.cpp:691:6:void ot::Message::SetChildMask(uint8_t)	16	static
+message.cpp:697:6:bool ot::Message::IsChildPending() const	24	static
+message.cpp:713:10:static uint16_t ot::Message::UpdateChecksum(uint16_t, uint16_t)	24	static
+message.cpp:719:10:static uint16_t ot::Message::UpdateChecksum(uint16_t, const void*, uint16_t)	24	static
+message.cpp:731:10:uint16_t ot::Message::UpdateChecksum(uint16_t, uint16_t, uint16_t) const	40	static
+message.cpp:798:6:void ot::Message::SetMessageQueue(ot::MessageQueue*)	16	static
+message.cpp:804:6:void ot::Message::SetPriorityQueue(ot::PriorityQueue*)	16	static
+message.h:246:3:otMessageQueue::otMessageQueue()	16	static
+message.cpp:810:1:ot::MessageQueue::MessageQueue()	16	static
+message.cpp:815:6:void ot::MessageQueue::AddToList(uint8_t, ot::Message&, ot::MessageQueue::QueuePosition)	40	static
+message.cpp:843:6:void ot::MessageQueue::RemoveFromList(uint8_t, ot::Message&)	32	static
+message.cpp:864:10:ot::Message* ot::MessageQueue::GetHead() const	16	static
+message.cpp:869:9:otError ot::MessageQueue::Enqueue(ot::Message&, ot::MessageQueue::QueuePosition)	32	static
+message.cpp:886:9:otError ot::MessageQueue::Dequeue(ot::Message&)	24	static
+message.cpp:901:6:void ot::MessageQueue::GetInfo(uint16_t&, uint16_t&) const	32	static
+message.cpp:913:1:ot::PriorityQueue::PriorityQueue()	24	static
+message.cpp:921:10:ot::Message* ot::PriorityQueue::FindFirstNonNullTail(uint8_t) const	24	static
+message.cpp:942:10:ot::Message* ot::PriorityQueue::GetHead() const	24	static
+message.cpp:951:10:ot::Message* ot::PriorityQueue::GetHeadForPriority(uint8_t) const	24	static
+message.cpp:972:10:ot::Message* ot::PriorityQueue::GetTail() const	16	static
+message.cpp:977:6:void ot::PriorityQueue::AddToList(uint8_t, ot::Message&)	40	static
+message.cpp:1005:6:void ot::PriorityQueue::RemoveFromList(uint8_t, ot::Message&)	40	static
+message.cpp:1032:9:otError ot::PriorityQueue::Enqueue(ot::Message&)	24	static
+message.cpp:1047:9:otError ot::PriorityQueue::Dequeue(ot::Message&)	24	static
+message.cpp:1062:6:void ot::PriorityQueue::GetInfo(uint16_t&, uint16_t&) const	32	static

@@ -1,0 +1,67 @@
+topology.hpp:414:9:ot::Child::Ip6AddressIterator::Ip6AddressIterator()	16	static
+topology.hpp:433:14:void ot::Child::Ip6AddressIterator::Set(otChildIp6AddressIterator)	16	static
+topology.hpp:441:35:otChildIp6AddressIterator ot::Child::Ip6AddressIterator::Get() const	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+child_table.hpp:277:13:uint8_t ot::ChildTable::GetMaxChildrenAllowed() const	16	static
+router_table.hpp:274:13:uint8_t ot::RouterTable::GetRouterIdSequence() const	16	static
+mle_router_ftd.hpp:144:13:uint8_t ot::Mle::MleRouter::GetLeaderWeight() const	16	static
+mle_router_ftd.hpp:152:10:void ot::Mle::MleRouter::SetLeaderWeight(uint8_t)	16	static
+mle_router_ftd.hpp:160:14:uint32_t ot::Mle::MleRouter::GetLeaderPartitionId() const	16	static
+mle_router_ftd.hpp:168:10:void ot::Mle::MleRouter::SetLeaderPartitionId(uint32_t)	16	static
+mle_router_ftd.hpp:222:13:uint8_t ot::Mle::MleRouter::GetNetworkIdTimeout() const	16	static
+mle_router_ftd.hpp:230:10:void ot::Mle::MleRouter::SetNetworkIdTimeout(uint8_t)	16	static
+mle_router_ftd.hpp:268:13:uint8_t ot::Mle::MleRouter::GetRouterSelectionJitter() const	16	static
+mle_router_ftd.hpp:292:13:uint8_t ot::Mle::MleRouter::GetRouterUpgradeThreshold() const	16	static
+mle_router_ftd.hpp:300:10:void ot::Mle::MleRouter::SetRouterUpgradeThreshold(uint8_t)	16	static
+mle_router_ftd.hpp:308:13:uint8_t ot::Mle::MleRouter::GetRouterDowngradeThreshold() const	16	static
+mle_router_ftd.hpp:316:10:void ot::Mle::MleRouter::SetRouterDowngradeThreshold(uint8_t)	16	static
+mle_router_ftd.hpp:345:17:ot::ChildTable& ot::Mle::MleRouter::GetChildTable()	16	static
+mle_router_ftd.hpp:617:10:void ot::Mle::MleRouter::SetChildTableChangedCallback(otThreadChildTableCallback)	16	static
+mle_router_ftd.hpp:625:32:void (* ot::Mle::MleRouter::GetChildTableChangedCallback() const)(otThreadChildTableEvent, const otChildInfo*)	16	static
+mle_router_ftd.hpp:660:18:ot::RouterTable& ot::Mle::MleRouter::GetRouterTable()	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+thread_netif.hpp:298:28:ot::MeshCoP::JoinerRouter& ot::ThreadNetif::GetJoinerRouter()	16	static
+thread_netif.hpp:314:22:ot::AddressResolver& ot::ThreadNetif::GetAddressResolver()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+thread_ftd_api.cpp:48:9:uint8_t otThreadGetMaxAllowedChildren(otInstance*)	24	static
+thread_ftd_api.cpp:55:9:otError otThreadSetMaxAllowedChildren(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:62:6:bool otThreadIsRouterRoleEnabled(otInstance*)	24	static
+thread_ftd_api.cpp:69:6:void otThreadSetRouterRoleEnabled(otInstance*, bool)	24	static
+thread_ftd_api.cpp:76:9:otError otThreadSetPreferredRouterId(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:83:9:uint8_t otThreadGetLocalLeaderWeight(otInstance*)	24	static
+thread_ftd_api.cpp:90:6:void otThreadSetLocalLeaderWeight(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:97:10:uint32_t otThreadGetLocalLeaderPartitionId(otInstance*)	24	static
+thread_ftd_api.cpp:104:6:void otThreadSetLocalLeaderPartitionId(otInstance*, uint32_t)	24	static
+thread_ftd_api.cpp:111:10:uint16_t otThreadGetJoinerUdpPort(otInstance*)	24	static
+thread_ftd_api.cpp:118:9:otError otThreadSetJoinerUdpPort(otInstance*, uint16_t)	24	static
+thread_ftd_api.cpp:125:10:uint32_t otThreadGetContextIdReuseDelay(otInstance*)	24	static
+thread_ftd_api.cpp:132:6:void otThreadSetContextIdReuseDelay(otInstance*, uint32_t)	24	static
+thread_ftd_api.cpp:139:9:uint8_t otThreadGetNetworkIdTimeout(otInstance*)	24	static
+thread_ftd_api.cpp:146:6:void otThreadSetNetworkIdTimeout(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:153:9:uint8_t otThreadGetRouterUpgradeThreshold(otInstance*)	24	static
+thread_ftd_api.cpp:160:6:void otThreadSetRouterUpgradeThreshold(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:167:9:otError otThreadReleaseRouterId(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:174:9:otError otThreadBecomeRouter(otInstance*)	24	static
+thread_ftd_api.cpp:198:9:otError otThreadBecomeLeader(otInstance*)	24	static
+thread_ftd_api.cpp:205:9:uint8_t otThreadGetRouterDowngradeThreshold(otInstance*)	24	static
+thread_ftd_api.cpp:212:6:void otThreadSetRouterDowngradeThreshold(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:219:9:uint8_t otThreadGetRouterSelectionJitter(otInstance*)	24	static
+thread_ftd_api.cpp:226:6:void otThreadSetRouterSelectionJitter(otInstance*, uint8_t)	24	static
+thread_ftd_api.cpp:233:9:otError otThreadGetChildInfoById(otInstance*, uint16_t, otChildInfo*)	32	static
+thread_ftd_api.cpp:246:9:otError otThreadGetChildInfoByIndex(otInstance*, uint8_t, otChildInfo*)	32	static
+thread_ftd_api.cpp:259:9:otError otThreadGetChildNextIp6Address(otInstance*, uint8_t, otChildIp6AddressIterator*, otIp6Address*)	40	static
+thread_ftd_api.cpp:282:9:uint8_t otThreadGetRouterIdSequence(otInstance*)	24	static
+thread_ftd_api.cpp:289:9:uint8_t otThreadGetMaxRouterId(otInstance*)	16	static
+thread_ftd_api.cpp:295:9:otError otThreadGetRouterInfo(otInstance*, uint16_t, otRouterInfo*)	32	static
+thread_ftd_api.cpp:308:9:otError otThreadGetEidCacheEntry(otInstance*, uint8_t, otEidCacheEntry*)	32	static
+thread_ftd_api.cpp:320:9:otError otThreadSetSteeringData(otInstance*, const otExtAddress*)	24	static
+thread_ftd_api.cpp:338:16:const uint8_t* otThreadGetPSKc(otInstance*)	24	static
+thread_ftd_api.cpp:345:9:otError otThreadSetPSKc(otInstance*, const uint8_t*)	24	static
+thread_ftd_api.cpp:361:8:int8_t otThreadGetParentPriority(otInstance*)	24	static
+thread_ftd_api.cpp:368:9:otError otThreadSetParentPriority(otInstance*, int8_t)	24	static
+thread_ftd_api.cpp:375:28:void (* otThreadGetChildTableCallback(otInstance*))(otThreadChildTableEvent, const otChildInfo*)	24	static
+thread_ftd_api.cpp:382:6:void otThreadSetChildTableCallback(otInstance*, otThreadChildTableCallback)	24	static

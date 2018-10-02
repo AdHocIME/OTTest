@@ -1,0 +1,107 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:68:17:uint32_t ot::Encoding::Reverse32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+coap_header.hpp:395:13:uint8_t ot::Coap::Header::GetLength() const	16	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+key_manager.hpp:270:14:uint32_t ot::KeyManager::GetKeyRotation() const	16	static
+key_manager.hpp:315:13:uint8_t ot::KeyManager::GetSecurityPolicyFlags() const	16	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+timestamp.hpp:63:10:void ot::MeshCoP::Timestamp::Init()	16	static
+timestamp.hpp:105:10:void ot::MeshCoP::Timestamp::SetSeconds(uint64_t)	40	static
+timestamp.hpp:127:10:void ot::MeshCoP::Timestamp::SetTicks(uint16_t)	16	static
+meshcop_tlvs.hpp:115:10:ot::MeshCoP::Tlv::Type ot::MeshCoP::Tlv::GetType() const	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:147:20:static otError ot::MeshCoP::Tlv::GetTlv(const ot::Message&, ot::MeshCoP::Tlv::Type, uint16_t, ot::MeshCoP::Tlv&)	24	static
+meshcop_tlvs.hpp:193:10:void ot::MeshCoP::ChannelTlv::Init()	16	static
+meshcop_tlvs.hpp:206:10:bool ot::MeshCoP::ChannelTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:222:10:void ot::MeshCoP::ChannelTlv::SetChannelPage(uint8_t)	16	static
+meshcop_tlvs.hpp:230:14:uint16_t ot::MeshCoP::ChannelTlv::GetChannel() const	16	static
+meshcop_tlvs.hpp:238:10:void ot::MeshCoP::ChannelTlv::SetChannel(uint16_t)	16	static
+meshcop_tlvs.hpp:257:10:void ot::MeshCoP::PanIdTlv::Init()	16	static
+meshcop_tlvs.hpp:270:10:bool ot::MeshCoP::PanIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:278:14:uint16_t ot::MeshCoP::PanIdTlv::GetPanId() const	16	static
+meshcop_tlvs.hpp:286:10:void ot::MeshCoP::PanIdTlv::SetPanId(uint16_t)	16	static
+meshcop_tlvs.hpp:304:10:void ot::MeshCoP::ExtendedPanIdTlv::Init()	16	static
+meshcop_tlvs.hpp:333:10:void ot::MeshCoP::ExtendedPanIdTlv::SetExtendedPanId(const uint8_t*)	16	static
+meshcop_tlvs.hpp:351:10:void ot::MeshCoP::NetworkNameTlv::Init()	16	static
+meshcop_tlvs.hpp:380:10:void ot::MeshCoP::NetworkNameTlv::SetNetworkName(const char*)	24	static
+meshcop_tlvs.hpp:403:10:void ot::MeshCoP::PSKcTlv::Init()	16	static
+meshcop_tlvs.hpp:432:10:void ot::MeshCoP::PSKcTlv::SetPSKc(const uint8_t*)	16	static
+meshcop_tlvs.hpp:450:10:void ot::MeshCoP::NetworkMasterKeyTlv::Init()	16	static
+meshcop_tlvs.hpp:463:10:bool ot::MeshCoP::NetworkMasterKeyTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:471:24:const otMasterKey& ot::MeshCoP::NetworkMasterKeyTlv::GetNetworkMasterKey() const	16	static
+meshcop_tlvs.hpp:479:10:void ot::MeshCoP::NetworkMasterKeyTlv::SetNetworkMasterKey(const otMasterKey&)	16	static
+meshcop_tlvs.hpp:544:10:void ot::MeshCoP::MeshLocalPrefixTlv::Init()	16	static
+meshcop_tlvs.hpp:557:10:bool ot::MeshCoP::MeshLocalPrefixTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:565:20:const uint8_t* ot::MeshCoP::MeshLocalPrefixTlv::GetMeshLocalPrefix() const	16	static
+meshcop_tlvs.hpp:573:10:void ot::MeshCoP::MeshLocalPrefixTlv::SetMeshLocalPrefix(const uint8_t*)	16	static
+meshcop_tlvs.hpp:734:14:uint16_t ot::MeshCoP::BorderAgentLocatorTlv::GetBorderAgentLocator() const	16	static
+meshcop_tlvs.hpp:830:10:bool ot::MeshCoP::CommissionerSessionIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:838:14:uint16_t ot::MeshCoP::CommissionerSessionIdTlv::GetCommissionerSessionId() const	16	static
+meshcop_tlvs.hpp:864:10:void ot::MeshCoP::SecurityPolicyTlv::Init()	16	static
+meshcop_tlvs.hpp:893:10:void ot::MeshCoP::SecurityPolicyTlv::SetRotationTime(uint16_t)	16	static
+meshcop_tlvs.hpp:918:10:void ot::MeshCoP::SecurityPolicyTlv::SetFlags(uint8_t)	16	static
+meshcop_tlvs.hpp:937:10:void ot::MeshCoP::ActiveTimestampTlv::Init()	16	static
+meshcop_tlvs.hpp:951:10:bool ot::MeshCoP::ActiveTimestampTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:966:10:void ot::MeshCoP::StateTlv::Init()	16	static
+meshcop_tlvs.hpp:1006:10:void ot::MeshCoP::StateTlv::SetState(ot::MeshCoP::StateTlv::State)	16	static
+meshcop_tlvs.hpp:1212:10:void ot::MeshCoP::PendingTimestampTlv::Init()	16	static
+meshcop_tlvs.hpp:1226:10:bool ot::MeshCoP::PendingTimestampTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1241:10:void ot::MeshCoP::DelayTimerTlv::Init()	16	static
+meshcop_tlvs.hpp:1262:14:uint32_t ot::MeshCoP::DelayTimerTlv::GetDelayTimer() const	16	static
+meshcop_tlvs.hpp:1270:10:void ot::MeshCoP::DelayTimerTlv::SetDelayTimer(uint32_t)	16	static
+meshcop_tlvs.hpp:1315:10:void ot::MeshCoP::ChannelMaskEntry::SetChannelPage(uint8_t)	16	static
+meshcop_tlvs.hpp:1331:10:void ot::MeshCoP::ChannelMaskEntry::SetMaskLength(uint8_t)	16	static
+meshcop_tlvs.hpp:1404:10:void ot::MeshCoP::ChannelMask0Entry::Init()	16	static
+meshcop_tlvs.hpp:1433:10:void ot::MeshCoP::ChannelMask0Entry::SetMask(uint32_t)	16	static
+meshcop_tlvs.hpp:1496:10:void ot::MeshCoP::ChannelMask0Tlv::Init()	16	static
+mac.hpp:152:14:uint32_t ot::Mac::ChannelMask::GetMask() const	16	static
+mac.hpp:592:13:uint8_t ot::Mac::Mac::GetPanChannel() const	16	static
+mac.hpp:653:24:const ot::Mac::ChannelMask& ot::Mac::Mac::GetSupportedChannelMask() const	16	static
+mac.hpp:669:17:const char* ot::Mac::Mac::GetNetworkName() const	16	static
+mac.hpp:700:14:uint16_t ot::Mac::Mac::GetPanId() const	16	static
+mac.hpp:718:20:const uint8_t* ot::Mac::Mac::GetExtendedPanId() const	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+dataset.hpp:124:14:uint16_t ot::MeshCoP::Dataset::GetSize() const	16	static
+dataset_local.hpp:66:15:ot::MeshCoP::Tlv::Type ot::MeshCoP::DatasetLocal::GetType() const	16	static
+dataset_manager.hpp:103:13:otError ot::MeshCoP::DatasetManager::Get(ot::MeshCoP::Dataset&) const	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+thread_netif.hpp:306:22:ot::MeshCoP::Leader& ot::ThreadNetif::GetLeader()	16	static
+meshcop.hpp:56:17:ot::Message* ot::MeshCoP::NewMeshCoPMessage(ot::Coap::CoapBase&, const ot::Coap::Header&)	16	static
+dataset_manager_ftd.cpp:61:9:otError ot::MeshCoP::DatasetManager::Set(const otOperationalDataset&)	24	static
+dataset_manager_ftd.cpp:93:9:otError ot::MeshCoP::DatasetManager::Set(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	448	static
+dataset_manager_ftd.cpp:339:9:otError ot::MeshCoP::DatasetManager::SendSetRequest(const otOperationalDataset&, const uint8_t*, uint8_t)	360	static
+dataset_manager_ftd.cpp:497:9:otError ot::MeshCoP::DatasetManager::SendGetRequest(const otOperationalDatasetComponents&, const uint8_t*, uint8_t, const otIp6Address*) const	264	static
+dataset_manager_ftd.cpp:626:6:void ot::MeshCoP::DatasetManager::SendSetResponse(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, ot::MeshCoP::StateTlv::State)	192	static
+dataset_manager_ftd.cpp:657:9:otError ot::MeshCoP::ActiveDataset::Set(const otOperationalDataset&)	16	static
+dataset_manager_ftd.cpp:662:9:otError ot::MeshCoP::ActiveDataset::GenerateLocal()	416	static
+dataset_manager_ftd.cpp:774:6:void ot::MeshCoP::ActiveDataset::StartLeader()	16	static
+dataset_manager_ftd.cpp:780:6:void ot::MeshCoP::ActiveDataset::StopLeader()	16	static
+dataset_manager_ftd.cpp:785:6:static void ot::MeshCoP::ActiveDataset::HandleSet(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+dataset_manager_ftd.cpp:795:6:void ot::MeshCoP::ActiveDataset::HandleSet(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	24	static
+dataset_manager_ftd.cpp:804:9:otError ot::MeshCoP::PendingDataset::Set(const otOperationalDataset&)	24	static
+dataset_manager_ftd.cpp:815:6:void ot::MeshCoP::PendingDataset::StartLeader()	16	static
+dataset_manager_ftd.cpp:821:6:void ot::MeshCoP::PendingDataset::StopLeader()	16	static
+dataset_manager_ftd.cpp:826:6:static void ot::MeshCoP::PendingDataset::HandleSet(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+dataset_manager_ftd.cpp:836:6:void ot::MeshCoP::PendingDataset::HandleSet(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	24	static
+dataset_manager_ftd.cpp:845:6:void ot::MeshCoP::PendingDataset::ApplyActiveDataset(const ot::MeshCoP::Timestamp&, ot::Message&)	336	static

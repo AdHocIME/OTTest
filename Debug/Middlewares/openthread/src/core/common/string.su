@@ -1,0 +1,1 @@
+string.cpp:49:9:static otError ot::StringBase::Write(char*, uint16_t, uint16_t&, const char*, va_list)	32	static

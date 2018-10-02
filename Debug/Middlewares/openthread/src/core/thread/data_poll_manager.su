@@ -1,0 +1,40 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+timer.hpp:199:21:static uint32_t ot::TimerMilli::SecToMsec(uint32_t)	16	static
+mac_frame.hpp:596:10:bool ot::Mac::Frame::GetFramePending() const	16	static
+mac_frame.hpp:1114:14:uint8_t* ot::Mac::Frame::GetPsdu() const	16	static
+message.hpp:314:13:uint8_t ot::Message::GetType() const	16	static
+topology.hpp:95:10:bool ot::Neighbor::IsStateRestoring() const	16	static
+topology.hpp:105:10:bool ot::Neighbor::IsStateValidOrRestoring() const	16	static
+mac.hpp:500:10:bool ot::Mac::Mac::GetRxOnWhenIdle() const	16	static
+mle.hpp:654:10:bool ot::Mle::Mle::IsRxOnWhenIdle() const	16	static
+mle.hpp:798:14:uint32_t ot::Mle::Mle::GetTimeout() const	16	static
+mesh_forwarder.hpp:190:26:const ot::PriorityQueue& ot::MeshForwarder::GetSendQueue() const	16	static
+mesh_forwarder.hpp:206:22:ot::DataPollManager& ot::MeshForwarder::GetDataPollManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:367:18:ot::MessagePool& ot::Instance::GetMessagePool()	16	static
+instance.hpp:527:37:Type& ot::Instance::Get() [with Type = ot::DataPollManager]	16	static
+data_poll_manager.cpp:53:1:ot::DataPollManager::DataPollManager(ot::Instance&)	16	static
+data_poll_manager.cpp:69:9:otError ot::DataPollManager::StartPolling()	24	static
+data_poll_manager.cpp:83:6:void ot::DataPollManager::StopPolling()	16	static
+data_poll_manager.cpp:95:9:otError ot::DataPollManager::SendDataPoll()	32	static
+data_poll_manager.cpp:164:6:void ot::DataPollManager::SetExternalPollPeriod(uint32_t)	16	static
+data_poll_manager.cpp:177:10:uint32_t ot::DataPollManager::GetKeepAlivePollPeriod() const	24	static
+data_poll_manager.cpp:193:6:void ot::DataPollManager::HandlePollSent(otError)	32	static
+data_poll_manager.cpp:259:6:void ot::DataPollManager::HandlePollTimeout()	24	static
+data_poll_manager.cpp:284:6:void ot::DataPollManager::CheckFramePending(ot::Mac::Frame&)	16	static
+data_poll_manager.cpp:299:6:void ot::DataPollManager::RecalculatePollPeriod()	16	static
+data_poll_manager.cpp:307:6:void ot::DataPollManager::SetAttachMode(bool)	16	static
+data_poll_manager.cpp:320:6:void ot::DataPollManager::SendFastPolls(uint8_t)	24	static
+data_poll_manager.cpp:345:6:void ot::DataPollManager::ScheduleNextPoll(ot::DataPollManager::PollPeriodSelector)	16	static
+data_poll_manager.cpp:363:10:uint32_t ot::DataPollManager::CalculatePollPeriod() const	24	static
+data_poll_manager.cpp:417:6:static void ot::DataPollManager::HandlePollTimer(ot::Timer&)	16	static
+data_poll_manager.cpp:422:10:uint32_t ot::DataPollManager::GetDefaultPollPeriod() const	16	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::DataPollManager]	16	static

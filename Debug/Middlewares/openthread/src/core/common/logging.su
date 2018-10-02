@@ -1,0 +1,4 @@
+logging.cpp:70:13:void DumpLine(otInstance*, otLogLevel, otLogRegion, const void*, size_t)	120	static
+logging.cpp:126:6:void otDump(otInstance*, otLogLevel, otLogRegion, const char*, const void*, size_t)	144	static
+logging.cpp:176:13:const char* otThreadErrorToString(otError)	24	static
+logging.cpp:330:13:const char* otLogLevelToPrefixString(otLogLevel)	24	static

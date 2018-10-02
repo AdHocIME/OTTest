@@ -1,0 +1,17 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+random.hpp:86:17:uint32_t ot::Random::GetUint32()	8	static
+random.hpp:130:17:uint32_t ot::Random::GetUint32InRange(uint32_t, uint32_t)	16	static
+trickle_timer.cpp:42:1:ot::TrickleTimer::TrickleTimer(ot::Instance&, ot::TrickleTimer::Handler, ot::TrickleTimer::Handler, void*)	24	static
+trickle_timer.cpp:67:9:otError ot::TrickleTimer::Start(uint32_t, uint32_t, ot::TrickleTimer::Mode)	32	static
+trickle_timer.cpp:88:6:void ot::TrickleTimer::Stop()	16	static
+trickle_timer.cpp:94:6:void ot::TrickleTimer::IndicateInconsistent()	16	static
+trickle_timer.cpp:107:6:void ot::TrickleTimer::StartNewInterval()	24	static
+trickle_timer.cpp:141:6:static void ot::TrickleTimer::HandleTimer(ot::Timer&)	16	static
+trickle_timer.cpp:146:6:void ot::TrickleTimer::HandleTimer()	16	static
+trickle_timer.cpp:158:6:void ot::TrickleTimer::HandleEndOfTimeInInterval()	24	static
+trickle_timer.cpp:190:6:void ot::TrickleTimer::HandleEndOfInterval()	24	static

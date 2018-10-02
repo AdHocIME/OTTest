@@ -1,0 +1,23 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+netif.hpp:96:20:const ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress() const	16	static
+netif.hpp:104:14:ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress()	16	static
+netif.hpp:123:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::NetifUnicastAddress::GetNext() const	16	static
+netif.hpp:131:26:ot::Ip6::NetifUnicastAddress* ot::Ip6::NetifUnicastAddress::GetNext()	16	static
+netif.hpp:157:14:ot::Ip6::Address& ot::Ip6::NetifMulticastAddress::GetAddress()	16	static
+netif.hpp:173:28:ot::Ip6::NetifMulticastAddress* ot::Ip6::NetifMulticastAddress::GetNext()	16	static
+netif.cpp:83:1:ot::Ip6::Netif::Netif(ot::Instance&, int8_t)	32	static
+netif.cpp:107:6:bool ot::Ip6::Netif::IsMulticastSubscribed(const ot::Ip6::Address&) const	24	static
+netif.cpp:123:9:otError ot::Ip6::Netif::SubscribeAllRoutersMulticast()	24	static
+netif.cpp:155:9:otError ot::Ip6::Netif::UnsubscribeAllRoutersMulticast()	24	static
+netif.cpp:187:9:otError ot::Ip6::Netif::SubscribeMulticast(ot::Ip6::NetifMulticastAddress&)	24	static
+netif.cpp:207:9:otError ot::Ip6::Netif::UnsubscribeMulticast(const ot::Ip6::NetifMulticastAddress&)	24	static
+netif.cpp:240:9:otError ot::Ip6::Netif::GetNextExternalMulticast(uint8_t&, ot::Ip6::Address&)	48	static
+netif.cpp:266:9:otError ot::Ip6::Netif::SubscribeExternalMulticast(const ot::Ip6::Address&)	40	static
+netif.cpp:299:9:otError ot::Ip6::Netif::UnsubscribeExternalMulticast(const ot::Ip6::Address&)	32	static
+netif.cpp:339:6:void ot::Ip6::Netif::UnsubscribeAllExternalMulticastAddresses()	24	static
+netif.cpp:353:9:otError ot::Ip6::Netif::AddUnicastAddress(ot::Ip6::NetifUnicastAddress&)	24	static
+netif.cpp:374:9:otError ot::Ip6::Netif::RemoveUnicastAddress(const ot::Ip6::NetifUnicastAddress&)	24	static
+netif.cpp:407:9:otError ot::Ip6::Netif::AddExternalUnicastAddress(const ot::Ip6::NetifUnicastAddress&)	40	static
+netif.cpp:452:9:otError ot::Ip6::Netif::RemoveExternalUnicastAddress(const ot::Ip6::Address&)	32	static
+netif.cpp:492:6:void ot::Ip6::Netif::RemoveAllExternalUnicastAddresses()	24	static
+netif.cpp:506:6:bool ot::Ip6::Netif::IsUnicastAddress(const ot::Ip6::Address&) const	24	static

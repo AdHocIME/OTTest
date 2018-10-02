@@ -1,0 +1,14 @@
+commissioner_api.cpp:42:9:otError otCommissionerStart(otInstance*)	24	static
+commissioner_api.cpp:59:9:otError otCommissionerStop(otInstance*)	24	static
+commissioner_api.cpp:76:9:otError otCommissionerAddJoiner(otInstance*, const otExtAddress*, const char*, uint32_t)	32	static
+commissioner_api.cpp:95:9:otError otCommissionerRemoveJoiner(otInstance*, const otExtAddress*)	24	static
+commissioner_api.cpp:111:9:otError otCommissionerSetProvisioningUrl(otInstance*, const char*)	24	static
+commissioner_api.cpp:127:13:const char* otCommissionerGetProvisioningUrl(otInstance*, uint16_t*)	24	static
+commissioner_api.cpp:146:9:otError otCommissionerAnnounceBegin(otInstance*, uint32_t, uint8_t, uint16_t, const otIp6Address*)	32	static
+commissioner_api.cpp:170:9:otError otCommissionerEnergyScan(otInstance*, uint32_t, uint8_t, uint16_t, uint16_t, const otIp6Address*, otCommissionerEnergyReportCallback, void*)	32	static
+commissioner_api.cpp:201:9:otError otCommissionerPanIdQuery(otInstance*, uint16_t, uint32_t, const otIp6Address*, otCommissionerPanIdConflictCallback, void*)	32	static
+commissioner_api.cpp:227:9:otError otCommissionerSendMgmtGet(otInstance*, const uint8_t*, uint8_t)	32	static
+commissioner_api.cpp:244:9:otError otCommissionerSendMgmtSet(otInstance*, const otCommissioningDataset*, const uint8_t*, uint8_t)	32	static
+commissioner_api.cpp:265:10:uint16_t otCommissionerGetSessionId(otInstance*)	24	static
+commissioner_api.cpp:280:21:otCommissionerState otCommissionerGetState(otInstance*)	24	static
+commissioner_api.cpp:295:9:otError otCommissionerGeneratePSKc(otInstance*, const char*, const char*, const uint8_t*, uint8_t*)	32	static

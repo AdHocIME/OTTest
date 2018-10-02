@@ -1,0 +1,7 @@
+instance.hpp:285:15:ot::Notifier& ot::Instance::GetNotifier()	16	static
+instance.hpp:311:15:ot::Ip6::Ip6& ot::Instance::GetIp6()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+locator.cpp:44:11:ot::Instance& ot::InstanceLocator::GetInstance() const	16	static
+locator.cpp:51:11:ot::Ip6::Ip6& ot::InstanceLocator::GetIp6() const	16	static
+locator.cpp:56:14:ot::ThreadNetif& ot::InstanceLocator::GetNetif() const	16	static
+locator.cpp:61:11:ot::Notifier& ot::InstanceLocator::GetNotifier() const	16	static

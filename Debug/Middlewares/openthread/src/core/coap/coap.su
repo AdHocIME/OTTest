@@ -1,0 +1,104 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:469:14:ot::Message* ot::Message::Clone() const	16	static
+message.hpp:931:13:otError ot::MessageQueue::Enqueue(ot::Message&)	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:168:10:ot::Coap::Header::Code ot::Coap::Header::GetCode() const	16	static
+coap_header.hpp:184:14:uint16_t ot::Coap::Header::GetMessageId() const	16	static
+coap_header.hpp:192:10:void ot::Coap::Header::SetMessageId(uint16_t)	16	static
+coap_header.hpp:200:13:uint8_t ot::Coap::Header::GetTokenLength() const	16	static
+coap_header.hpp:211:20:const uint8_t* ot::Coap::Header::GetToken() const	16	static
+coap_header.hpp:220:10:void ot::Coap::Header::SetToken(const uint8_t*, uint8_t)	24	static
+coap_header.hpp:245:10:bool ot::Coap::Header::IsTokenEqual(const ot::Coap::Header&) const	24	static
+coap_header.hpp:387:20:const uint8_t* ot::Coap::Header::GetBytes() const	16	static
+coap_header.hpp:395:13:uint8_t ot::Coap::Header::GetLength() const	16	static
+coap_header.hpp:412:10:bool ot::Coap::Header::IsEmpty() const	16	static
+coap_header.hpp:421:10:bool ot::Coap::Header::IsRequest() const	16	static
+coap_header.hpp:430:10:bool ot::Coap::Header::IsResponse() const	16	static
+coap_header.hpp:439:10:bool ot::Coap::Header::IsConfirmable() const	16	static
+coap_header.hpp:448:10:bool ot::Coap::Header::IsNonConfirmable() const	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:109:14:uint32_t ot::Timer::GetFireTime() const	16	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+timer.hpp:199:21:static uint32_t ot::TimerMilli::SecToMsec(uint32_t)	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:128:14:uint16_t ot::Ip6::MessageInfo::GetPeerPort() const	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+types.h:1156:16:otSockAddr::otSockAddr()	16	static
+socket.hpp:198:5:ot::Ip6::SockAddr::SockAddr()	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+ip6.hpp:363:10:ot::Ip6::Udp& ot::Ip6::Ip6::GetUdp()	16	static
+coap.hpp:101:5:ot::Coap::CoapMetadata::CoapMetadata()	16	static
+coap.hpp:134:13:otError ot::Coap::CoapMetadata::AppendTo(ot::Message&) const	16	static
+coap.hpp:144:14:uint16_t ot::Coap::CoapMetadata::ReadFrom(const ot::Message&)	16	static
+coap.hpp:157:9:int ot::Coap::CoapMetadata::UpdateIn(ot::Message&) const	16	static
+coap.hpp:170:10:bool ot::Coap::CoapMetadata::IsEarlier(uint32_t) const	16	static
+coap.hpp:180:10:bool ot::Coap::CoapMetadata::IsLater(uint32_t) const	16	static
+coap.hpp:230:15:ot::Coap::Resource* ot::Coap::Resource::GetNext() const	16	static
+coap.hpp:241:10:void ot::Coap::Resource::HandleRequest(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&) const	32	static
+coap.hpp:258:5:ot::Coap::EnqueuedResponseHeader::EnqueuedResponseHeader()	16	static
+coap.hpp:270:5:ot::Coap::EnqueuedResponseHeader::EnqueuedResponseHeader(const ot::Ip6::MessageInfo&)	24	static
+coap.hpp:284:13:otError ot::Coap::EnqueuedResponseHeader::AppendTo(ot::Message&) const	16	static
+coap.hpp:294:14:uint16_t ot::Coap::EnqueuedResponseHeader::ReadFrom(const ot::Message&)	16	static
+coap.hpp:305:17:static void ot::Coap::EnqueuedResponseHeader::RemoveFrom(ot::Message&)	16	static
+coap.hpp:319:10:bool ot::Coap::EnqueuedResponseHeader::IsEarlier(uint32_t) const	16	static
+coap.hpp:335:29:const ot::Ip6::MessageInfo& ot::Coap::EnqueuedResponseHeader::GetMessageInfo() const	16	static
+coap.hpp:436:10:void ot::Coap::ResponsesQueue::DequeueResponse(ot::Message&)	16	static
+coap.hpp:565:13:otError ot::Coap::CoapBase::SendReset(ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+coap.hpp:595:13:otError ot::Coap::CoapBase::SendAck(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+coap.hpp:628:13:otError ot::Coap::CoapBase::SendNotFound(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+coap.hpp:705:10:void ot::Coap::CoapBase::HandleResponsesQueueTimer()	16	static
+random.hpp:75:17:uint16_t ot::Random::GetUint16()	8	static
+random.hpp:86:17:uint32_t ot::Random::GetUint32()	8	static
+random.hpp:130:17:uint32_t ot::Random::GetUint32InRange(uint32_t, uint32_t)	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:552:32:Type& ot::Instance::Get() [with Type = ot::Coap::Coap]	16	static
+coap.cpp:51:1:ot::Coap::CoapBase::CoapBase(ot::Instance&, ot::Timer::Handler, ot::Timer::Handler)	32	static
+coap.cpp:67:9:otError ot::Coap::CoapBase::Start(uint16_t)	40	static
+coap.cpp:80:9:otError ot::Coap::CoapBase::Stop()	96	static
+coap.cpp:101:9:otError ot::Coap::CoapBase::AddResource(ot::Coap::Resource&)	24	static
+coap.cpp:117:6:void ot::Coap::CoapBase::RemoveResource(ot::Coap::Resource&)	24	static
+coap.cpp:139:6:void ot::Coap::CoapBase::SetDefaultHandler(otCoapRequestHandler, void*)	24	static
+coap.cpp:145:10:ot::Message* ot::Coap::CoapBase::NewMessage(const ot::Coap::Header&, uint8_t)	40	static
+coap.cpp:161:9:otError ot::Coap::CoapBase::SendMessage(ot::Message&, const ot::Ip6::MessageInfo&, otCoapResponseHandler, void*)	304	static
+coap.cpp:218:9:virtual otError ot::Coap::CoapBase::Send(ot::Message&, const ot::Ip6::MessageInfo&)	24	static
+coap.cpp:223:9:otError ot::Coap::CoapBase::SendEmptyMessage(ot::Coap::Header::Type, const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	176	static
+coap.cpp:250:9:otError ot::Coap::CoapBase::SendHeaderResponse(ot::Coap::Header::Code, const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	200	static
+coap.cpp:296:6:void ot::Coap::CoapBase::HandleRetransmissionTimer()	144	static
+coap.cpp:358:6:void ot::Coap::CoapBase::FinalizeCoapTransaction(ot::Message&, const ot::Coap::CoapMetadata&, ot::Coap::Header*, ot::Message*, const ot::Ip6::MessageInfo*, otError)	40	static
+coap.cpp:374:9:otError ot::Coap::CoapBase::AbortTransaction(otCoapResponseHandler, void*)	104	static
+coap.cpp:396:10:ot::Message* ot::Coap::CoapBase::CopyAndEnqueueMessage(const ot::Message&, uint16_t, const ot::Coap::CoapMetadata&)	40	static
+coap.cpp:440:6:void ot::Coap::CoapBase::DequeueMessage(ot::Message&)	16	static
+coap.cpp:457:9:otError ot::Coap::CoapBase::SendCopy(const ot::Message&, const ot::Ip6::MessageInfo&)	32	static
+coap.cpp:479:10:ot::Message* ot::Coap::CoapBase::FindRelatedRequest(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, ot::Coap::Header&, ot::Coap::CoapMetadata&)	40	static
+coap.cpp:528:6:static void ot::Coap::CoapBase::HandleUdpReceive(void*, otMessage*, const otMessageInfo*)	24	static
+coap.cpp:534:6:virtual void ot::Coap::CoapBase::Receive(ot::Message&, const ot::Ip6::MessageInfo&)	176	static
+coap.cpp:558:6:void ot::Coap::CoapBase::ProcessReceivedResponse(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	248	static
+coap.cpp:636:6:void ot::Coap::CoapBase::ProcessReceivedRequest(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	88	static
+coap.cpp:729:1:ot::Coap::CoapMetadata::CoapMetadata(bool, const ot::Ip6::MessageInfo&, otCoapResponseHandler, void*)	32	static
+coap.cpp:760:1:ot::Coap::ResponsesQueue::ResponsesQueue(ot::Instance&, ot::Timer::Handler, void*)	24	static
+coap.cpp:766:9:otError ot::Coap::ResponsesQueue::GetMatchedResponseCopy(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, ot::Message**)	280	static
+coap.cpp:816:9:otError ot::Coap::ResponsesQueue::GetMatchedResponseCopy(const ot::Message&, const ot::Ip6::MessageInfo&, ot::Message**)	176	static
+coap.cpp:831:6:void ot::Coap::ResponsesQueue::EnqueueResponse(ot::Message&, const ot::Ip6::MessageInfo&)	232	static
+coap.cpp:878:6:void ot::Coap::ResponsesQueue::DequeueOldestResponse()	24	static
+coap.cpp:889:6:void ot::Coap::ResponsesQueue::DequeueAllResponses()	24	static
+coap.cpp:899:6:void ot::Coap::ResponsesQueue::HandleTimer()	80	static
+coap.cpp:920:10:uint32_t ot::Coap::EnqueuedResponseHeader::GetRemainingTime() const	32	static
+coap.cpp:927:1:ot::Coap::Coap::Coap(ot::Instance&)	16	static
+coap.cpp:932:6:static void ot::Coap::Coap::HandleRetransmissionTimer(ot::Timer&)	16	static
+coap.cpp:937:6:static void ot::Coap::Coap::HandleResponsesQueueTimer(ot::Timer&)	16	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::Coap::Coap]	16	static

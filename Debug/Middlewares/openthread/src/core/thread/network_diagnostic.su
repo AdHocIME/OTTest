@@ -1,0 +1,91 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:168:10:ot::Coap::Header::Code ot::Coap::Header::GetCode() const	16	static
+coap_header.hpp:395:13:uint8_t ot::Coap::Header::GetLength() const	16	static
+timer.hpp:207:21:static uint32_t ot::TimerMilli::MsecToSec(uint32_t)	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+netif.hpp:96:20:const ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress() const	16	static
+netif.hpp:123:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::NetifUnicastAddress::GetNext() const	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+netif.hpp:218:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::Netif::GetUnicastAddresses() const	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+coap.hpp:611:13:otError ot::Coap::CoapBase::SendEmptyAck(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+tlvs.hpp:97:14:uint16_t ot::Tlv::GetSize() const	16	static
+network_diagnostic_tlvs.hpp:112:10:ot::NetworkDiagnostic::NetworkDiagnosticTlv::Type ot::NetworkDiagnostic::NetworkDiagnosticTlv::GetType() const	16	static
+network_diagnostic_tlvs.hpp:120:10:void ot::NetworkDiagnostic::NetworkDiagnosticTlv::SetType(ot::NetworkDiagnostic::NetworkDiagnosticTlv::Type)	16	static
+network_diagnostic_tlvs.hpp:168:10:void ot::NetworkDiagnostic::ExtMacAddressTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:197:10:void ot::NetworkDiagnostic::ExtMacAddressTlv::SetMacAddr(const ot::Mac::ExtAddress&)	16	static
+network_diagnostic_tlvs.hpp:215:10:void ot::NetworkDiagnostic::Address16Tlv::Init()	16	static
+network_diagnostic_tlvs.hpp:244:10:void ot::NetworkDiagnostic::Address16Tlv::SetRloc16(uint16_t)	16	static
+network_diagnostic_tlvs.hpp:262:10:void ot::NetworkDiagnostic::ModeTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:299:10:void ot::NetworkDiagnostic::ModeTlv::SetMode(uint8_t)	16	static
+network_diagnostic_tlvs.hpp:317:10:void ot::NetworkDiagnostic::TimeoutTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:346:10:void ot::NetworkDiagnostic::TimeoutTlv::SetTimeout(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:364:10:void ot::NetworkDiagnostic::ConnectivityTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:561:10:void ot::NetworkDiagnostic::RouteTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:735:10:void ot::NetworkDiagnostic::LeaderDataTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:850:10:void ot::NetworkDiagnostic::NetworkDataTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:902:10:void ot::NetworkDiagnostic::Ip6AddressListTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:944:10:void ot::NetworkDiagnostic::MacCountersTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:1229:5:ot::NetworkDiagnostic::ChildTableEntry::ChildTableEntry()	16	static
+network_diagnostic_tlvs.hpp:1249:10:void ot::NetworkDiagnostic::ChildTableEntry::SetTimeout(uint8_t)	16	static
+network_diagnostic_tlvs.hpp:1269:10:void ot::NetworkDiagnostic::ChildTableEntry::SetChildId(uint16_t)	16	static
+network_diagnostic_tlvs.hpp:1288:10:void ot::NetworkDiagnostic::ChildTableEntry::SetMode(uint8_t)	16	static
+network_diagnostic_tlvs.hpp:1304:10:void ot::NetworkDiagnostic::ChildTableEntry::SetReserved(uint8_t)	16	static
+network_diagnostic_tlvs.hpp:1340:10:void ot::NetworkDiagnostic::ChildTableTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:1389:10:void ot::NetworkDiagnostic::ChannelPagesTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:1404:14:uint8_t* ot::NetworkDiagnostic::ChannelPagesTlv::GetChannelPages()	16	static
+network_diagnostic_tlvs.hpp:1422:10:void ot::NetworkDiagnostic::TypeListTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:1435:10:bool ot::NetworkDiagnostic::TypeListTlv::IsValid() const	16	static
+network_diagnostic_tlvs.hpp:1457:10:void ot::NetworkDiagnostic::MaxChildTimeoutTlv::Init()	16	static
+network_diagnostic_tlvs.hpp:1486:10:void ot::NetworkDiagnostic::MaxChildTimeoutTlv::SetTimeout(uint32_t)	16	static
+topology.hpp:113:13:uint8_t ot::Neighbor::GetDeviceMode() const	16	static
+topology.hpp:255:14:uint16_t ot::Neighbor::GetRloc16() const	16	static
+topology.hpp:536:14:uint32_t ot::Child::GetTimeout() const	16	static
+mac.hpp:558:23:const ot::Mac::ExtAddress& ot::Mac::Mac::GetExtAddress() const	16	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+mle.hpp:637:13:uint8_t ot::Mle::Mle::GetDeviceMode() const	16	static
+mle.hpp:654:10:bool ot::Mle::Mle::IsRxOnWhenIdle() const	16	static
+mle.hpp:911:21:static uint16_t ot::Mle::Mle::GetChildId(uint16_t)	16	static
+child_table.hpp:115:14:bool ot::ChildTable::Iterator::IsDone() const	16	static
+child_table.hpp:145:14:void ot::ChildTable::Iterator::operator++(int)	16	static
+child_table.hpp:153:16:ot::Child* ot::ChildTable::Iterator::GetChild()	16	static
+mle_router_ftd.hpp:345:17:ot::ChildTable& ot::Mle::MleRouter::GetChildTable()	16	static
+mesh_forwarder.hpp:206:22:ot::DataPollManager& ot::MeshForwarder::GetDataPollManager()	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+network_diagnostic.cpp:62:1:ot::NetworkDiagnostic::NetworkDiagnostic::NetworkDiagnostic(ot::Instance&)	16	static
+network_diagnostic.cpp:77:6:void ot::NetworkDiagnostic::NetworkDiagnostic::SetReceiveDiagnosticGetCallback(otReceiveDiagnosticGetCallback, void*)	24	static
+network_diagnostic.cpp:84:9:otError ot::NetworkDiagnostic::NetworkDiagnostic::SendDiagnosticGet(const ot::Ip6::Address&, const uint8_t*, uint8_t)	240	static
+network_diagnostic.cpp:144:6:static void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetResponse(void*, otCoapHeader*, otMessage*, const otMessageInfo*, otError)	32	static
+network_diagnostic.cpp:155:6:void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetResponse(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&, otError)	24	static
+network_diagnostic.cpp:174:6:static void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetAnswer(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_diagnostic.cpp:184:6:void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetAnswer(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	24	static
+network_diagnostic.cpp:205:9:otError ot::NetworkDiagnostic::NetworkDiagnostic::AppendIp6AddressList(ot::Message&)	40	static
+network_diagnostic.cpp:232:9:otError ot::NetworkDiagnostic::NetworkDiagnostic::AppendChildTable(ot::Message&)	64	static
+network_diagnostic.cpp:272:9:otError ot::NetworkDiagnostic::NetworkDiagnostic::FillRequestedTlvs(ot::Message&, ot::Message&, ot::NetworkDiagnostic::NetworkDiagnosticTlv&)	376	static
+network_diagnostic.cpp:449:6:static void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetQuery(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_diagnostic.cpp:459:6:void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetQuery(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	248	static
+network_diagnostic.cpp:526:6:static void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetRequest(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_diagnostic.cpp:536:6:void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticGetRequest(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	248	static
+network_diagnostic.cpp:585:9:otError ot::NetworkDiagnostic::NetworkDiagnostic::SendDiagnosticReset(const ot::Ip6::Address&, const uint8_t*, uint8_t)	240	static
+network_diagnostic.cpp:634:6:static void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticReset(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+network_diagnostic.cpp:644:6:void ot::NetworkDiagnostic::NetworkDiagnostic::HandleDiagnosticReset(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	48	static

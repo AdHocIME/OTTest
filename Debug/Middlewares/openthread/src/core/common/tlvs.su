@@ -1,0 +1,9 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.cpp:41:9:static otError ot::Tlv::Get(const ot::Message&, uint8_t, uint16_t, ot::Tlv&)	40	static
+tlvs.cpp:60:9:static otError ot::Tlv::GetOffset(const ot::Message&, uint8_t, uint16_t&)	40	static
+tlvs.cpp:100:9:static otError ot::Tlv::GetValueOffset(const ot::Message&, uint8_t, uint16_t&, uint16_t&)	40	static

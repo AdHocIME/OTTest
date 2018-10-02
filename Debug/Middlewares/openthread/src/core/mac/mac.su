@@ -1,0 +1,196 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:109:14:uint32_t ot::Timer::GetFireTime() const	16	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+encoding.hpp:191:17:uint16_t ot::Encoding::LittleEndian::HostSwap16(uint16_t)	16	static
+mac_frame.hpp:113:10:void ot::Mac::ExtAddress::SetGroup(bool)	16	static
+mac_frame.hpp:146:10:void ot::Mac::ExtAddress::SetLocal(bool)	16	static
+mac_frame.hpp:230:5:ot::Mac::Address::Address()	16	static
+mac_frame.hpp:241:10:ot::Mac::Address::Type ot::Mac::Address::GetType() const	16	static
+mac_frame.hpp:249:10:bool ot::Mac::Address::IsNone() const	16	static
+mac_frame.hpp:265:10:bool ot::Mac::Address::IsExtended() const	16	static
+mac_frame.hpp:275:18:ot::Mac::ShortAddress ot::Mac::Address::GetShort() const	16	static
+mac_frame.hpp:285:23:const ot::Mac::ExtAddress& ot::Mac::Address::GetExtended() const	16	static
+mac_frame.hpp:295:17:ot::Mac::ExtAddress& ot::Mac::Address::GetExtended()	16	static
+mac_frame.hpp:327:10:void ot::Mac::Address::SetExtended(const ot::Mac::ExtAddress&)	16	static
+mac_frame.hpp:352:10:bool ot::Mac::Address::IsBroadcast() const	16	static
+mac_frame.hpp:570:13:uint8_t ot::Mac::Frame::GetType() const	16	static
+mac_frame.hpp:587:10:bool ot::Mac::Frame::GetSecurityEnabled() const	16	static
+mac_frame.hpp:596:10:bool ot::Mac::Frame::GetFramePending() const	16	static
+mac_frame.hpp:613:10:bool ot::Mac::Frame::GetAckRequest() const	16	static
+mac_frame.hpp:646:10:void ot::Mac::Frame::SetSequence(uint8_t)	16	static
+mac_frame.hpp:886:13:uint8_t ot::Mac::Frame::GetLength() const	16	static
+mac_frame.hpp:949:13:uint8_t ot::Mac::Frame::GetChannel() const	16	static
+mac_frame.hpp:957:10:void ot::Mac::Frame::SetChannel(uint8_t)	16	static
+mac_frame.hpp:965:12:int8_t ot::Mac::Frame::GetRssi() const	16	static
+mac_frame.hpp:981:13:uint8_t ot::Mac::Frame::GetLqi() const	16	static
+mac_frame.hpp:1001:13:uint8_t ot::Mac::Frame::GetMaxCsmaBackoffs() const	16	static
+mac_frame.hpp:1013:10:void ot::Mac::Frame::SetMaxCsmaBackoffs(uint8_t)	16	static
+mac_frame.hpp:1023:13:uint8_t ot::Mac::Frame::GetMaxFrameRetries() const	16	static
+mac_frame.hpp:1033:10:void ot::Mac::Frame::SetMaxFrameRetries(uint8_t)	16	static
+mac_frame.hpp:1042:10:bool ot::Mac::Frame::IsARetransmission() const	16	static
+mac_frame.hpp:1058:10:void ot::Mac::Frame::SetDidTx(bool)	16	static
+mac_frame.hpp:1066:10:void ot::Mac::Frame::SetCsmaCaEnabled(bool)	16	static
+mac_frame.hpp:1074:20:const uint8_t* ot::Mac::Frame::GetAesKey() const	16	static
+mac_frame.hpp:1082:10:void ot::Mac::Frame::SetAesKey(const uint8_t*)	16	static
+mac_frame.hpp:1090:13:uint8_t ot::Mac::Frame::GetPsduLength() const	16	static
+mac_frame.hpp:1106:14:uint8_t* ot::Mac::Frame::GetPsdu()	16	static
+mac_frame.hpp:1114:14:uint8_t* ot::Mac::Frame::GetPsdu() const	16	static
+mac_frame.hpp:1122:14:uint8_t* ot::Mac::Frame::GetHeader()	16	static
+mac_frame.hpp:1289:10:void ot::Mac::Beacon::Init()	16	static
+mac_frame.hpp:1303:10:bool ot::Mac::Beacon::IsValid()	24	static
+mac_frame.hpp:1315:14:uint8_t* ot::Mac::Beacon::GetPayload()	16	static
+mac_frame.hpp:1358:10:void ot::Mac::BeaconPayload::Init()	16	static
+mac_frame.hpp:1371:10:bool ot::Mac::BeaconPayload::IsValid()	16	static
+mac_frame.hpp:1387:13:uint8_t ot::Mac::BeaconPayload::GetProtocolVersion() const	16	static
+mac_frame.hpp:1396:10:bool ot::Mac::BeaconPayload::IsNative() const	16	static
+mac_frame.hpp:1417:10:bool ot::Mac::BeaconPayload::IsJoiningPermitted() const	16	static
+mac_frame.hpp:1423:10:void ot::Mac::BeaconPayload::ClearJoiningPermitted()	16	static
+mac_frame.hpp:1429:10:void ot::Mac::BeaconPayload::SetJoiningPermitted()	16	static
+mac_frame.hpp:1445:17:const char* ot::Mac::BeaconPayload::GetNetworkName() const	16	static
+mac_frame.hpp:1453:10:void ot::Mac::BeaconPayload::SetNetworkName(const char*)	24	static
+mac_frame.hpp:1466:20:const uint8_t* ot::Mac::BeaconPayload::GetExtendedPanId() const	16	static
+mac_frame.hpp:1474:10:void ot::Mac::BeaconPayload::SetExtendedPanId(const uint8_t*)	16	static
+key_manager.hpp:127:14:uint32_t ot::KeyManager::GetCurrentKeySequence() const	16	static
+key_manager.hpp:143:20:const uint8_t* ot::KeyManager::GetCurrentMacKey() const	16	static
+key_manager.hpp:179:14:uint32_t ot::KeyManager::GetMacFrameCounter() const	16	static
+key_manager.hpp:239:20:const uint8_t* ot::KeyManager::GetKek() const	16	static
+key_manager.hpp:255:14:uint32_t ot::KeyManager::GetKekFrameCounter() const	16	static
+key_manager.hpp:261:10:void ot::KeyManager::IncrementKekFrameCounter()	16	static
+key_manager.hpp:315:13:uint8_t ot::KeyManager::GetSecurityPolicyFlags() const	16	static
+link_quality.hpp:74:10:void ot::SuccessRateTracker::Reset()	16	static
+link_quality.hpp:318:10:void ot::LinkQualityInfo::AddFrameTxStatus(bool)	16	static
+network_diagnostic_tlvs.hpp:973:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfInUnknownProtos(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:992:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfInErrors(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1008:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfOutErrors(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1024:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfInUcastPkts(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1039:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfInBroadcastPkts(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1058:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfInDiscards(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1074:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfOutUcastPkts(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1090:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfOutBroadcastPkts(uint32_t)	16	static
+network_diagnostic_tlvs.hpp:1109:10:void ot::NetworkDiagnostic::MacCountersTlv::SetIfOutDiscards(uint32_t)	16	static
+random.hpp:64:16:uint8_t ot::Random::GetUint8()	8	static
+random.hpp:75:17:uint16_t ot::Random::GetUint16()	8	static
+random.hpp:86:17:uint32_t ot::Random::GetUint32()	8	static
+random.hpp:114:17:uint16_t ot::Random::GetUint16InRange(uint16_t, uint16_t)	16	static
+random.hpp:130:17:uint32_t ot::Random::GetUint32InRange(uint32_t, uint32_t)	16	static
+random.hpp:142:13:void ot::Random::FillBuffer(uint8_t*, uint16_t)	24	static
+topology.hpp:79:11:ot::Neighbor::State ot::Neighbor::GetState() const	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:191:14:uint32_t ot::Neighbor::GetKeySequence() const	16	static
+topology.hpp:199:10:void ot::Neighbor::SetKeySequence(uint32_t)	16	static
+topology.hpp:223:14:uint32_t ot::Neighbor::GetLinkFrameCounter() const	16	static
+topology.hpp:231:10:void ot::Neighbor::SetLinkFrameCounter(uint32_t)	16	static
+topology.hpp:247:10:void ot::Neighbor::SetMleFrameCounter(uint32_t)	16	static
+topology.hpp:315:22:ot::LinkQualityInfo& ot::Neighbor::GetLinkInfo()	16	static
+mac.hpp:124:5:ot::Mac::ChannelMask::ChannelMask()	16	static
+mac.hpp:135:5:ot::Mac::ChannelMask::ChannelMask(uint32_t)	16	static
+mac.hpp:160:10:void ot::Mac::ChannelMask::SetMask(uint32_t)	16	static
+mac.hpp:186:10:bool ot::Mac::ChannelMask::ContainsChannel(uint8_t) const	16	static
+mac.hpp:210:10:void ot::Mac::ChannelMask::Intersect(const ot::Mac::ChannelMask&)	16	static
+mac.hpp:254:10:bool ot::Mac::ChannelMask::operator!=(const ot::Mac::ChannelMask&) const	16	static
+mac.hpp:323:10:void ot::Mac::Receiver::HandleReceivedFrame(ot::Mac::Frame&)	16	static
+mac.hpp:325:10:void ot::Mac::Receiver::HandleDataPollTimeout()	16	static
+mac.hpp:384:13:otError ot::Mac::Sender::HandleFrameRequest(ot::Mac::Frame&)	16	static
+mac.hpp:385:13:void ot::Mac::Sender::HandleSentFrame(ot::Mac::Frame&, otError)	24	static
+mle.hpp:662:10:bool ot::Mle::Mle::IsFullThreadDevice() const	16	static
+mesh_forwarder.hpp:206:22:ot::DataPollManager& ot::MeshForwarder::GetDataPollManager()	16	static
+thread_netif.hpp:215:18:ot::Ip6::Filter& ot::ThreadNetif::GetIp6Filter()	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+instance.hpp:143:10:bool ot::Instance::IsInitialized() const	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:495:30:Type& ot::Instance::Get() [with Type = ot::Mac::Mac]	16	static
+mac.cpp:76:9:uint8_t ot::Mac::ChannelMask::GetNumberOfChannels() const	24	static
+mac.cpp:89:9:otError ot::Mac::ChannelMask::GetNextChannel(uint8_t&) const	24	static
+mac.cpp:110:25:ot::Mac::ChannelMask::InfoString ot::Mac::ChannelMask::ToString() const	24	static
+mac.cpp:150:1:ot::Mac::Mac::Mac(ot::Instance&)	16	static
+mac.cpp:214:9:otError ot::Mac::Mac::ActiveScan(uint32_t, uint16_t, ot::Mac::Mac::ActiveScanHandler, void*)	40	static
+mac.cpp:234:9:otError ot::Mac::Mac::EnergyScan(uint32_t, uint16_t, ot::Mac::Mac::EnergyScanHandler, void*)	40	static
+mac.cpp:248:6:void ot::Mac::Mac::Scan(ot::Mac::Mac::Operation, uint32_t, uint16_t, void*)	24	static
+mac.cpp:264:6:bool ot::Mac::Mac::IsActiveScanInProgress()	16	static
+mac.cpp:269:6:bool ot::Mac::Mac::IsEnergyScanInProgress()	16	static
+mac.cpp:274:6:bool ot::Mac::Mac::IsInTransmitState()	16	static
+mac.cpp:280:9:otError ot::Mac::Mac::ConvertBeaconToActiveScanResult(ot::Mac::Frame*, otActiveScanResult&)	56	static
+mac.cpp:322:9:otError ot::Mac::Mac::UpdateScanChannel()	24	static
+mac.cpp:334:6:void ot::Mac::Mac::PerformActiveScan()	16	static
+mac.cpp:349:6:void ot::Mac::Mac::PerformEnergyScan()	24	static
+mac.cpp:389:17:void ot::Mac::otPlatRadioEnergyScanDone(otInstance*, int8_t)	24	static
+mac.cpp:411:6:void ot::Mac::Mac::ReportEnergyScanResult(int8_t)	24	static
+mac.cpp:424:6:void ot::Mac::Mac::EnergyScanDone(int8_t)	16	static
+mac.cpp:430:6:void ot::Mac::Mac::SampleRssi()	24	static
+mac.cpp:445:9:otError ot::Mac::Mac::RegisterReceiver(ot::Mac::Receiver&)	16	static
+mac.cpp:463:6:void ot::Mac::Mac::SetRxOnWhenIdle(bool)	16	static
+mac.cpp:490:6:void ot::Mac::Mac::GenerateExtAddress(ot::Mac::ExtAddress*)	16	static
+mac.cpp:498:6:void ot::Mac::Mac::SetExtAddress(const ot::Mac::ExtAddress&)	32	static
+mac.cpp:511:9:otError ot::Mac::Mac::SetShortAddress(ot::Mac::ShortAddress)	16	static
+mac.cpp:519:9:otError ot::Mac::Mac::SetPanChannel(uint8_t)	24	static
+mac.cpp:543:9:otError ot::Mac::Mac::SetRadioChannel(uint16_t, uint8_t)	24	static
+mac.cpp:561:9:otError ot::Mac::Mac::AcquireRadioChannel(uint16_t*)	24	static
+mac.cpp:576:9:otError ot::Mac::Mac::ReleaseRadioChannel()	24	static
+mac.cpp:591:6:void ot::Mac::Mac::SetSupportedChannelMask(const ot::Mac::ChannelMask&)	24	static
+mac.cpp:605:9:otError ot::Mac::Mac::SetNetworkName(const char*)	16	static
+mac.cpp:610:9:otError ot::Mac::Mac::SetNetworkName(const char*, uint8_t)	32	static
+mac.cpp:627:9:otError ot::Mac::Mac::SetPanId(ot::Mac::PanId)	16	static
+mac.cpp:638:9:otError ot::Mac::Mac::SetExtendedPanId(const uint8_t*)	16	static
+mac.cpp:650:9:otError ot::Mac::Mac::SendFrameRequest(ot::Mac::Sender&)	24	static
+mac.cpp:674:9:otError ot::Mac::Mac::SendOutOfBandFrameRequest(otRadioFrame*)	24	static
+mac.cpp:689:6:void ot::Mac::Mac::UpdateIdleMode()	16	static
+mac.cpp:713:6:void ot::Mac::Mac::StartOperation(ot::Mac::Mac::Operation)	16	static
+mac.cpp:756:6:static void ot::Mac::Mac::PerformOperation(ot::Tasklet&)	16	static
+mac.cpp:761:6:void ot::Mac::Mac::PerformOperation()	16	static
+mac.cpp:830:6:void ot::Mac::Mac::FinishOperation()	16	static
+mac.cpp:846:6:static void ot::Mac::Mac::GenerateNonce(const ot::Mac::ExtAddress&, uint32_t, uint8_t, uint8_t*)	32	static
+mac.cpp:867:6:void ot::Mac::Mac::SendBeaconRequest(ot::Mac::Frame&)	24	static
+mac.cpp:878:6:void ot::Mac::Mac::SendBeacon(ot::Mac::Frame&)	32	static
+aes_ccm.hpp:59:7:ot::Crypto::AesCcm::AesCcm()	16	static
+aes_ccm.hpp:59:7:ot::Crypto::AesCcm::~AesCcm()	16	static
+mac.cpp:926:6:static void ot::Mac::Mac::ProcessTransmitAesCcm(ot::Mac::Frame&, const ot::Mac::ExtAddress*)	416	static
+mac.cpp:951:6:void ot::Mac::Mac::ProcessTransmitSecurity(ot::Mac::Frame&, bool)	40	static
+mac.cpp:1023:6:void ot::Mac::Mac::StartCsmaBackoff()	32	static
+mac.cpp:1098:6:static void ot::Mac::Mac::HandleBackoffTimer(ot::Timer&)	16	static
+mac.cpp:1103:6:void ot::Mac::Mac::HandleBackoffTimer()	24	static
+mac.cpp:1122:8:ot::Mac::Frame* ot::Mac::Mac::GetOperationFrame()	24	static
+mac.cpp:1142:6:void ot::Mac::Mac::BeginTransmit()	24	static
+mac.cpp:1247:17:void ot::Mac::otPlatRadioTxStarted(otInstance*, otRadioFrame*)	24	static
+mac.cpp:1258:6:void ot::Mac::Mac::HandleTransmitStarted(otRadioFrame*)	24	static
+mac.cpp:1269:17:void ot::Mac::otPlatRadioTxDone(otInstance*, otRadioFrame*, otRadioFrame*, otError)	32	static
+mac.cpp:1291:6:void ot::Mac::Mac::HandleTransmitDone(otRadioFrame*, otRadioFrame*, otError)	80	static
+mac.cpp:1530:9:otError ot::Mac::Mac::RadioTransmit(ot::Mac::Frame*)	24	static
+mac.cpp:1559:9:otError ot::Mac::Mac::RadioReceive(uint8_t)	24	static
+mac.cpp:1585:9:otError ot::Mac::Mac::RadioSleep()	24	static
+mac.cpp:1616:6:static void ot::Mac::Mac::HandleMacTimer(ot::Timer&)	16	static
+mac.cpp:1621:6:void ot::Mac::Mac::HandleMacTimer()	16	static
+mac.cpp:1646:6:static void ot::Mac::Mac::HandleReceiveTimer(ot::Timer&)	16	static
+mac.cpp:1651:6:void ot::Mac::Mac::HandleReceiveTimer()	24	static
+mac.cpp:1678:9:otError ot::Mac::Mac::ProcessReceiveSecurity(ot::Mac::Frame&, const ot::Mac::Address&, ot::Neighbor*)	464	static
+mac.cpp:1822:17:void ot::Mac::otPlatRadioReceiveDone(otInstance*, otRadioFrame*, otError)	32	static
+mac.cpp:1844:6:void ot::Mac::Mac::HandleReceivedFrame(ot::Mac::Frame*, otError)	88	static
+mac.cpp:2161:9:otError ot::Mac::Mac::HandleMacCommand(ot::Mac::Frame&)	24	static
+mac.cpp:2198:6:void ot::Mac::Mac::SetPcapCallback(otLinkPcapCallback, void*)	24	static
+mac.cpp:2204:6:bool ot::Mac::Mac::IsPromiscuous()	16	static
+mac.cpp:2209:6:void ot::Mac::Mac::SetPromiscuous(bool)	16	static
+mac.cpp:2215:6:bool ot::Mac::Mac::RadioSupportsCsmaBackoff()	16	static
+mac.cpp:2227:6:bool ot::Mac::Mac::RadioSupportsRetries()	16	static
+mac.cpp:2232:9:otError ot::Mac::Mac::SetEnabled(bool)	16	static
+mac.cpp:2239:6:void ot::Mac::Mac::FillMacCountersTlv(ot::NetworkDiagnostic::MacCountersTlv&) const	16	static
+mac.cpp:2255:6:void ot::Mac::Mac::ResetCounters()	16	static
+mac.cpp:2260:8:int8_t ot::Mac::Mac::GetNoiseFloor()	16	static
+mac.cpp:2286:13:static const char* ot::Mac::Mac::OperationToString(ot::Mac::Mac::Operation)	24	static
+mac.cpp:2326:6:void ot::Mac::Mac::LogFrameRxFailure(const ot::Mac::Frame*, otError) const	152	static
+mac.cpp:2339:6:void ot::Mac::Mac::LogFrameTxFailure(const ot::Mac::Frame&, otError) const	168	static
+mac.cpp:2345:6:void ot::Mac::Mac::LogBeacon(const char*, const ot::Mac::BeaconPayload&) const	128	static
+string.hpp:63:7:ot::StringBase::StringBase()	16	static
+string.hpp:98:5:ot::String<SIZE>::String() [with short unsigned int SIZE = 45u]	16	static
+string.hpp:191:13:) [with short unsigned int SIZE = 45u]	36	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::Mac::Mac]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 110u]	16	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 92u]	16	static

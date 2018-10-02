@@ -1,0 +1,63 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+timer.hpp:199:21:static uint32_t ot::TimerMilli::SecToMsec(uint32_t)	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:147:20:static otError ot::MeshCoP::Tlv::GetTlv(const ot::Message&, ot::MeshCoP::Tlv::Type, uint16_t, ot::MeshCoP::Tlv&)	24	static
+meshcop_tlvs.hpp:594:10:void ot::MeshCoP::SteeringDataTlv::Init()	16	static
+meshcop_tlvs.hpp:614:10:void ot::MeshCoP::SteeringDataTlv::Clear()	24	static
+meshcop_tlvs.hpp:713:10:void ot::MeshCoP::BorderAgentLocatorTlv::Init()	16	static
+meshcop_tlvs.hpp:734:14:uint16_t ot::MeshCoP::BorderAgentLocatorTlv::GetBorderAgentLocator() const	16	static
+meshcop_tlvs.hpp:742:10:void ot::MeshCoP::BorderAgentLocatorTlv::SetBorderAgentLocator(uint16_t)	16	static
+meshcop_tlvs.hpp:773:10:bool ot::MeshCoP::CommissionerIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:781:17:const char* ot::MeshCoP::CommissionerIdTlv::GetCommissionerId() const	16	static
+meshcop_tlvs.hpp:817:10:void ot::MeshCoP::CommissionerSessionIdTlv::Init()	16	static
+meshcop_tlvs.hpp:830:10:bool ot::MeshCoP::CommissionerSessionIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:838:14:uint16_t ot::MeshCoP::CommissionerSessionIdTlv::GetCommissionerSessionId() const	16	static
+meshcop_tlvs.hpp:846:10:void ot::MeshCoP::CommissionerSessionIdTlv::SetCommissionerSessionId(uint16_t)	16	static
+meshcop_tlvs.hpp:966:10:void ot::MeshCoP::StateTlv::Init()	16	static
+meshcop_tlvs.hpp:979:10:bool ot::MeshCoP::StateTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:998:11:ot::MeshCoP::StateTlv::State ot::MeshCoP::StateTlv::GetState() const	16	static
+meshcop_tlvs.hpp:1006:10:void ot::MeshCoP::StateTlv::SetState(ot::MeshCoP::StateTlv::State)	16	static
+random.hpp:75:17:uint16_t ot::Random::GetUint16()	8	static
+mle.hpp:629:18:otDeviceRole ot::Mle::Mle::GetRole() const	16	static
+leader.hpp:53:13:uint8_t ot::MeshCoP::CommissioningData::GetLength() const	24	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:273:26:ot::NetworkData::Leader& ot::ThreadNetif::GetNetworkDataLeader()	16	static
+thread_netif.hpp:306:22:ot::MeshCoP::Leader& ot::ThreadNetif::GetLeader()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:511:37:Type& ot::Instance::Get() [with Type = ot::MeshCoP::Leader]	16	static
+meshcop.hpp:56:17:ot::Message* ot::MeshCoP::NewMeshCoPMessage(ot::Coap::CoapBase&, const ot::Coap::Header&)	16	static
+leader.cpp:58:1:ot::MeshCoP::Leader::Leader(ot::Instance&)	16	static
+leader.cpp:70:6:static void ot::MeshCoP::Leader::HandlePetition(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+leader.cpp:80:6:void ot::MeshCoP::Leader::HandlePetition(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	128	static
+leader.cpp:122:9:otError ot::MeshCoP::Leader::SendPetitionResponse(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, ot::MeshCoP::StateTlv::State)	200	static
+leader.cpp:169:6:static void ot::MeshCoP::Leader::HandleKeepAlive(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+leader.cpp:179:6:void ot::MeshCoP::Leader::HandleKeepAlive(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	56	static
+leader.cpp:227:9:otError ot::MeshCoP::Leader::SendKeepAliveResponse(const ot::Coap::Header&, const ot::Ip6::MessageInfo&, ot::MeshCoP::StateTlv::State)	192	static
+leader.cpp:260:9:otError ot::MeshCoP::Leader::SendDatasetChanged(const ot::Ip6::Address&)	224	static
+leader.cpp:291:9:otError ot::MeshCoP::Leader::SetDelayTimerMinimal(uint32_t)	24	static
+leader.cpp:302:10:uint32_t ot::MeshCoP::Leader::GetDelayTimerMinimal() const	16	static
+leader.cpp:307:6:static void ot::MeshCoP::Leader::HandleTimer(ot::Timer&)	16	static
+leader.cpp:312:6:void ot::MeshCoP::Leader::HandleTimer()	16	static
+leader.cpp:322:6:void ot::MeshCoP::Leader::SetEmptyCommissionerData()	32	static
+leader.cpp:333:6:void ot::MeshCoP::Leader::ResignCommissioner()	16	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::MeshCoP::Leader]	16	static

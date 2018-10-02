@@ -45,7 +45,7 @@
 #include "platform-config.h"
 
 #include <stm32f4xx.h>
-#include <stm32f4xx_hal_rng.h>
+//#include <stm32f4xx_hal_rng.h>
 
 static uint8_t           sBuffer[RNG_BUFFER_SIZE];
 static volatile uint32_t sReadPosition;
@@ -109,30 +109,30 @@ static inline uint32_t bufferGetUint32()
     return retVal;
 }
 
-extern RNG_HandleTypeDef hrng;
+//extern RNG_HandleTypeDef hrng;
 
 static void generatorStart(void)
 {
-	HAL_RNG_GenerateRandomNumber_IT(&hrng);
+	//HAL_RNG_GenerateRandomNumber_IT(&hrng);
 }
 
 static void generatorStop(void)
 {
 }
 
-void HAL_RNG_ErrorCallback(RNG_HandleTypeDef *hrng){
-	HAL_RNG_GenerateRandomNumber_IT(hrng);
-}
+//void HAL_RNG_ErrorCallback(RNG_HandleTypeDef *hrng){
+//	//HAL_RNG_GenerateRandomNumber_IT(hrng);
+//}
 
-void HAL_RNG_ReadyDataCallback(RNG_HandleTypeDef* hrng, uint32_t random32bit)
-{
-	bufferPut(random32bit);
-
-	if (!bufferIsFull())
-	{
-		HAL_RNG_GenerateRandomNumber_IT(hrng);
-	}
-}
+//void HAL_RNG_ReadyDataCallback(RNG_HandleTypeDef* hrng, uint32_t random32bit)
+//{
+//	bufferPut(random32bit);
+//
+//	if (!bufferIsFull())
+//	{
+//		HAL_RNG_GenerateRandomNumber_IT(hrng);
+//	}
+//}
 
 
 void stm32f4RandomInit(void)

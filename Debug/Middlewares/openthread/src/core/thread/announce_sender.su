@@ -1,0 +1,17 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+random.hpp:86:17:uint32_t ot::Random::GetUint32()	8	static
+random.hpp:130:17:uint32_t ot::Random::GetUint32InRange(uint32_t, uint32_t)	16	static
+random.hpp:159:17:uint32_t ot::Random::AddJitter(uint32_t, uint16_t)	16	static
+mac.hpp:124:5:ot::Mac::ChannelMask::ChannelMask()	16	static
+mac.hpp:135:5:ot::Mac::ChannelMask::ChannelMask(uint32_t)	16	static
+mac.hpp:168:10:bool ot::Mac::ChannelMask::IsEmpty() const	16	static
+mac.hpp:210:10:void ot::Mac::ChannelMask::Intersect(const ot::Mac::ChannelMask&)	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+announce_sender.cpp:50:1:ot::AnnounceSenderBase::AnnounceSenderBase(ot::Instance&, ot::Timer::Handler)	24	static
+announce_sender.cpp:61:9:otError ot::AnnounceSenderBase::SendAnnounce(ot::Mac::ChannelMask, uint8_t, uint32_t, uint16_t)	40	static
+announce_sender.cpp:83:6:void ot::AnnounceSenderBase::HandleTimer()	32	static

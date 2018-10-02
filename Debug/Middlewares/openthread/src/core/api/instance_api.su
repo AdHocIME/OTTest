@@ -1,0 +1,13 @@
+instance.hpp:143:10:bool ot::Instance::IsInitialized() const	16	static
+instance.hpp:285:15:ot::Notifier& ot::Instance::GetNotifier()	16	static
+instance_api.cpp:59:13:otInstance* otInstanceInitSingle()	8	static
+instance_api.cpp:65:6:bool otInstanceIsInitialized(otInstance*)	24	static
+instance_api.cpp:77:6:void otInstanceFinalize(otInstance*)	24	static
+instance_api.cpp:83:6:void otInstanceReset(otInstance*)	24	static
+instance_api.cpp:91:9:otError otSetStateChangedCallback(otInstance*, otStateChangedCallback, void*)	32	static
+instance_api.cpp:98:6:void otRemoveStateChangeCallback(otInstance*, otStateChangedCallback, void*)	32	static
+instance_api.cpp:105:6:void otInstanceFactoryReset(otInstance*)	24	static
+instance_api.cpp:112:9:otError otInstanceErasePersistentInfo(otInstance*)	24	static
+instance_api.cpp:120:12:otLogLevel otGetDynamicLogLevel(otInstance*)	24	static
+instance_api.cpp:136:9:otError otSetDynamicLogLevel(otInstance*, otLogLevel)	24	static
+instance_api.cpp:153:13:const char* otGetVersionString()	4	static

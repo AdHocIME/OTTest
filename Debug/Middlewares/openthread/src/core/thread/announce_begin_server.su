@@ -1,0 +1,35 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:68:17:uint32_t ot::Encoding::Reverse32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:168:10:ot::Coap::Header::Code ot::Coap::Header::GetCode() const	16	static
+coap_header.hpp:439:10:bool ot::Coap::Header::IsConfirmable() const	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+coap.hpp:611:13:otError ot::Coap::CoapBase::SendEmptyAck(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+meshcop_tlvs.hpp:147:20:static otError ot::MeshCoP::Tlv::GetTlv(const ot::Message&, ot::MeshCoP::Tlv::Type, uint16_t, ot::MeshCoP::Tlv&)	24	static
+meshcop_tlvs.hpp:1307:13:uint8_t ot::MeshCoP::ChannelMaskEntry::GetChannelPage() const	16	static
+meshcop_tlvs.hpp:1323:13:uint8_t ot::MeshCoP::ChannelMaskEntry::GetMaskLength() const	16	static
+meshcop_tlvs.hpp:1417:10:bool ot::MeshCoP::ChannelMask0Entry::IsValid() const	16	static
+meshcop_tlvs.hpp:1425:14:uint32_t ot::MeshCoP::ChannelMask0Entry::GetMask() const	16	static
+meshcop_tlvs.hpp:1510:10:bool ot::MeshCoP::ChannelMask0Tlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1538:10:bool ot::MeshCoP::CountTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1546:13:uint8_t ot::MeshCoP::CountTlv::GetCount() const	16	static
+meshcop_tlvs.hpp:1585:10:bool ot::MeshCoP::PeriodTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:1593:14:uint16_t ot::MeshCoP::PeriodTlv::GetPeriod() const	16	static
+mac.hpp:135:5:ot::Mac::ChannelMask::ChannelMask(uint32_t)	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:323:26:ot::AnnounceBeginServer& ot::ThreadNetif::GetAnnounceBeginServer()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:522:41:Type& ot::Instance::Get() [with Type = ot::AnnounceBeginServer]	16	static
+announce_begin_server.cpp:54:1:ot::AnnounceBeginServer::AnnounceBeginServer(ot::Instance&)	16	static
+announce_begin_server.cpp:61:9:otError ot::AnnounceBeginServer::SendAnnounce(uint32_t)	16	static
+announce_begin_server.cpp:66:9:otError ot::AnnounceBeginServer::SendAnnounce(uint32_t, uint8_t, uint16_t)	48	static
+announce_begin_server.cpp:71:6:static void ot::AnnounceBeginServer::HandleRequest(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+announce_begin_server.cpp:81:6:void ot::AnnounceBeginServer::HandleRequest(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	96	static
+announce_begin_server.cpp:111:6:static void ot::AnnounceBeginServer::HandleTimer(ot::Timer&)	16	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::AnnounceBeginServer]	16	static

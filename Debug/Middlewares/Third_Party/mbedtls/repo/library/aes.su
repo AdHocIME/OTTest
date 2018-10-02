@@ -1,0 +1,9 @@
+aes.c:515:6:mbedtls_aes_init	0	static
+aes.c:520:6:mbedtls_aes_free	0	static
+aes.c:532:5:mbedtls_aes_setkey_enc	20	static
+aes.c:646:5:mbedtls_aes_setkey_dec	328	static
+aes.c:761:5:mbedtls_internal_aes_encrypt	48	static
+aes.c:817:6:mbedtls_aes_encrypt	0	static
+aes.c:829:5:mbedtls_internal_aes_decrypt	48	static
+aes.c:885:6:mbedtls_aes_decrypt	0	static
+aes.c:896:5:mbedtls_aes_crypt_ecb	4	static

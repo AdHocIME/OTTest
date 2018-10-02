@@ -1,0 +1,12 @@
+thread_netif.hpp:281:29:ot::MeshCoP::ActiveDataset& ot::ThreadNetif::GetActiveDataset()	16	static
+thread_netif.hpp:289:30:ot::MeshCoP::PendingDataset& ot::ThreadNetif::GetPendingDataset()	16	static
+thread_netif.hpp:306:22:ot::MeshCoP::Leader& ot::ThreadNetif::GetLeader()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+dataset_ftd_api.cpp:44:9:otError otDatasetSetActive(otInstance*, const otOperationalDataset*)	24	static
+dataset_ftd_api.cpp:57:9:otError otDatasetSetPending(otInstance*, const otOperationalDataset*)	24	static
+dataset_ftd_api.cpp:70:9:otError otDatasetSendMgmtActiveGet(otInstance*, const otOperationalDatasetComponents*, const uint8_t*, uint8_t, const otIp6Address*)	40	static
+dataset_ftd_api.cpp:82:9:otError otDatasetSendMgmtActiveSet(otInstance*, const otOperationalDataset*, const uint8_t*, uint8_t)	32	static
+dataset_ftd_api.cpp:92:9:otError otDatasetSendMgmtPendingGet(otInstance*, const otOperationalDatasetComponents*, const uint8_t*, uint8_t, const otIp6Address*)	40	static
+dataset_ftd_api.cpp:104:9:otError otDatasetSendMgmtPendingSet(otInstance*, const otOperationalDataset*, const uint8_t*, uint8_t)	32	static
+dataset_ftd_api.cpp:114:10:uint32_t otDatasetGetDelayTimerMinimal(otInstance*)	24	static
+dataset_ftd_api.cpp:121:9:otError otDatasetSetDelayTimerMinimal(otInstance*, uint32_t)	24	static

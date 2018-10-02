@@ -1,0 +1,42 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:109:14:uint32_t ot::Timer::GetFireTime() const	16	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+notifier.hpp:184:10:bool ot::Notifier::HasSignaled(otChangedFlags) const	16	static
+topology.hpp:199:10:void ot::Neighbor::SetKeySequence(uint32_t)	16	static
+topology.hpp:231:10:void ot::Neighbor::SetLinkFrameCounter(uint32_t)	16	static
+topology.hpp:247:10:void ot::Neighbor::SetMleFrameCounter(uint32_t)	16	static
+child_table.hpp:115:14:bool ot::ChildTable::Iterator::IsDone() const	16	static
+child_table.hpp:145:14:void ot::ChildTable::Iterator::operator++(int)	16	static
+child_table.hpp:153:16:ot::Child* ot::ChildTable::Iterator::GetChild()	16	static
+router_table.hpp:74:14:bool ot::RouterTable::Iterator::IsDone() const	16	static
+router_table.hpp:101:14:void ot::RouterTable::Iterator::operator++(int)	16	static
+router_table.hpp:109:17:ot::Router* ot::RouterTable::Iterator::GetRouter()	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:500:32:Type& ot::Instance::Get() [with Type = ot::KeyManager]	16	static
+key_manager.cpp:69:1:ot::KeyManager::KeyManager(ot::Instance&)	24	static
+key_manager.cpp:88:6:void ot::KeyManager::Start()	16	static
+key_manager.cpp:94:6:void ot::KeyManager::Stop()	16	static
+key_manager.cpp:100:16:const uint8_t* ot::KeyManager::GetPSKc() const	16	static
+key_manager.cpp:105:6:void ot::KeyManager::SetPSKc(const uint8_t*)	16	static
+key_manager.cpp:116:20:const otMasterKey& ot::KeyManager::GetMasterKey() const	16	static
+key_manager.cpp:121:9:otError ot::KeyManager::SetMasterKey(const otMasterKey&)	56	static
+key_manager.cpp:162:9:otError ot::KeyManager::ComputeKey(uint32_t, uint8_t*)	48	static
+key_manager.cpp:181:6:void ot::KeyManager::SetCurrentKeySequence(uint32_t)	16	static
+key_manager.cpp:210:16:const uint8_t* ot::KeyManager::GetTemporaryMacKey(uint32_t)	16	static
+key_manager.cpp:216:16:const uint8_t* ot::KeyManager::GetTemporaryMleKey(uint32_t)	16	static
+key_manager.cpp:222:6:void ot::KeyManager::IncrementMacFrameCounter()	16	static
+key_manager.cpp:232:6:void ot::KeyManager::IncrementMleFrameCounter()	16	static
+key_manager.cpp:242:6:void ot::KeyManager::SetKek(const uint8_t*)	16	static
+key_manager.cpp:248:9:otError ot::KeyManager::SetKeyRotation(uint32_t)	24	static
+key_manager.cpp:260:6:void ot::KeyManager::SetSecurityPolicyFlags(uint8_t)	24	static
+key_manager.cpp:271:6:void ot::KeyManager::StartKeyRotationTimer()	16	static
+key_manager.cpp:277:6:static void ot::KeyManager::HandleKeyRotationTimer(ot::Timer&)	16	static
+key_manager.cpp:282:6:void ot::KeyManager::HandleKeyRotationTimer()	24	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::KeyManager]	16	static

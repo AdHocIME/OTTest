@@ -1,0 +1,46 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:105:14:uint8_t* ot::Tlv::GetValue()	16	static
+tlvs.hpp:121:10:ot::Tlv* ot::Tlv::GetNext()	16	static
+meshcop_tlvs.hpp:115:10:ot::MeshCoP::Tlv::Type ot::MeshCoP::Tlv::GetType() const	16	static
+meshcop_tlvs.hpp:131:10:ot::MeshCoP::Tlv* ot::MeshCoP::Tlv::GetNext()	16	static
+network_data_tlvs.hpp:73:10:void ot::NetworkData::NetworkDataTlv::Init()	16	static
+network_data_tlvs.hpp:100:10:ot::NetworkData::NetworkDataTlv::Type ot::NetworkData::NetworkDataTlv::GetType() const	16	static
+network_data_tlvs.hpp:108:10:void ot::NetworkData::NetworkDataTlv::SetType(ot::NetworkData::NetworkDataTlv::Type)	16	static
+network_data_tlvs.hpp:116:13:uint8_t ot::NetworkData::NetworkDataTlv::GetLength() const	16	static
+network_data_tlvs.hpp:124:10:void ot::NetworkData::NetworkDataTlv::SetLength(uint8_t)	16	static
+network_data_tlvs.hpp:132:14:uint8_t* ot::NetworkData::NetworkDataTlv::GetValue()	16	static
+network_data_tlvs.hpp:140:21:ot::NetworkData::NetworkDataTlv* ot::NetworkData::NetworkDataTlv::GetNext()	16	static
+network_data_tlvs.hpp:200:14:uint16_t ot::NetworkData::HasRouteEntry::GetRloc() const	16	static
+network_data_tlvs.hpp:216:12:int8_t ot::NetworkData::HasRouteEntry::GetPreference() const	16	static
+network_data_tlvs.hpp:265:13:uint8_t ot::NetworkData::HasRouteTlv::GetNumEntries() const	16	static
+network_data_tlvs.hpp:275:20:ot::NetworkData::HasRouteEntry* ot::NetworkData::HasRouteTlv::GetEntry(uint8_t)	16	static
+network_data_tlvs.hpp:326:13:uint8_t ot::NetworkData::PrefixTlv::GetDomainId() const	16	static
+network_data_tlvs.hpp:334:13:uint8_t ot::NetworkData::PrefixTlv::GetPrefixLength() const	16	static
+network_data_tlvs.hpp:342:14:uint8_t* ot::NetworkData::PrefixTlv::GetPrefix()	16	static
+network_data_tlvs.hpp:350:21:ot::NetworkData::NetworkDataTlv* ot::NetworkData::PrefixTlv::GetSubTlvs()	16	static
+network_data_tlvs.hpp:418:14:uint16_t ot::NetworkData::BorderRouterEntry::GetRloc() const	16	static
+network_data_tlvs.hpp:450:12:int8_t ot::NetworkData::BorderRouterEntry::GetPreference() const	16	static
+network_data_tlvs.hpp:554:10:bool ot::NetworkData::BorderRouterEntry::IsDefaultRoute() const	16	static
+network_data_tlvs.hpp:620:13:uint8_t ot::NetworkData::BorderRouterTlv::GetNumEntries() const	16	static
+network_data_tlvs.hpp:630:24:ot::NetworkData::BorderRouterEntry* ot::NetworkData::BorderRouterTlv::GetEntry(uint8_t)	16	static
+network_data_tlvs.hpp:664:10:bool ot::NetworkData::ContextTlv::IsCompress() const	16	static
+network_data_tlvs.hpp:684:13:uint8_t ot::NetworkData::ContextTlv::GetContextId() const	16	static
+network_data_tlvs.hpp:736:10:void ot::NetworkData::CommissioningDataTlv::Init()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+network_data_leader.cpp:60:1:ot::NetworkData::LeaderBase::LeaderBase(ot::Instance&)	16	static
+network_data_leader.cpp:66:6:void ot::NetworkData::LeaderBase::Reset()	16	static
+network_data_leader.cpp:74:9:otError ot::NetworkData::LeaderBase::GetContext(const ot::Ip6::Address&, ot::Lowpan::Context&)	56	static
+network_data_leader.cpp:124:9:otError ot::NetworkData::LeaderBase::GetContext(uint8_t, ot::Lowpan::Context&)	40	static
+network_data_leader.cpp:198:6:bool ot::NetworkData::LeaderBase::IsOnMesh(const ot::Ip6::Address&)	48	static
+network_data_leader.cpp:235:9:otError ot::NetworkData::LeaderBase::RouteLookup(const ot::Ip6::Address&, const ot::Ip6::Address&, uint8_t*, uint16_t*)	64	static
+network_data_leader.cpp:276:9:otError ot::NetworkData::LeaderBase::ExternalRouteLookup(uint8_t, const ot::Ip6::Address&, uint8_t*, uint16_t*)	88	static
+network_data_leader.cpp:357:9:otError ot::NetworkData::LeaderBase::DefaultRouteLookup(ot::NetworkData::PrefixTlv&, uint16_t*)	64	static
+network_data_leader.cpp:407:9:otError ot::NetworkData::LeaderBase::SetNetworkData(uint8_t, uint8_t, bool, const ot::Message&, uint16_t)	40	static
+network_data_leader.cpp:440:9:otError ot::NetworkData::LeaderBase::SetCommissioningData(const uint8_t*, uint8_t)	32	static
+network_data_leader.cpp:466:17:ot::NetworkData::NetworkDataTlv* ot::NetworkData::LeaderBase::GetCommissioningData()	24	static
+network_data_leader.cpp:485:15:ot::MeshCoP::Tlv* ot::NetworkData::LeaderBase::GetCommissioningDataSubTlv(ot::MeshCoP::Tlv::Type)	40	static
+network_data_leader.cpp:510:6:bool ot::NetworkData::LeaderBase::IsJoiningEnabled()	32	static
+network_data_leader.cpp:532:9:otError ot::NetworkData::LeaderBase::RemoveCommissioningData()	32	static

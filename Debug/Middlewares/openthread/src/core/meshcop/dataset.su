@@ -1,0 +1,82 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:68:17:uint32_t ot::Encoding::Reverse32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+tlvs.hpp:65:13:uint8_t ot::Tlv::GetType() const	16	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+tlvs.hpp:121:10:ot::Tlv* ot::Tlv::GetNext()	16	static
+tlvs.hpp:129:16:const ot::Tlv* ot::Tlv::GetNext() const	16	static
+timestamp.hpp:63:10:void ot::MeshCoP::Timestamp::Init()	16	static
+timestamp.hpp:87:14:uint64_t ot::MeshCoP::Timestamp::GetSeconds() const	32	static
+timestamp.hpp:105:10:void ot::MeshCoP::Timestamp::SetSeconds(uint64_t)	40	static
+timestamp.hpp:127:10:void ot::MeshCoP::Timestamp::SetTicks(uint16_t)	16	static
+meshcop_tlvs.hpp:115:10:ot::MeshCoP::Tlv::Type ot::MeshCoP::Tlv::GetType() const	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:131:10:ot::MeshCoP::Tlv* ot::MeshCoP::Tlv::GetNext()	16	static
+meshcop_tlvs.hpp:133:16:const ot::MeshCoP::Tlv* ot::MeshCoP::Tlv::GetNext() const	16	static
+meshcop_tlvs.hpp:193:10:void ot::MeshCoP::ChannelTlv::Init()	16	static
+meshcop_tlvs.hpp:222:10:void ot::MeshCoP::ChannelTlv::SetChannelPage(uint8_t)	16	static
+meshcop_tlvs.hpp:230:14:uint16_t ot::MeshCoP::ChannelTlv::GetChannel() const	16	static
+meshcop_tlvs.hpp:238:10:void ot::MeshCoP::ChannelTlv::SetChannel(uint16_t)	16	static
+meshcop_tlvs.hpp:257:10:void ot::MeshCoP::PanIdTlv::Init()	16	static
+meshcop_tlvs.hpp:278:14:uint16_t ot::MeshCoP::PanIdTlv::GetPanId() const	16	static
+meshcop_tlvs.hpp:286:10:void ot::MeshCoP::PanIdTlv::SetPanId(uint16_t)	16	static
+meshcop_tlvs.hpp:304:10:void ot::MeshCoP::ExtendedPanIdTlv::Init()	16	static
+meshcop_tlvs.hpp:325:20:const uint8_t* ot::MeshCoP::ExtendedPanIdTlv::GetExtendedPanId() const	16	static
+meshcop_tlvs.hpp:333:10:void ot::MeshCoP::ExtendedPanIdTlv::SetExtendedPanId(const uint8_t*)	16	static
+meshcop_tlvs.hpp:351:10:void ot::MeshCoP::NetworkNameTlv::Init()	16	static
+meshcop_tlvs.hpp:372:17:const char* ot::MeshCoP::NetworkNameTlv::GetNetworkName() const	16	static
+meshcop_tlvs.hpp:380:10:void ot::MeshCoP::NetworkNameTlv::SetNetworkName(const char*)	24	static
+meshcop_tlvs.hpp:403:10:void ot::MeshCoP::PSKcTlv::Init()	16	static
+meshcop_tlvs.hpp:424:20:const uint8_t* ot::MeshCoP::PSKcTlv::GetPSKc() const	16	static
+meshcop_tlvs.hpp:432:10:void ot::MeshCoP::PSKcTlv::SetPSKc(const uint8_t*)	16	static
+meshcop_tlvs.hpp:450:10:void ot::MeshCoP::NetworkMasterKeyTlv::Init()	16	static
+meshcop_tlvs.hpp:471:24:const otMasterKey& ot::MeshCoP::NetworkMasterKeyTlv::GetNetworkMasterKey() const	16	static
+meshcop_tlvs.hpp:479:10:void ot::MeshCoP::NetworkMasterKeyTlv::SetNetworkMasterKey(const otMasterKey&)	16	static
+meshcop_tlvs.hpp:544:10:void ot::MeshCoP::MeshLocalPrefixTlv::Init()	16	static
+meshcop_tlvs.hpp:565:20:const uint8_t* ot::MeshCoP::MeshLocalPrefixTlv::GetMeshLocalPrefix() const	16	static
+meshcop_tlvs.hpp:573:10:void ot::MeshCoP::MeshLocalPrefixTlv::SetMeshLocalPrefix(const uint8_t*)	16	static
+meshcop_tlvs.hpp:864:10:void ot::MeshCoP::SecurityPolicyTlv::Init()	16	static
+meshcop_tlvs.hpp:885:14:uint16_t ot::MeshCoP::SecurityPolicyTlv::GetRotationTime() const	16	static
+meshcop_tlvs.hpp:893:10:void ot::MeshCoP::SecurityPolicyTlv::SetRotationTime(uint16_t)	16	static
+meshcop_tlvs.hpp:910:13:uint8_t ot::MeshCoP::SecurityPolicyTlv::GetFlags() const	16	static
+meshcop_tlvs.hpp:918:10:void ot::MeshCoP::SecurityPolicyTlv::SetFlags(uint8_t)	16	static
+meshcop_tlvs.hpp:937:10:void ot::MeshCoP::ActiveTimestampTlv::Init()	16	static
+meshcop_tlvs.hpp:1212:10:void ot::MeshCoP::PendingTimestampTlv::Init()	16	static
+meshcop_tlvs.hpp:1241:10:void ot::MeshCoP::DelayTimerTlv::Init()	16	static
+meshcop_tlvs.hpp:1262:14:uint32_t ot::MeshCoP::DelayTimerTlv::GetDelayTimer() const	16	static
+meshcop_tlvs.hpp:1270:10:void ot::MeshCoP::DelayTimerTlv::SetDelayTimer(uint32_t)	16	static
+meshcop_tlvs.hpp:1315:10:void ot::MeshCoP::ChannelMaskEntry::SetChannelPage(uint8_t)	16	static
+meshcop_tlvs.hpp:1331:10:void ot::MeshCoP::ChannelMaskEntry::SetMaskLength(uint8_t)	16	static
+meshcop_tlvs.hpp:1404:10:void ot::MeshCoP::ChannelMask0Entry::Init()	16	static
+meshcop_tlvs.hpp:1425:14:uint32_t ot::MeshCoP::ChannelMask0Entry::GetMask() const	16	static
+meshcop_tlvs.hpp:1433:10:void ot::MeshCoP::ChannelMask0Entry::SetMask(uint32_t)	16	static
+meshcop_tlvs.hpp:1496:10:void ot::MeshCoP::ChannelMask0Tlv::Init()	16	static
+dataset.hpp:140:14:uint32_t ot::MeshCoP::Dataset::GetUpdateTime() const	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+mle_tlvs.hpp:139:10:void ot::Mle::Tlv::SetType(ot::Mle::Tlv::Type)	16	static
+mac.hpp:135:5:ot::Mac::ChannelMask::ChannelMask(uint32_t)	16	static
+thread_netif.hpp:223:17:ot::KeyManager& ot::ThreadNetif::GetKeyManager()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+dataset.cpp:50:1:ot::MeshCoP::Dataset::Dataset(ot::MeshCoP::Tlv::Type)	16	static
+dataset.cpp:58:6:void ot::MeshCoP::Dataset::Clear()	16	static
+dataset.cpp:63:6:bool ot::MeshCoP::Dataset::IsValid() const	32	static
+dataset.cpp:78:6:ot::MeshCoP::Tlv* ot::MeshCoP::Dataset::Get(ot::MeshCoP::Tlv::Type)	32	static
+dataset.cpp:98:12:const ot::MeshCoP::Tlv* ot::MeshCoP::Dataset::Get(ot::MeshCoP::Tlv::Type) const	32	static
+dataset.cpp:118:6:void ot::MeshCoP::Dataset::Get(otOperationalDataset&) const	88	static
+dataset.cpp:243:9:otError ot::MeshCoP::Dataset::Set(const ot::MeshCoP::Dataset&)	16	static
+dataset.cpp:260:9:otError ot::MeshCoP::Dataset::Set(const otOperationalDataset&)	168	static
+dataset.cpp:373:18:const ot::MeshCoP::Timestamp* ot::MeshCoP::Dataset::GetTimestamp() const	32	static
+dataset.cpp:394:6:void ot::MeshCoP::Dataset::SetTimestamp(const ot::MeshCoP::Timestamp&)	40	static
+dataset.cpp:412:9:otError ot::MeshCoP::Dataset::Set(const ot::MeshCoP::Tlv&)	32	static
+dataset.cpp:441:9:otError ot::MeshCoP::Dataset::Set(const ot::Message&, uint16_t, uint8_t)	40	static
+dataset.cpp:454:6:void ot::MeshCoP::Dataset::Remove(ot::MeshCoP::Tlv::Type)	24	static
+dataset.cpp:465:9:otError ot::MeshCoP::Dataset::AppendMleDatasetTlv(ot::Message&) const	48	static
+dataset.cpp:517:6:void ot::MeshCoP::Dataset::Remove(uint8_t*, uint8_t)	24	static
+dataset.cpp:523:9:otError ot::MeshCoP::Dataset::ApplyConfiguration(ot::Instance&) const	88	static
+dataset.cpp:626:9:otError ot::MeshCoP::Dataset::ConvertToActive()	16	static

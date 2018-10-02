@@ -1,0 +1,98 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:168:10:ot::Coap::Header::Code ot::Coap::Header::GetCode() const	16	static
+coap_header.hpp:439:10:bool ot::Coap::Header::IsConfirmable() const	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:118:10:bool ot::Timer::IsRunning() const	16	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+netif.hpp:96:20:const ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress() const	16	static
+netif.hpp:123:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::NetifUnicastAddress::GetNext() const	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+netif.hpp:218:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::Netif::GetUnicastAddresses() const	16	static
+ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
+icmp6.hpp:106:10:ot::Ip6::IcmpHeader::Type ot::Ip6::IcmpHeader::GetType() const	16	static
+icmp6.hpp:122:10:ot::Ip6::IcmpHeader::Code ot::Ip6::IcmpHeader::GetCode() const	16	static
+icmp6.h:119:16:otIcmp6Handler::otIcmp6Handler()	16	static
+icmp6.hpp:213:5:ot::Ip6::IcmpHandler::IcmpHandler(otIcmp6ReceiveCallback, void*)	24	static
+ip6.hpp:355:11:ot::Ip6::Icmp& ot::Ip6::Ip6::GetIcmp()	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+coap.hpp:611:13:otError ot::Coap::CoapBase::SendEmptyAck(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+topology.hpp:137:10:bool ot::Neighbor::IsFullThreadDevice() const	16	static
+topology.hpp:167:22:ot::Mac::ExtAddress& ot::Neighbor::GetExtAddress()	16	static
+topology.hpp:207:14:uint32_t ot::Neighbor::GetLastHeard() const	16	static
+topology.hpp:295:13:uint8_t ot::Neighbor::GetLinkFailures() const	16	static
+mle.hpp:921:20:static uint8_t ot::Mle::Mle::GetRouterId(uint16_t)	16	static
+thread_tlvs.hpp:97:10:void ot::ThreadTlv::SetType(ot::ThreadTlv::Type)	16	static
+thread_tlvs.hpp:111:20:static otError ot::ThreadTlv::GetTlv(const ot::Message&, ot::ThreadTlv::Type, uint16_t, ot::Tlv&)	24	static
+thread_tlvs.hpp:130:10:void ot::ThreadTargetTlv::Init()	16	static
+thread_tlvs.hpp:143:10:bool ot::ThreadTargetTlv::IsValid() const	16	static
+thread_tlvs.hpp:151:25:const ot::Ip6::Address& ot::ThreadTargetTlv::GetTarget() const	16	static
+thread_tlvs.hpp:159:10:void ot::ThreadTargetTlv::SetTarget(const ot::Ip6::Address&)	16	static
+thread_tlvs.hpp:224:10:void ot::ThreadRloc16Tlv::Init()	16	static
+thread_tlvs.hpp:237:10:bool ot::ThreadRloc16Tlv::IsValid() const	16	static
+thread_tlvs.hpp:245:14:uint16_t ot::ThreadRloc16Tlv::GetRloc16() const	16	static
+thread_tlvs.hpp:253:10:void ot::ThreadRloc16Tlv::SetRloc16(uint16_t)	16	static
+thread_tlvs.hpp:271:10:void ot::ThreadMeshLocalEidTlv::Init()	16	static
+thread_tlvs.hpp:284:10:bool ot::ThreadMeshLocalEidTlv::IsValid() const	16	static
+thread_tlvs.hpp:292:20:const uint8_t* ot::ThreadMeshLocalEidTlv::GetIid() const	16	static
+thread_tlvs.hpp:300:10:void ot::ThreadMeshLocalEidTlv::SetIid(const uint8_t*)	16	static
+thread_tlvs.hpp:308:10:void ot::ThreadMeshLocalEidTlv::SetIid(const ot::Mac::ExtAddress&)	16	static
+thread_tlvs.hpp:390:10:void ot::ThreadLastTransactionTimeTlv::Init()	16	static
+thread_tlvs.hpp:403:10:bool ot::ThreadLastTransactionTimeTlv::IsValid() const	16	static
+thread_tlvs.hpp:411:14:uint32_t ot::ThreadLastTransactionTimeTlv::GetTime() const	16	static
+thread_tlvs.hpp:419:10:void ot::ThreadLastTransactionTimeTlv::SetTime(uint32_t)	16	static
+child_table.hpp:115:14:bool ot::ChildTable::Iterator::IsDone() const	16	static
+child_table.hpp:145:14:void ot::ChildTable::Iterator::operator++(int)	16	static
+child_table.hpp:153:16:ot::Child* ot::ChildTable::Iterator::GetChild()	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:255:20:ot::MeshForwarder& ot::ThreadNetif::GetMeshForwarder()	16	static
+thread_netif.hpp:314:22:ot::AddressResolver& ot::ThreadNetif::GetAddressResolver()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:506:37:Type& ot::Instance::Get() [with Type = ot::AddressResolver]	16	static
+address_resolver.cpp:59:1:ot::AddressResolver::AddressResolver(ot::Instance&)	16	static
+address_resolver.cpp:76:6:void ot::AddressResolver::Clear()	24	static
+address_resolver.cpp:86:9:otError ot::AddressResolver::GetEntry(uint8_t, otEidCacheEntry&) const	32	static
+address_resolver.cpp:100:6:void ot::AddressResolver::Remove(uint8_t)	24	static
+address_resolver.cpp:111:6:void ot::AddressResolver::Remove(uint16_t)	24	static
+address_resolver.cpp:122:25:ot::AddressResolver::Cache* ot::AddressResolver::NewCacheEntry()	24	static
+address_resolver.cpp:147:6:void ot::AddressResolver::MarkCacheEntryAsUsed(ot::AddressResolver::Cache&)	24	static
+address_resolver.cpp:160:13:static const char* ot::AddressResolver::ConvertInvalidationReasonToString(ot::AddressResolver::InvalidationReason)	24	static
+address_resolver.cpp:186:6:void ot::AddressResolver::InvalidateCacheEntry(ot::AddressResolver::Cache&, ot::AddressResolver::InvalidationReason)	32	static
+address_resolver.cpp:219:6:void ot::AddressResolver::UpdateCacheEntry(const ot::Ip6::Address&, ot::Mac::ShortAddress)	32	static
+address_resolver.cpp:255:9:otError ot::AddressResolver::Resolve(const ot::Ip6::Address&, uint16_t&)	48	static
+address_resolver.cpp:320:9:otError ot::AddressResolver::SendAddressQuery(const ot::Ip6::Address&)	256	static
+address_resolver.cpp:364:6:static void ot::AddressResolver::HandleAddressNotification(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+address_resolver.cpp:374:6:void ot::AddressResolver::HandleAddressNotification(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	88	static
+address_resolver.cpp:465:9:otError ot::AddressResolver::SendAddressError(const ot::ThreadTargetTlv&, const ot::ThreadMeshLocalEidTlv&, const ot::Ip6::Address*)	240	static
+address_resolver.cpp:512:6:static void ot::AddressResolver::HandleAddressError(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+address_resolver.cpp:522:6:void ot::AddressResolver::HandleAddressError(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	120	static
+address_resolver.cpp:601:6:static void ot::AddressResolver::HandleAddressQuery(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+address_resolver.cpp:611:6:void ot::AddressResolver::HandleAddressQuery(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	104	static
+address_resolver.cpp:659:6:void ot::AddressResolver::SendAddressQueryResponse(const ot::ThreadTargetTlv&, const ot::ThreadMeshLocalEidTlv&, const ot::ThreadLastTransactionTimeTlv*, const ot::Ip6::Address&)	240	static
+address_resolver.cpp:706:6:static void ot::AddressResolver::HandleTimer(ot::Timer&)	16	static
+address_resolver.cpp:711:6:void ot::AddressResolver::HandleTimer()	24	static
+address_resolver.cpp:760:6:static void ot::AddressResolver::HandleIcmpReceive(void*, otMessage*, const otMessageInfo*, const otIcmp6Header*)	24	static
+address_resolver.cpp:772:6:void ot::AddressResolver::HandleIcmpReceive(ot::Message&, const ot::Ip6::MessageInfo&, const ot::Ip6::IcmpHeader&)	80	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::AddressResolver]	16	static

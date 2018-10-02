@@ -35,7 +35,7 @@
 #define OPENTHREAD_CORE_CONFIG_H_
 
 #include <openthread/config.h>
-
+#include "openthread-config-stm32f4-freertos.h"
 #define OPENTHREAD_CORE_CONFIG_H_IN
 
 #ifdef OPENTHREAD_PROJECT_CORE_CONFIG_FILE

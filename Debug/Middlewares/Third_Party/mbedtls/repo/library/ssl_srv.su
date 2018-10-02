@@ -1,0 +1,3 @@
+ssl_srv.c:60:5:mbedtls_ssl_set_client_transport_id	16	static
+ssl_srv.c:78:6:mbedtls_ssl_conf_dtls_cookies	0	static
+ssl_srv.c:3973:5:mbedtls_ssl_handshake_server_step	96	static

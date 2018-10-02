@@ -1,0 +1,10 @@
+debug_uart.c:107:6:otPlatDebugUart_putchar_raw	0	static
+debug_uart.c:94:6:otPlatDebugUart_putchar	8	static
+debug_uart.c:66:6:otPlatDebugUart_write_bytes	16	static
+debug_uart.c:77:6:otPlatDebugUart_puts_no_nl	8	static
+debug_uart.c:53:6:otPlatDebugUart_vprintf	136	static
+debug_uart.c:44:6:otPlatDebugUart_printf	16	static
+debug_uart.c:87:6:otPlatDebugUart_puts	8	static
+debug_uart.c:113:5:otPlatDebugUart_kbhit	0	static
+debug_uart.c:119:5:otPlatDebugUart_getc	0	static
+debug_uart.c:125:9:otPlatDebugUart_logfile	0	static

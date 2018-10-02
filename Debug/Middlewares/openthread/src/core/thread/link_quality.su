@@ -1,0 +1,25 @@
+link_quality.hpp:74:10:void ot::SuccessRateTracker::Reset()	16	static
+link_quality.hpp:143:10:bool ot::RssAverager::HasAverage() const	16	static
+link_quality.hpp:254:12:int8_t ot::LinkQualityInfo::GetAverageRss() const	16	static
+link_quality.hpp:282:13:uint8_t ot::LinkQualityInfo::GetLinkMargin(int8_t) const	16	static
+link_quality.hpp:300:13:uint8_t ot::LinkQualityInfo::GetLinkQuality() const	16	static
+link_quality.hpp:308:12:int8_t ot::LinkQualityInfo::GetLastRss() const	16	static
+link_quality.hpp:428:10:void ot::LinkQualityInfo::SetLinkQuality(uint8_t)	16	static
+link_quality.cpp:49:6:void ot::SuccessRateTracker::AddSample(bool, uint16_t)	32	static
+link_quality.cpp:61:6:void ot::RssAverager::Reset()	16	static
+link_quality.cpp:67:9:otError ot::RssAverager::Add(int8_t)	24	static
+link_quality.cpp:113:8:int8_t ot::RssAverager::GetAverage() const	24	static
+link_quality.cpp:132:25:ot::RssAverager::InfoString ot::RssAverager::ToString() const	16	static
+link_quality.cpp:143:6:void ot::LinkQualityInfo::Clear()	16	static
+link_quality.cpp:155:6:void ot::LinkQualityInfo::AddRss(int8_t, int8_t)	24	static
+link_quality.cpp:176:29:ot::LinkQualityInfo::InfoString ot::LinkQualityInfo::ToInfoString() const	48	static
+link_quality.cpp:182:9:static uint8_t ot::LinkQualityInfo::ConvertRssToLinkMargin(int8_t, int8_t)	24	static
+link_quality.cpp:194:9:static uint8_t ot::LinkQualityInfo::ConvertLinkMarginToLinkQuality(uint8_t)	16	static
+link_quality.cpp:199:9:static uint8_t ot::LinkQualityInfo::ConvertRssToLinkQuality(int8_t, int8_t)	16	static
+link_quality.cpp:204:8:static int8_t ot::LinkQualityInfo::ConvertLinkQualityToRss(int8_t, uint8_t)	24	static
+link_quality.cpp:230:9:static uint8_t ot::LinkQualityInfo::CalculateLinkQuality(uint8_t, uint8_t)	24	static
+string.hpp:63:7:ot::StringBase::StringBase()	16	static
+string.hpp:98:5:ot::String<SIZE>::String() [with short unsigned int SIZE = 10u]	16	static
+string.hpp:167:13:) [with short unsigned int SIZE = 10u]	36	static
+string.hpp:154:17:const char* ot::String<SIZE>::AsCString() const [with short unsigned int SIZE = 10u]	16	static
+string.hpp:111:5:) [with short unsigned int SIZE = 50u]	36	static

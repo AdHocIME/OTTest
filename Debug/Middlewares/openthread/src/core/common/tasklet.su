@@ -1,0 +1,11 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+tasklet.hpp:93:10:void ot::Tasklet::RunTask()	16	static
+instance.hpp:178:23:ot::TaskletScheduler& ot::Instance::GetTaskletScheduler()	16	static
+instance.hpp:668:38:Type& ot::Instance::Get() [with Type = ot::TaskletScheduler]	16	static
+tasklet.cpp:45:1:ot::Tasklet::Tasklet(ot::Instance&, ot::Tasklet::Handler, void*)	24	static
+tasklet.cpp:53:9:otError ot::Tasklet::Post()	16	static
+tasklet.cpp:58:1:ot::TaskletScheduler::TaskletScheduler()	16	static
+tasklet.cpp:64:9:otError ot::TaskletScheduler::Post(ot::Tasklet&)	24	static
+tasklet.cpp:88:10:ot::Tasklet* ot::TaskletScheduler::PopTasklet()	24	static
+tasklet.cpp:107:6:void ot::TaskletScheduler::ProcessQueuedTasklets()	24	static

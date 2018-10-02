@@ -1,0 +1,3 @@
+main.cpp:29:13:void print_hex(const char*, const unsigned char*, size_t)	32	static
+main.cpp:48:12:int example()	1424	static
+main.cpp:193:5:int main()	8	static

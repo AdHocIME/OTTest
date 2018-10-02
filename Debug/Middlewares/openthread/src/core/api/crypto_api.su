@@ -1,0 +1,4 @@
+crypto_api.cpp:44:6:void otCryptoHmacSha256(const uint8_t*, uint16_t, const uint8_t*, uint16_t, uint8_t*)	40	static
+aes_ccm.hpp:59:7:ot::Crypto::AesCcm::AesCcm()	16	static
+aes_ccm.hpp:59:7:ot::Crypto::AesCcm::~AesCcm()	16	static
+crypto_api.cpp:59:6:void otCryptoAesCcm(const uint8_t*, uint16_t, uint8_t, const void*, uint8_t, const void*, uint32_t, void*, void*, uint32_t, bool, void*)	400	static

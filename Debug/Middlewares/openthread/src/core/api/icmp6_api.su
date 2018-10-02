@@ -1,0 +1,8 @@
+icmp6.hpp:328:21:otIcmp6EchoMode ot::Ip6::Icmp::GetEchoMode() const	16	static
+icmp6.hpp:336:10:void ot::Ip6::Icmp::SetEchoMode(otIcmp6EchoMode)	16	static
+ip6.hpp:355:11:ot::Ip6::Icmp& ot::Ip6::Ip6::GetIcmp()	16	static
+instance.hpp:311:15:ot::Ip6::Ip6& ot::Instance::GetIp6()	16	static
+icmp6_api.cpp:42:17:otIcmp6EchoMode otIcmp6GetEchoMode(otInstance*)	24	static
+icmp6_api.cpp:49:6:void otIcmp6SetEchoMode(otInstance*, otIcmp6EchoMode)	24	static
+icmp6_api.cpp:56:9:otError otIcmp6RegisterHandler(otInstance*, otIcmp6Handler*)	24	static
+icmp6_api.cpp:63:9:otError otIcmp6SendEchoRequest(otInstance*, otMessage*, const otMessageInfo*, uint16_t)	32	static

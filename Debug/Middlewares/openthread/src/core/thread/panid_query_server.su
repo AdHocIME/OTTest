@@ -1,0 +1,60 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:50:17:uint32_t ot::Encoding::Swap32(uint32_t)	16	static
+encoding.hpp:68:17:uint32_t ot::Encoding::Reverse32(uint32_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+encoding.hpp:104:17:uint32_t ot::Encoding::BigEndian::HostSwap32(uint32_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+locator.hpp:165:5:ot::OwnerLocator::OwnerLocator(void*)	16	static
+mac_frame.hpp:949:13:uint8_t ot::Mac::Frame::GetChannel() const	16	static
+coap_header.hpp:148:10:ot::Coap::Header::Type ot::Coap::Header::GetType() const	16	static
+coap_header.hpp:168:10:ot::Coap::Header::Code ot::Coap::Header::GetCode() const	16	static
+coap_header.hpp:439:10:bool ot::Coap::Header::IsConfirmable() const	16	static
+timer.hpp:94:5:ot::Timer::Timer(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:155:5:ot::TimerMilli::TimerMilli(ot::Instance&, ot::Timer::Handler, void*)	24	static
+timer.hpp:167:10:void ot::TimerMilli::Start(uint32_t)	16	static
+timer.hpp:191:21:static uint32_t ot::TimerMilli::GetNow()	8	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:136:10:void ot::Ip6::MessageInfo::SetPeerPort(uint16_t)	16	static
+coap.h:228:16:otCoapResource::otCoapResource()	16	static
+coap.hpp:216:5:ot::Coap::Resource::Resource(const char*, otCoapRequestHandler, void*)	24	static
+coap.hpp:611:13:otError ot::Coap::CoapBase::SendEmptyAck(const ot::Coap::Header&, const ot::Ip6::MessageInfo&)	24	static
+tlvs.hpp:73:10:void ot::Tlv::SetType(uint8_t)	16	static
+tlvs.hpp:81:13:uint8_t ot::Tlv::GetLength() const	16	static
+tlvs.hpp:89:10:void ot::Tlv::SetLength(uint8_t)	16	static
+meshcop_tlvs.hpp:123:10:void ot::MeshCoP::Tlv::SetType(ot::MeshCoP::Tlv::Type)	16	static
+meshcop_tlvs.hpp:147:20:static otError ot::MeshCoP::Tlv::GetTlv(const ot::Message&, ot::MeshCoP::Tlv::Type, uint16_t, ot::MeshCoP::Tlv&)	24	static
+meshcop_tlvs.hpp:257:10:void ot::MeshCoP::PanIdTlv::Init()	16	static
+meshcop_tlvs.hpp:270:10:bool ot::MeshCoP::PanIdTlv::IsValid() const	16	static
+meshcop_tlvs.hpp:278:14:uint16_t ot::MeshCoP::PanIdTlv::GetPanId() const	16	static
+meshcop_tlvs.hpp:286:10:void ot::MeshCoP::PanIdTlv::SetPanId(uint16_t)	16	static
+meshcop_tlvs.hpp:1307:13:uint8_t ot::MeshCoP::ChannelMaskEntry::GetChannelPage() const	16	static
+meshcop_tlvs.hpp:1315:10:void ot::MeshCoP::ChannelMaskEntry::SetChannelPage(uint8_t)	16	static
+meshcop_tlvs.hpp:1323:13:uint8_t ot::MeshCoP::ChannelMaskEntry::GetMaskLength() const	16	static
+meshcop_tlvs.hpp:1331:10:void ot::MeshCoP::ChannelMaskEntry::SetMaskLength(uint8_t)	16	static
+meshcop_tlvs.hpp:1404:10:void ot::MeshCoP::ChannelMask0Entry::Init()	16	static
+meshcop_tlvs.hpp:1417:10:bool ot::MeshCoP::ChannelMask0Entry::IsValid() const	16	static
+meshcop_tlvs.hpp:1425:14:uint32_t ot::MeshCoP::ChannelMask0Entry::GetMask() const	16	static
+meshcop_tlvs.hpp:1433:10:void ot::MeshCoP::ChannelMask0Entry::SetMask(uint32_t)	16	static
+meshcop_tlvs.hpp:1496:10:void ot::MeshCoP::ChannelMask0Tlv::Init()	16	static
+meshcop_tlvs.hpp:1510:10:bool ot::MeshCoP::ChannelMask0Tlv::IsValid() const	16	static
+thread_netif.hpp:207:17:ot::Coap::Coap& ot::ThreadNetif::GetCoap()	16	static
+thread_netif.hpp:239:15:ot::Mac::Mac& ot::ThreadNetif::GetMac()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+thread_netif.hpp:412:23:ot::PanIdQueryServer& ot::ThreadNetif::GetPanIdQueryServer()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:537:38:Type& ot::Instance::Get() [with Type = ot::PanIdQueryServer]	16	static
+meshcop.hpp:56:17:ot::Message* ot::MeshCoP::NewMeshCoPMessage(ot::Coap::CoapBase&, const ot::Coap::Header&)	16	static
+panid_query_server.cpp:53:1:ot::PanIdQueryServer::PanIdQueryServer(ot::Instance&)	16	static
+panid_query_server.cpp:63:6:static void ot::PanIdQueryServer::HandleQuery(void*, otCoapHeader*, otMessage*, const otMessageInfo*)	24	static
+panid_query_server.cpp:73:6:void ot::PanIdQueryServer::HandleQuery(ot::Coap::Header&, ot::Message&, const ot::Ip6::MessageInfo&)	88	static
+panid_query_server.cpp:102:6:static void ot::PanIdQueryServer::HandleScanResult(void*, ot::Mac::Frame*)	16	static
+panid_query_server.cpp:107:6:void ot::PanIdQueryServer::HandleScanResult(ot::Mac::Frame*)	24	static
+panid_query_server.cpp:126:9:otError ot::PanIdQueryServer::SendConflict()	240	static
+panid_query_server.cpp:168:6:static void ot::PanIdQueryServer::HandleTimer(ot::Timer&)	16	static
+panid_query_server.cpp:173:6:void ot::PanIdQueryServer::HandleTimer()	24	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::PanIdQueryServer]	16	static

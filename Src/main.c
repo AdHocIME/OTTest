@@ -62,7 +62,7 @@
 #include <openthread/tasklet.h>
 #include <openthread/platform/logging.h>
 
-#include "openthread-system.h"
+//#include "openthread-system.h"
 
 #include <setjmp.h>
 #include <unistd.h>
@@ -73,10 +73,10 @@ osThreadId defaultTaskHandle;
 
 /* USER CODE BEGIN PV */
 /* Private variables ---------------------------------------------------------*/
-
-jmp_buf gResetJump;
-
-void __gcov_flush();
+//
+//jmp_buf gResetJump;
+//
+//void __gcov_flush();
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -86,10 +86,10 @@ void StartDefaultTask(void const * argument);
 
 /* USER CODE BEGIN PFP */
 /* Private function prototypes -----------------------------------------------*/
-void otTaskletsSignalPending(otInstance *aInstance)
-{
-    (void)aInstance;
-}
+//void otTaskletsSignalPending(otInstance *aInstance)
+//{
+//    (void)aInstance;
+//}
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
@@ -107,11 +107,11 @@ int main(void)
     otInstance *sInstance;
     sInstance = otInstanceInitSingle();
     assert(sInstance);
-
-    otCliUartInit(sInstance);
-
-    otTaskletsProcess(sInstance);
-    otSysProcessDrivers(sInstance);
+//
+//    otCliUartInit(sInstance);
+//
+//    otTaskletsProcess(sInstance);
+//    otSysProcessDrivers(sInstance);
   /* USER CODE END 1 */
 
   /* MCU Configuration----------------------------------------------------------*/

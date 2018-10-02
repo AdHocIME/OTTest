@@ -1,0 +1,4 @@
+random.c:138:6:stm32f4RandomInit	8	static
+random.c:156:6:stm32f4RandomDeinit	0	static
+random.c:161:10:otPlatRandomGet	0	static
+random.c:166:9:otPlatRandomGetTrue	32	static

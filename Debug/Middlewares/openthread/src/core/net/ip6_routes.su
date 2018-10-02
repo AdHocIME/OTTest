@@ -1,0 +1,8 @@
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+netif.hpp:202:12:ot::Ip6::Netif* ot::Ip6::Netif::GetNext() const	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+ip6.hpp:290:12:ot::Ip6::Netif* ot::Ip6::Ip6::GetNetifList()	16	static
+ip6_routes.cpp:45:1:ot::Ip6::Routes::Routes(ot::Instance&)	16	static
+ip6_routes.cpp:51:9:otError ot::Ip6::Routes::Add(ot::Ip6::Route&)	24	static
+ip6_routes.cpp:67:9:otError ot::Ip6::Routes::Remove(ot::Ip6::Route&)	24	static
+ip6_routes.cpp:90:8:int8_t ot::Ip6::Routes::Lookup(const ot::Ip6::Address&, const ot::Ip6::Address&)	48	static

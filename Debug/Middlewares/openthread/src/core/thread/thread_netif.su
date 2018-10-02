@@ -1,0 +1,14 @@
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+coap.hpp:654:10:void ot::Coap::CoapBase::SetInterceptor(ot::Coap::CoapBase::Interceptor, void*)	24	static
+mac.hpp:558:23:const ot::Mac::ExtAddress& ot::Mac::Mac::GetExtAddress() const	16	static
+child_supervision.hpp:175:14:ot::Utils::ChildSupervisor::ChildSupervisor(otInstance&)	16	static
+child_supervision.hpp:266:5:ot::Utils::SupervisionListener::SupervisionListener(otInstance&)	16	static
+thread_netif.hpp:146:21:virtual otError ot::ThreadNetif::SendMessage(ot::Message&)	16	static
+thread_netif.cpp:52:1:ot::ThreadNetif::ThreadNetif(ot::Instance&)	16	static
+thread_netif.cpp:112:9:otError ot::ThreadNetif::Up()	16	static
+thread_netif.cpp:134:9:otError ot::ThreadNetif::Down()	16	static
+thread_netif.cpp:157:9:virtual otError ot::ThreadNetif::GetLinkAddress(ot::Ip6::LinkAddress&) const	16	static
+thread_netif.cpp:165:9:virtual otError ot::ThreadNetif::RouteLookup(const ot::Ip6::Address&, const ot::Ip6::Address&, uint8_t*)	40	static
+thread_netif.cpp:181:9:static otError ot::ThreadNetif::TmfFilter(const ot::Message&, const ot::Ip6::MessageInfo&, void*)	24	static
+thread_netif.cpp:188:6:bool ot::ThreadNetif::IsTmfMessage(const ot::Ip6::MessageInfo&)	32	static

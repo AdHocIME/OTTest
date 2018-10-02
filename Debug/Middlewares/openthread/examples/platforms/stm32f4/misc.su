@@ -1,0 +1,5 @@
+misc.c:37:6:stm32f4MiscInit	0	static
+misc.c:42:6:stm32f4MiscDeinit	0	static
+misc.c:47:6:otPlatReset	0	static
+misc.c:57:19:otPlatGetResetReason	0	static
+misc.c:63:6:otPlatWakeHost	0	static

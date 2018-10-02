@@ -1,0 +1,4 @@
+main.c:264:6:StartDefaultTask	8	static
+main.c:188:6:SystemClock_Config	96	static
+main.c:104:5:main	48	static
+main.c:284:6:_Error_Handler	0	static

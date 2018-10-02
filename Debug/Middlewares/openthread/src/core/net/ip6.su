@@ -1,0 +1,91 @@
+encoding.hpp:45:17:uint16_t ot::Encoding::Swap16(uint16_t)	16	static
+encoding.hpp:100:17:uint16_t ot::Encoding::BigEndian::HostSwap16(uint16_t)	16	static
+locator.hpp:117:5:ot::InstanceLocator::InstanceLocator(ot::Instance&)	16	static
+message.hpp:259:14:uint16_t ot::Message::GetLength() const	16	static
+message.hpp:284:14:uint16_t ot::Message::GetOffset() const	16	static
+message.hpp:469:14:ot::Message* ot::Message::Clone() const	16	static
+message.hpp:585:12:int8_t ot::Message::GetInterfaceId() const	16	static
+message.hpp:593:10:void ot::Message::SetInterfaceId(int8_t)	16	static
+types.h:441:16:otMessageInfo::otMessageInfo()	16	static
+socket.hpp:64:5:ot::Ip6::MessageInfo::MessageInfo()	16	static
+socket.hpp:72:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetSockAddr() const	16	static
+socket.hpp:80:10:void ot::Ip6::MessageInfo::SetSockAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:104:14:ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr()	16	static
+socket.hpp:112:20:const ot::Ip6::Address& ot::Ip6::MessageInfo::GetPeerAddr() const	16	static
+socket.hpp:120:10:void ot::Ip6::MessageInfo::SetPeerAddr(const ot::Ip6::Address&)	16	static
+socket.hpp:144:12:int8_t ot::Ip6::MessageInfo::GetInterfaceId() const	16	static
+socket.hpp:152:10:void ot::Ip6::MessageInfo::SetInterfaceId(int8_t)	16	static
+socket.hpp:168:10:void ot::Ip6::MessageInfo::SetHopLimit(uint8_t)	16	static
+socket.hpp:184:10:void ot::Ip6::MessageInfo::SetLinkInfo(const void*)	16	static
+netif.hpp:96:20:const ot::Ip6::Address& ot::Ip6::NetifUnicastAddress::GetAddress() const	16	static
+netif.hpp:112:13:uint8_t ot::Ip6::NetifUnicastAddress::GetScope() const	16	static
+netif.hpp:123:32:const ot::Ip6::NetifUnicastAddress* ot::Ip6::NetifUnicastAddress::GetNext() const	16	static
+netif.hpp:210:12:int8_t ot::Ip6::Netif::GetInterfaceId() const	16	static
+netif.hpp:393:10:bool ot::Ip6::Netif::IsMulticastPromiscuousEnabled()	16	static
+ip6_headers.hpp:143:10:void ot::Ip6::Header::Init()	16	static
+ip6_headers.hpp:181:14:uint16_t ot::Ip6::Header::GetPayloadLength()	16	static
+ip6_headers.hpp:189:10:void ot::Ip6::Header::SetPayloadLength(uint16_t)	16	static
+ip6_headers.hpp:197:13:ot::Ip6::IpProto ot::Ip6::Header::GetNextHeader() const	16	static
+ip6_headers.hpp:205:10:void ot::Ip6::Header::SetNextHeader(ot::Ip6::IpProto)	16	static
+ip6_headers.hpp:213:13:uint8_t ot::Ip6::Header::GetHopLimit() const	16	static
+ip6_headers.hpp:221:10:void ot::Ip6::Header::SetHopLimit(uint8_t)	16	static
+ip6_headers.hpp:229:14:ot::Ip6::Address& ot::Ip6::Header::GetSource()	16	static
+ip6_headers.hpp:237:10:void ot::Ip6::Header::SetSource(const ot::Ip6::Address&)	16	static
+ip6_headers.hpp:245:14:ot::Ip6::Address& ot::Ip6::Header::GetDestination()	16	static
+ip6_headers.hpp:253:10:void ot::Ip6::Header::SetDestination(const ot::Ip6::Address&)	16	static
+ip6_headers.hpp:269:20:static uint8_t ot::Ip6::Header::GetHopLimitOffset()	4	static
+ip6_headers.hpp:277:20:static uint8_t ot::Ip6::Header::GetHopLimitSize()	4	static
+ip6_headers.hpp:309:13:ot::Ip6::IpProto ot::Ip6::ExtensionHeader::GetNextHeader() const	16	static
+ip6_headers.hpp:317:10:void ot::Ip6::ExtensionHeader::SetNextHeader(ot::Ip6::IpProto)	16	static
+ip6_headers.hpp:325:13:uint8_t ot::Ip6::ExtensionHeader::GetLength() const	16	static
+ip6_headers.hpp:333:10:void ot::Ip6::ExtensionHeader::SetLength(uint8_t)	16	static
+ip6_headers.hpp:361:5:ot::Ip6::OptionHeader::OptionHeader()	16	static
+ip6_headers.hpp:373:13:uint8_t ot::Ip6::OptionHeader::GetType() const	16	static
+ip6_headers.hpp:381:10:void ot::Ip6::OptionHeader::SetType(uint8_t)	16	static
+ip6_headers.hpp:402:12:ot::Ip6::OptionHeader::Action ot::Ip6::OptionHeader::GetAction() const	16	static
+ip6_headers.hpp:410:13:uint8_t ot::Ip6::OptionHeader::GetLength() const	16	static
+ip6_headers.hpp:418:10:void ot::Ip6::OptionHeader::SetLength(uint8_t)	16	static
+ip6_headers.hpp:447:10:void ot::Ip6::OptionPadN::Init(uint8_t)	16	static
+ip6_headers.hpp:461:13:uint8_t ot::Ip6::OptionPadN::GetTotalLength() const	16	static
+ip6_headers.hpp:531:14:uint16_t ot::Ip6::FragmentHeader::GetOffset()	16	static
+ip6_headers.hpp:551:10:bool ot::Ip6::FragmentHeader::IsMoreFlagSet()	16	static
+icmp6.hpp:106:10:ot::Ip6::IcmpHeader::Type ot::Ip6::IcmpHeader::GetType() const	16	static
+ip6_mpl.hpp:91:13:uint8_t ot::Ip6::OptionMpl::GetTotalLength() const	16	static
+udp6.hpp:333:14:uint16_t ot::Ip6::UdpHeader::GetDestinationPort() const	16	static
+ip6.hpp:290:12:ot::Ip6::Netif* ot::Ip6::Ip6::GetNetifList()	16	static
+thread_netif.hpp:247:21:ot::Mle::MleRouter& ot::ThreadNetif::GetMle()	16	static
+instance.hpp:311:15:ot::Ip6::Ip6& ot::Instance::GetIp6()	16	static
+instance.hpp:319:18:ot::ThreadNetif& ot::Instance::GetThreadNetif()	16	static
+instance.hpp:367:18:ot::MessagePool& ot::Instance::GetMessagePool()	16	static
+instance.hpp:490:30:Type& ot::Instance::Get() [with Type = ot::Ip6::Ip6]	16	static
+ip6.cpp:54:1:ot::Ip6::Ip6::Ip6(ot::Instance&)	16	static
+ip6.cpp:70:10:ot::Message* ot::Ip6::Ip6::NewMessage(uint16_t)	16	static
+ip6.cpp:76:10:static uint16_t ot::Ip6::Ip6::UpdateChecksum(uint16_t, const ot::Ip6::Address&)	16	static
+ip6.cpp:81:10:static uint16_t ot::Ip6::Ip6::ComputePseudoheaderChecksum(const ot::Ip6::Address&, const ot::Ip6::Address&, uint16_t, ot::Ip6::IpProto)	32	static
+ip6.cpp:96:6:void ot::Ip6::Ip6::SetReceiveDatagramCallback(otIp6ReceiveCallback, void*)	24	static
+ip6_mpl.hpp:64:7:ot::Ip6::OptionMpl::OptionMpl()	16	static
+ip6_headers.hpp:430:7:ot::Ip6::OptionPadN::OptionPadN()	16	static
+ip6.cpp:102:9:otError ot::Ip6::Ip6::AddMplOption(ot::Message&, ot::Ip6::Header&)	56	static
+ip6.cpp:128:9:otError ot::Ip6::Ip6::AddTunneledMplOption(ot::Message&, ot::Ip6::Header&, ot::Ip6::MessageInfo&)	128	static
+ip6.cpp:157:9:otError ot::Ip6::Ip6::InsertMplOption(ot::Message&, ot::Ip6::Header&, ot::Ip6::MessageInfo&)	72	static
+ip6.cpp:236:9:otError ot::Ip6::Ip6::RemoveMplOption(ot::Message&)	96	static
+ip6.cpp:347:6:void ot::Ip6::Ip6::EnqueueDatagram(ot::Message&)	16	static
+ip6.cpp:353:9:otError ot::Ip6::Ip6::SendDatagram(ot::Message&, ot::Ip6::MessageInfo&, ot::Ip6::IpProto)	88	static
+ip6.cpp:440:6:static void ot::Ip6::Ip6::HandleSendQueue(ot::Tasklet&)	16	static
+ip6.cpp:445:6:void ot::Ip6::Ip6::HandleSendQueue()	32	static
+ip6.cpp:456:9:otError ot::Ip6::Ip6::HandleOptions(ot::Message&, ot::Ip6::Header&, bool&)	48	static
+ip6.cpp:519:9:otError ot::Ip6::Ip6::HandleFragment(ot::Message&)	32	static
+ip6.cpp:535:9:otError ot::Ip6::Ip6::HandleExtensionHeaders(ot::Message&, ot::Ip6::Header&, uint8_t&, bool, bool)	32	static
+ip6.cpp:581:9:otError ot::Ip6::Ip6::HandlePayload(ot::Message&, ot::Ip6::MessageInfo&, uint8_t)	32	static
+ip6.cpp:598:9:otError ot::Ip6::Ip6::ProcessReceiveCallback(const ot::Message&, const ot::Ip6::MessageInfo&, uint8_t, bool)	48	static
+ip6.cpp:695:9:otError ot::Ip6::Ip6::SendRaw(ot::Message&, int8_t)	120	static
+ip6.cpp:728:9:otError ot::Ip6::Ip6::HandleDatagram(ot::Message&, ot::Ip6::Netif*, int8_t, const void*, bool)	136	static
+ip6.cpp:869:8:int8_t ot::Ip6::Ip6::FindForwardInterfaceId(const ot::Ip6::MessageInfo&)	32	static
+ip6.cpp:901:9:otError ot::Ip6::Ip6::AddNetif(ot::Ip6::Netif&)	24	static
+ip6.cpp:931:9:otError ot::Ip6::Ip6::RemoveNetif(ot::Ip6::Netif&)	24	static
+ip6.cpp:962:8:ot::Ip6::Netif* ot::Ip6::Ip6::GetNetifById(int8_t)	24	static
+ip6.cpp:978:6:bool ot::Ip6::Ip6::IsUnicastAddress(const ot::Ip6::Address&)	24	static
+ip6.cpp:996:28:const ot::Ip6::NetifUnicastAddress* ot::Ip6::Ip6::SelectSourceAddress(ot::Ip6::MessageInfo&)	64	static
+ip6.cpp:1124:8:int8_t ot::Ip6::Ip6::GetOnLinkNetif(const ot::Ip6::Address&)	32	static
+ip6.cpp:1143:13:static const char* ot::Ip6::Ip6::IpProtoToString(ot::Ip6::IpProto)	24	static
+owner-locator.hpp:47:42:OwnerType& ot::OwnerLocator::GetOwner() [with OwnerType = ot::Ip6::Ip6]	16	static
