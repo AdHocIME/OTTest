@@ -109,7 +109,7 @@ bool PlatformPseudoResetWasRequested(void)
 void PlatformProcessDrivers(otInstance *aInstance)
 {
 	stm32f4AlarmProcess(aInstance);
-    //nrf5RadioProcess(aInstance);
+    nrf5RadioProcess(aInstance);
     stm32f4UartProcess();
 //    nrf5TempProcess();
 #ifndef SPIS_TRANSPORT_DISABLE

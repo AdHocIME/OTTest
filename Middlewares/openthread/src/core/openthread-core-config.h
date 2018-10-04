@@ -36,10 +36,9 @@
 
 #include <openthread/config.h>
 #define OPENTHREAD_CORE_CONFIG_H_IN
-
-#ifdef OPENTHREAD_PROJECT_CORE_CONFIG_FILE
-#include OPENTHREAD_PROJECT_CORE_CONFIG_FILE
-#endif
+#define OPENTHREAD_CONFIG_LOG_OUTPUT  OPENTHREAD_CONFIG_LOG_OUTPUT_PLATFORM_DEFINED
+#define OPENTHREAD_CONFIG_LOG_LEVEL OT_LOG_LEVEL_DEBG
+#include "openthread-config-stm32f4-freertos.h"
 
 #include "openthread-core-default-config.h"
 

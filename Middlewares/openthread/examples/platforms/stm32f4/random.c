@@ -146,7 +146,7 @@ void stm32f4RandomInit(void)
     generatorStart();
 
     // Wait for the first randomized 4 bytes, to randomize software generator seed.
-    while (!bufferIsUint32Ready());
+//    while (!bufferIsUint32Ready());
 
     seed = bufferGetUint32();
 

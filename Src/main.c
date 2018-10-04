@@ -53,19 +53,11 @@
 #include "usb_device.h"
 
 /* USER CODE BEGIN Includes */
-#include <assert.h>
-#include <openthread-core-config.h>
-#include <openthread/config.h>
-
-#include <openthread/cli.h>
-#include <openthread/diag.h>
-#include <openthread/tasklet.h>
-#include <openthread/platform/logging.h>
-
-//#include "openthread-system.h"
 
 #include <setjmp.h>
 #include <unistd.h>
+#include "nrf24.h"
+#include "nrf24_hal.h"
 /* USER CODE END Includes */
 
 /* Private variables ---------------------------------------------------------*/
@@ -90,7 +82,6 @@ void StartDefaultTask(void const * argument);
 //{
 //    (void)aInstance;
 //}
-int aCallback(const char *aBuf, uint16_t aBufLength, void *aContext);
 /* USER CODE END PFP */
 
 /* USER CODE BEGIN 0 */
@@ -131,6 +122,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+  nRF24_GPIO_Init();
 
   /* USER CODE END 2 */
 
@@ -248,18 +240,34 @@ void SystemClock_Config(void)
 static void MX_GPIO_Init(void)
 {
 
-  /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOH_CLK_ENABLE();
-  __HAL_RCC_GPIOA_CLK_ENABLE();
+	GPIO_InitTypeDef GPIO_InitStruct;
 
-}
+	/* GPIO Ports Clock Enable */
+	__HAL_RCC_GPIOH_CLK_ENABLE();
+	__HAL_RCC_GPIOA_CLK_ENABLE();
+	__HAL_RCC_GPIOD_CLK_ENABLE();
 
-/* USER CODE BEGIN 4 */
-int aCallback(const char *aBuf, uint16_t aBufLength, void *aContext){
-//	uint8_t buf[aBufLength];
-//	memcpy(buf, aBuf, aBufLength);
-	CDC_Transmit_FS((uint8_t *)aBuf, aBufLength);
-	return 0;
+	/*Configure GPIO pin Output Level */
+	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_3|GPIO_PIN_4, GPIO_PIN_RESET);
+
+	/*Configure GPIO pin Output Level */
+	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15, GPIO_PIN_RESET);
+
+	/*Configure GPIO pins : PA3 PA4 */
+	GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_4;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+	/*Configure GPIO pins : PD12 PD13 PD14 PD15 */
+	GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_13|GPIO_PIN_14|GPIO_PIN_15;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	HAL_GPIO_Init(GPIOD, &GPIO_InitStruct);
+
+
 }
 
 /* USER CODE END 4 */
@@ -269,18 +277,18 @@ void StartDefaultTask(void const * argument)
 {
   /* init code for USB_DEVICE */
   MX_USB_DEVICE_Init();
-  otInstance *sInstance;
-  sInstance = otInstanceInitSingle();
-  assert(sInstance);
-
-  otCliUartInit(sInstance);
+  /* USER CODE BEGIN 5 */
+//  osDelay(400);
+//  if(nRF24_Check()){
+//	HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, GPIO_PIN_SET);
+//  }
+//  osDelay(600);
+  openThreadStart(0,0);
   /* USER CODE BEGIN 5 */
   /* Infinite loop */
   for(;;)
   {
     osDelay(1);
-    otTaskletsProcess(sInstance);
-    PlatformProcessDrivers(sInstance);
   }
   /* USER CODE END 5 */ 
 }
